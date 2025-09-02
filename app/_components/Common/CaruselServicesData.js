@@ -1,50 +1,50 @@
 export const dataServices = [
-	{
-		id: 1,
-		title: 'Residential',
-		subtitle: 'Services',
-		icon: 'icon-2373426',
-		srcLink: '/services/services__residential',
-		srcimg: '/images/imgbox-inner__img01.jpg',
-		text: 'Keep it as comfortable as possible by making sure your plumbing system is working at its best. Hereʼs just a sampling of the services we provide for our customers.',
-		list: [
-				'Plumbing Repairs & Installation',
-				'Drain & Sewer Cleaning/Replacement',
-				'Water Heaters',
-				'Water Line Installation',
-				'Sump & Sewage Pumps',
-		]
-	},
-	{
-		id: 2,
-		title: 'Commercial',
-		subtitle: 'Services',
-		icon: 'icon-2321397',
-		srcLink: '/services/services__commercial',
-		srcimg: '/images/imgbox-inner__img02.jpg',
-		text: 'Commercial plumbing is a top priority for our company and we make sure our plumbers have all the latest training and tools to get the job done.',
-		list: [
-			'Commercial Kitchens',
-			'Commercial Bathrooms',
-			'Water & Sewer Pipes & Lines',
-			'Leak Detection & Repair',
-			'Industrial Plumbing',
-		]
-	},
-	{
-		id: 3,
-		title: 'Emergency',
-		subtitle: 'Services',
-		icon: 'icon-900667',
-		srcLink: '/services/services__emergency',
-		srcimg: '/images/imgbox-inner__img03.jpg',
-		text: 'No matter what type of service you need, you can call us 24/7. Our plumbing contractors make emergency calls and are even available to work on holidays.',
-		list: [
-			'Sewer line stoppages',
-			'Burst washing machine hoses',
-			'Kitchen and bathroom drain clogs',
-			'Leaky pipes',
-			'Overflowing toilets',
-		]
-	}
+  {
+    id: 1,
+    title: "Residential Gas Heating",
+    subtitle: "Services",
+    icon: "icon-2373426",
+    srcLink: "/services/services__residential",
+    srcimg: "/images/imgbox-inner__img01.jpg",
+    text: "Keep your home comfortable and safe with professional gas heating solutions. Make sure your gas heater is operating efficiently and reliably all year round. Here’s a sample of the expert services we offer for Melbourne households.",
+    list: [
+      "Gas Heater Repairs & Installation",
+      "Regular Heater Servicing & Maintenance",
+      "Carbon Monoxide Testing & Safety Checks",
+      "Ducted Heating System Installation",
+      "Gas Appliance Inspections & Upgrades",
+    ],
+  },
+  {
+    id: 2,
+    title: "Commercial Gas Heating",
+    subtitle: "Services",
+    icon: "icon-2321397",
+    srcLink: "/services/services__commercial",
+    srcimg: "/images/imgbox-inner__img02.jpg",
+    text: "Providing reliable and efficient gas heating is our top priority for Melbourne businesses. Our experienced technicians are equipped with the latest training and technology to ensure your premises stay warm.",
+    list: [
+      "Commercial Gas Heater Repairs & Installation",
+      "Routine Heater Servicing & System Maintenance",
+      "Comprehensive Carbon Monoxide Testing & Safety Inspections",
+      "Ducted Gas Heating System Installation & Upgrades",
+      "Gas Appliance Audits, Inspections & Compliance Solutions",
+    ],
+  },
+  {
+    id: 3,
+    title: "Emergency Gas Heating",
+    subtitle: "Services",
+    icon: "icon-900667",
+    srcLink: "/services/services__emergency",
+    srcimg: "/images/imgbox-inner__img03.jpg",
+    text: "No matter when you need help, our team is available 24/7 for urgent gas heating issues. Our experienced technicians respond quickly to emergency calls, including after-hours and holidays, to keep your home or business warm and safe. Our emergency services include",
+    list: [
+      "Emergency Gas Heater Repairs & Installation",
+      "Urgent Heater Servicing & Maintenance",
+      "24/7 Carbon Monoxide Testing & Safety Checks",
+      "Rapid Ducted Heating System Installation",
+      "Immediate Gas Appliance Inspections & Upgrades",
+    ],
+  },
 ];

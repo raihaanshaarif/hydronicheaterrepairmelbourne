@@ -31,21 +31,20 @@ const FormModal = ({ closeModal }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (!formData.name || !formData.email) return;
-    try {
-      const response = await fetch("/api/emailSend/modalScheduleOnline/", {
-        method: "POST",
-        body: JSON.stringify({ ...formData }),
-      });
-      setFormData(initialFormData);
-      const { data } = await response.json();
-      if (data) {
-        toast.success(`Email was successfully sent!`);
-        closeModal(false);
-      }
-      setStartDate(null);
-    } catch (error) {
-      toast.error("Something went wrong", error);
-    }
+
+    // For static sites, use mailto or external form service
+    const subject = encodeURIComponent("Schedule Online Request");
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.serviceList}\nMeeting Time: ${formData.meeting_time}\nMessage: ${formData.message}`
+    );
+    window.location.href = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+
+    setFormData(initialFormData);
+    toast.success(
+      `Thank you! Your schedule request has been prepared for sending.`
+    );
+    closeModal(false);
+    setStartDate(null);
   };
   return (
     <>
