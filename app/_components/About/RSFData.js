@@ -1,20 +1,20 @@
 export const dataCol = [
-	{
-		id: 1,
-		img__path: '/images/about_img04.png',
-		title:'Reputable Company',
-		text:'Operating for more than 25 years, earning a reputation for service and beautiful work.',
-	},
-	{
-		id: 2,
-		img__path: '/images/about_img05.png',
-		title:'Straightforward Pricing',
-		text:'We donʼt try to sneak in hidden fees to drain you of your money before we leave.',
-	},
-	{
-		id: 3,
-		img__path: '/images/about_img06.png',
-		title:'Free Quote & Estimate',
-		text:'We offer free Estimate for our services, and will provide you with an actual quote.',
-	},
+  {
+    id: 1,
+    img__path: "/images/about_img04.png",
+    title: "Trusted Gas Heating Experts",
+    text: "Specializing in gas heating services with experienced technicians providing reliable solutions for over 10 years across Melbourne.",
+  },
+  {
+    id: 2,
+    img__path: "/images/about_img05.png",
+    title: "Transparent Pricing",
+    text: "We provide upfront, honest pricing with no hidden fees. You know exactly what you'll pay before we start any work.",
+  },
+  {
+    id: 3,
+    img__path: "/images/about_img06.png",
+    title: "Free Assessment & Quote",
+    text: "We offer free on-site assessments for gas heating systems and provide detailed quotes for all services and installations.",
+  },
 ];

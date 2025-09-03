@@ -1,0 +1,202 @@
+//Style
+import styles from "../../../_components/ServicesSubPages/ServicesSubPages.module.css";
+//Import Sections
+import PageTitle from "../../../_components/Common/PageTitle";
+import SectionTitle from "../../../_components/Common/SectionTitle";
+import LogoPartners from "../../../_components/Common/LogoPartners";
+//Import Layout
+import Image from "next/legacy/image";
+import PromoLayout from "../../../_components/ServicesSubPages/PromoLayout";
+import ListWithTitle from "../../../_components/Common/ListWithTitle";
+//Import Aside
+import PromoAside from "../../../_components/ServicesSubPages/PromoAside";
+import BoxListAside from "../../../_components/ServicesSubPages/BoxListAside";
+import FormAside from "../../../_components/ServicesSubPages/FormAside";
+import ServicesListAside from "../../../_components/ServicesSubPages/ServicesListAside";
+//Import Data
+import { ReasonsListData } from "../../../_components/Services/AsideReasonsListData";
+import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
+import imageLayout from "../../../../public/images/services/services_img03.jpg";
+
+// Commercial Gas Heater Installation specific data
+const commercialGasHeaterInstallationInclude = [
+  {
+    id: 1,
+    title: "Commercial Gas Heating System Installation:",
+    text: "Professional installation of industrial-grade gas heating systems for offices, warehouses, retail spaces, and other commercial properties. We handle large-scale installations with minimal business disruption.",
+  },
+  {
+    id: 2,
+    title: "Commercial Ducted Gas Heating:",
+    text: "Complete commercial ducted gas heating system installation with zoning capabilities for different areas of your business. Perfect for large office buildings, retail stores, and industrial facilities.",
+  },
+  {
+    id: 3,
+    title: "Business Gas Heater Upgrades:",
+    text: "Upgrade your outdated commercial heating system to modern, energy-efficient gas heaters. Our upgrades help reduce operational costs while improving employee comfort and productivity.",
+  },
+  {
+    id: 4,
+    title: "Compliance & Safety Certification:",
+    text: "All commercial installations include comprehensive safety inspections, regulatory compliance checks, and certification. We ensure your business meets all WorkSafe Victoria and building code requirements.",
+  },
+];
+
+//Page Layout
+export default function GasHeaterInstallation() {
+  return (
+    <>
+      <PageTitle dataTitle="Commercial Gas Heater Installation" />
+      <main id="tt-pageContent" className="overflow-hidden">
+        <div className="section__indent">
+          <div className="container container__fluid-xl">
+            <div className="md:flex md:gap-[30px] lg:gap-[60px]">
+              <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
+                <SectionTitle
+                  dataSubtitle="commercial gas heating installation"
+                  dataTitle="Professional Commercial Gas Heater Installation Services Melbourne"
+                  dataMaxWidth="630px"
+                />
+                <div className="leading-none">
+                  <Image
+                    src={imageLayout}
+                    width={735}
+                    height={511}
+                    quality={0}
+                    alt="commercial gas heater installation Melbourne"
+                    loading={`eager`}
+                  />
+                </div>
+                <p className={`${styles.indent__top2}`}>
+                  Looking for reliable commercial gas heater installation in
+                  Melbourne? Our expert technicians provide professional gas
+                  heating installation services for businesses, offices,
+                  warehouses, retail spaces, and industrial facilities across
+                  Melbourne. We specialize in commercial-grade gas heating
+                  systems designed to maintain comfortable working environments
+                  while minimizing operational costs. Our business-focused
+                  installation service includes system sizing, energy efficiency
+                  assessments, safety compliance, and ongoing maintenance
+                  support. Trust us for all commercial gas heating needs:
+                </p>
+                <div className="sm:flex sm:gap-[30px] mt-[20px]">
+                  <div className="sm:basis-1/2">
+                    <ul className="list__type1">
+                      <li>
+                        <a href="#">Office Building Gas Heating</a>
+                      </li>
+                      <li>
+                        <a href="#">Warehouse Gas Heating Systems</a>
+                      </li>
+                      <li>
+                        <a href="#">Retail Space Gas Heaters</a>
+                      </li>
+                      <li>
+                        <a href="#">Industrial Gas Heating</a>
+                      </li>
+                      <li>
+                        <a href="#">Multi-Zone Commercial Systems</a>
+                      </li>
+                      <li>
+                        <a href="#">High-Efficiency Gas Units</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="sm:basis-1/2">
+                    <ul className="list__type1">
+                      <li>
+                        <a href="#">Restaurant Gas Heating</a>
+                      </li>
+                      <li>
+                        <a href="#">Hotel & Hospitality Heating</a>
+                      </li>
+                      <li>
+                        <a href="#">Medical Facility Gas Heaters</a>
+                      </li>
+                      <li>
+                        <a href="#">Educational Facility Heating</a>
+                      </li>
+                      <li>
+                        <a href="#">Gym & Fitness Center Heating</a>
+                      </li>
+                      <li>
+                        <a href="#">24/7 Commercial Support</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h4 className="ttsubtitle ttsubtitle__top">
+                  Our Commercial Gas Heater Installation Services include:
+                </h4>
+                <ListWithTitle
+                  dataLayout={commercialGasHeaterInstallationInclude}
+                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                />
+                <h5 className="ttsubtitle ttsubtitle__top">
+                  Why Choose Professional Commercial Gas Heater Installation?
+                </h5>
+                <p>
+                  Commercial gas heater installation requires specialized
+                  expertise in business heating requirements, energy efficiency
+                  optimization, and compliance with commercial building codes.
+                  Our licensed technicians understand the unique challenges of
+                  commercial properties and provide installation solutions that
+                  minimize business disruption while maximizing employee comfort
+                  and operational efficiency.
+                </p>
+                <p className="indent__top">
+                  When you choose our commercial gas heater installation
+                  service, you get a comprehensive business solution. We handle
+                  everything from initial energy assessments and system
+                  selection to installation, testing, and staff training. Our
+                  goal is to provide your business with reliable, cost-effective
+                  heating that supports your operational objectives.
+                </p>
+                <PromoLayout
+                  dataText="Get a free commercial gas heater installation quote from our licensed business heating specialists today!"
+                  dataScrImg="../images/services/promo01-img01.png"
+                  dataScrImg2="../images/services/promo01-img01.webp"
+                />
+              </div>
+              <div
+                className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
+              >
+                <div>
+                  <div className={`ttsubtitle`}>
+                    Commercial Gas Heating Services
+                  </div>
+                  <ServicesListAside dataList={ServicesListData} />
+                </div>
+                {/* <div>
+                  <div className={`ttsubtitle`}>Get Free Quote</div>
+                  <FormAside />
+                </div> */}
+                <PromoAside
+                  dataTitle="Need Commercial Gas Heater Installation?"
+                  dataText="Get a Free Business Quote Today"
+                  dataTelefon="0405 133 761"
+                />
+                <BoxListAside
+                  dataTitle={"6 Different Reasons \n You Should Choose Us"}
+                  dataList={ReasonsListData}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section__inner bg-no-repeat bg-center lazyload"
+          data-bg="../images/extra-bg01.png"
+        >
+          <div className="container container__fluid-xl no-resize-text">
+            <SectionTitle
+              dataSubtitle="we work with"
+              dataTitle="Our Partners"
+            />
+            <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px]  only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}

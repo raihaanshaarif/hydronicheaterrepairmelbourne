@@ -1,34 +1,34 @@
 export const dataList = [
-	{
-		id: 1,
-		list__item:'The client is why we exist',
-	},
-	{
-		id: 2,
-		list__item:'Take no short cuts',
-	},
-	{
-		id: 3,
-		list__item:'Finish on time',
-	},
-	{
-		id: 4,
-		list__item:'Maintain accurate records',
-	},
-	{
-		id: 5,
-		list__item:'Meet obligations no matter what',
-	},
-	{
-		id: 6,
-		list__item:'Leave work area clean',
-	},
-	{
-		id: 7,
-		list__item:'Arrive on time',
-	},
-	{
-		id: 8,
-		list__item:'Be trustful',
-	},
+  {
+    id: 1,
+    list__item: "Expert Gas Heating Specialists",
+  },
+  {
+    id: 2,
+    list__item: "24/7 Emergency Service Available",
+  },
+  {
+    id: 3,
+    list__item: "Licensed & Insured Technicians",
+  },
+  {
+    id: 4,
+    list__item: "Upfront Transparent Pricing",
+  },
+  {
+    id: 5,
+    list__item: "Energy-Efficient Solutions",
+  },
+  {
+    id: 6,
+    list__item: "Same Day Service Available",
+  },
+  {
+    id: 7,
+    list__item: "10+ Years Experience",
+  },
+  {
+    id: 8,
+    list__item: "100% Customer Satisfaction",
+  },
 ];

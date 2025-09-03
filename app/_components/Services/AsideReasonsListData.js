@@ -1,26 +1,26 @@
 export const ReasonsListData = [
-	{
-		id: 1,
-		text: `Licensed, Bonded &amp; Insured`
-	},
-	{
-		id: 2,
-		text: `High-quality Workmanship`
-	},
-	{
-		id: 3,
-		text: `Exceptional Customer Service`
-	},
-	{
-		id: 4,
-		text: `Clean, Trustworthy Plumbers`
-	},
-	{
-		id: 5,
-		text: `Family Owned &amp; Operated`
-	},
-	{
-		id: 6,
-		text: `We're Personable &amp; Friendly`
-	},
+  {
+    id: 1,
+    text: `Licensed & Experienced Gas Heater Technicians`,
+  },
+  {
+    id: 2,
+    text: `24/7 Emergency Gas Heater Repairs`,
+  },
+  {
+    id: 3,
+    text: `Upfront, Transparent Pricing`,
+  },
+  {
+    id: 4,
+    text: `Safety-Focused Service &amp; Compliance`,
+  },
+  {
+    id: 5,
+    text: `Fast Response Across Melbourne`,
+  },
+  {
+    id: 6,
+    text: `100% Satisfaction Guarantee on All Heating Work`,
+  },
 ];
