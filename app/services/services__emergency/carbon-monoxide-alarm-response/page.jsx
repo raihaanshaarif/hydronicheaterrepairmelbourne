@@ -207,14 +207,11 @@ export default function CarbonMonoxideAlarmResponse() {
                   <div className={`ttsubtitle`}>Emergency Services</div>
                   <ServicesListAside dataList={EmergencyListData} />
                 </div>
-                <div>
-                  <div className={`ttsubtitle`}>Ask Question</div>
-                  <FormAside />
-                </div>
+
                 <PromoAside
                   dataTitle="CO Emergency!"
                   dataText="Life-Threatening Emergency Response"
-                  dataTelefon="123-456-789"
+                  dataTelefon="0405133761"
                 />
                 <BoxListAside
                   dataTitle={"6 Different Reasons \n You Should Hire Us"}

@@ -175,14 +175,11 @@ export default function UrgentGasHeaterRepairs() {
                   <div className={`ttsubtitle`}>Emergency Services</div>
                   <ServicesListAside dataList={EmergencyListData} />
                 </div>
-                <div>
-                  <div className={`ttsubtitle`}>Ask Question</div>
-                  <FormAside />
-                </div>
+
                 <PromoAside
                   dataTitle="Urgent Repair Needed!"
                   dataText="24/7 Emergency Gas Heater Repairs"
-                  dataTelefon="123-456-789"
+                  dataTelefon="0405133761"
                 />
                 <BoxListAside
                   dataTitle={"6 Different Reasons \n You Should Hire Us"}

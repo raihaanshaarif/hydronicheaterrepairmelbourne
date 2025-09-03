@@ -184,14 +184,11 @@ export default function EmergencyGasHeaterShutdowns() {
                   <div className={`ttsubtitle`}>Emergency Services</div>
                   <ServicesListAside dataList={EmergencyListData} />
                 </div>
-                <div>
-                  <div className={`ttsubtitle`}>Ask Question</div>
-                  <FormAside />
-                </div>
+
                 <PromoAside
                   dataTitle="Safety Emergency!"
                   dataText="Immediate Shutdown Service Available"
-                  dataTelefon="123-456-789"
+                  dataTelefon="0405133761"
                 />
                 <BoxListAside
                   dataTitle={"6 Different Reasons \n You Should Hire Us"}

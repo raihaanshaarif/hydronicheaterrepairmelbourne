@@ -136,7 +136,7 @@ export default function ServicesEmergency() {
                 <PromoAside
                   dataTitle="Emergency Gas Technician!"
                   dataText="24/7 Emergency Response Available"
-                  dataTelefon="123-456-789"
+                  dataTelefon="0405133761"
                 />
                 <BoxListAside
                   dataTitle={"6 Different Reasons \n You Should Hire Us"}
