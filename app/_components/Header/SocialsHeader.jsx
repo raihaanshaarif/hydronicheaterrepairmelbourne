@@ -1,12 +1,14 @@
 //Import Database
-import {socials} from "../../_dataGeneralSite/dataSocials";
+import { socials } from "../../_dataGeneralSite/dataSocials";
 //Import Css
-import styles from './SocialsHeader.module.css';
+import styles from "./SocialsHeader.module.css";
 export default function SocialsHeader() {
-	if (!socials) return null;
-	return (
-		<div className={`${styles.hsocial} flex flex-nowrap item-center align-center`}>
-			<div className={`${styles.social__title}  font-bold  whitespace-nowrap`}>Follow us:</div>
+  if (!socials) return null;
+  return (
+    <div
+      className={`${styles.hsocial} flex flex-nowrap item-center align-center`}
+    >
+      {/* <div className={`${styles.social__title}  font-bold  whitespace-nowrap`}>Follow us:</div>
 			<ul className={`${styles.social__list} inline-flex`}>
 				{socials.map(({ id, icon, path, title, ariaLabel }) => (
 					<li key={id}>
@@ -24,7 +26,7 @@ export default function SocialsHeader() {
 						</a>
 					</li>
 				))}
-			</ul>
-		</div>
-	);
-  }
+			</ul> */}
+    </div>
+  );
+}
