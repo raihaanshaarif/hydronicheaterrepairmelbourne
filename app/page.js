@@ -42,7 +42,7 @@ export default function Home() {
       <FaqIndex />
 
       {/* <NewsLayout /> */}
-      {/* <Partners /> */}
+      <Partners />
     </main>
   );
 }

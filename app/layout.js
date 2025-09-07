@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
           <Footer />
           <ButtonScrollUp />
         </Suspense>
-        <Script src="../js/global-main.js" strategy="lazyOnload" />
+        <Script src="/js/global-main.js" strategy="lazyOnload" />
       </body>
     </html>
   );

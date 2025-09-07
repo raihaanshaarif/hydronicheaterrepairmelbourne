@@ -97,11 +97,37 @@
   },
   {
     "title": "Brands",
-    "path": "/coverage"
-  },
-  {
-    "title": "FAQ",
-    "path": "/faq"
+    "path": "/brands",
+    "childrens": [
+      {
+        "title": "Bonaire",
+        "path": "/brands/bonaire"
+      },
+      {
+        "title": "Braemar",
+        "path": "/brands/braemar"
+      },
+      {
+        "title": "Brivis",
+        "path": "/brands/brivis"
+      },
+      {
+        "title": "Rinnai",
+        "path": "/brands/rinnai"
+      },
+      {
+        "title": "Kaden",
+        "path": "/brands/kaden"
+      },
+      {
+        "title": "Pyrox",
+        "path": "/brands/pyrox"
+      },
+      {
+        "title": "Vulcan",
+        "path": "/brands/vulcan"
+      }
+    ]
   },
 
   {
