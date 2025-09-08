@@ -6,27 +6,27 @@ export const EmergencyListData = [
   },
   {
     id: 2,
-    text: `Gas Leak Detection & Repairs`,
+    text: `System Failure Detection & Repairs`,
     link: `/services/services__emergency/gas-leak-detection-repairs`,
   },
   {
     id: 3,
-    text: `Carbon Monoxide Alarm Response`,
+    text: `Electrical Safety Response`,
     link: `/services/services__emergency/carbon-monoxide-alarm-response`,
   },
   {
     id: 4,
-    text: `Urgent Gas Heater Repairs`,
+    text: `Urgent Ducted Heating Repairs`,
     link: `/services/services__emergency/urgent-gas-heater-repairs`,
   },
   {
     id: 5,
-    text: `Emergency Gas Heater Shutdowns`,
+    text: `Emergency Ducted Heating Shutdowns`,
     link: `/services/services__emergency/emergency-gas-heater-shutdowns`,
   },
   {
     id: 6,
-    text: `24/7 Gas Technician Call-out`,
+    text: `24/7 HVAC Technician Call-out`,
     link: `/services/services__emergency`,
   },
   {

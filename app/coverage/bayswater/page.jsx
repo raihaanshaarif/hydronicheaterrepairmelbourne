@@ -1,4 +1,4 @@
-//Style
+﻿//Style
 import styles from "../../_components/ServicesSubPages/ServicesSubPages.module.css";
 //Import Sections
 import PageTitle from "../../_components/Common/PageTitle";
@@ -21,26 +21,26 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Gas Heater Services Bayswater Melbourne | Installation, Repairs & Servicing",
+    "Ducted Heating Services Bayswater Melbourne | Installation, Repairs & Servicing",
   description:
-    "Professional gas heater services in Bayswater, Melbourne. Expert installation, repairs, and maintenance for all gas heating systems. Certified technicians serving Bayswater and surrounding suburbs.",
+    "Professional ducted heating services in Bayswater, Melbourne. Expert installation, repairs, and maintenance for all ducted heating systems. Certified HVAC technicians serving Bayswater and surrounding suburbs.",
   keywords:
-    "gas heater services Bayswater, gas heater installation Bayswater, gas heater repairs Melbourne, Bayswater gas heating, ducted gas heating Bayswater",
+    "ducted heating services bayswater, ducted heating installation bayswater, ducted heating repairs Melbourne, bayswater HVAC heating, ducted heating systems bayswater",
 };
 
 //Page Layout
-export default function BayswaterGasHeaterServices() {
+export default function BayswaterDuctedHeatingServices() {
   return (
     <>
-      <PageTitle dataTitle="Gas Heater Services Bayswater Melbourne" />
+      <PageTitle dataTitle="Ducted Heating Services Bayswater Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="bayswater gas heater services"
-                  dataTitle="Professional Gas Heater Services in Bayswater, Melbourne"
+                  dataSubtitle="bayswater ducted heating services"
+                  dataTitle="Professional Ducted Heating Services in Bayswater, Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -49,19 +49,19 @@ export default function BayswaterGasHeaterServices() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="gas heater services bayswater melbourne"
+                    alt="Ducted Heating Services Bayswater Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={``}>
                   Stay warm and comfortable throughout Melbourne&apos;s colder
-                  months with our comprehensive gas heater services in Bayswater.
-                  As a trusted local gas heating specialist, we provide
+                  months with our comprehensive ducted heating services in Bayswater.
+                  As a trusted local HVAC heating specialist, we provide
                   professional installation, repair, and maintenance services
-                  for all types of gas heaters across Bayswater and surrounding
-                  Melbourne suburbs. Our certified gas technicians understand
+                  for all types of ducted heating systems across Bayswater and surrounding
+                  Melbourne suburbs. Our certified HVAC technicians understand
                   the unique heating needs of Bayswater homes and deliver
-                  reliable, efficient, and safe gas heating solutions tailored
+                  reliable, efficient, and safe ducted heating solutions tailored
                   to your property.
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
@@ -90,70 +90,70 @@ export default function BayswaterGasHeaterServices() {
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Ducted Gas Heating</a>
+                        <a href="#">Reverse Cycle Ducted Heating</a>
                       </li>
                       <li>
-                        <a href="#">Gas Wall Furnaces</a>
+                        <a href="#">Zoned Ducted Systems</a>
                       </li>
                       <li>
-                        <a href="#">Central Gas Heating</a>
+                        <a href="#">Energy Efficient Heat Pumps</a>
                       </li>
                       <li>
-                        <a href="#">Gas Log Fires</a>
+                        <a href="#">Inverter Ducted Heating</a>
                       </li>
                       <li>
                         <a href="#">Emergency Repairs</a>
                       </li>
                       <li>
-                        <a href="#">Safety Inspections</a>
+                        <a href="#">System Maintenance</a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Gas Heater Services We Provide in Bayswater:
+                  Ducted Heating Services We Provide in Bayswater:
                 </h4>
                 <ListWithTitle
                   dataLayout={dataServicesInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Our Gas Heater Services in 
+                  Why Choose Our Ducted Heating Services in 
                 </h5>
                 <p>
                   Bayswater&apos;s mix of heritage homes and modern properties
-                  requires specialized knowledge when it comes to gas heating
+                  requires specialized knowledge when it comes to ducted heating
                   solutions. Our team understands the unique characteristics of
                   Bayswater properties, from charming period homes to
-                  contemporary developments. We provide customized gas heating
+                  contemporary developments. We provide customized ducted heating
                   solutions that respect the architectural integrity of your
                   home while delivering optimal comfort and energy efficiency.
                 </p>
                 <p className="indent__top">
-                  As local Melbourne gas heating specialists, we&apos;re
+                  As local Melbourne HVAC heating specialists, we&apos;re
                   familiar with Bayswater&apos;s climate patterns and the
                   specific heating challenges faced by residents. Whether
-                  you&apos;re dealing with an older gas heater that needs
+                  you&apos;re dealing with an older heating system that needs
                   replacement, require urgent repairs during winter, or want to
-                  upgrade to a more efficient system, our certified technicians
+                  upgrade to a more efficient ducted heating system, our certified technicians
                   provide prompt, professional service with upfront pricing and
                   guaranteed workmanship.
                 </p>
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Local Bayswater Gas Heater Experts
+                  Local Bayswater Ducted Heating Experts
                 </h5>
                 <p>
                   Living in Bayswater means you appreciate quality, reliability,
                   and attention to detail &ndash; values that drive everything
-                  we do. Our gas heating services are designed to keep your home
+                  we do. Our ducted heating services are designed to keep your home
                   comfortable year-round while ensuring the safety and
                   well-being of your family. From routine maintenance that
                   prevents costly breakdowns to emergency repairs when you need
-                  them most, we&apos;re your trusted local gas heater
+                  them most, we&apos;re your trusted local ducted heating
                   specialists in Bayswater, Melbourne.
                 </p>
                 <PromoLayout
-                  dataText="Get a free quote for gas heater installation, repair, or servicing in Bayswater from our certified gas technicians today!"
+                  dataText="Get a free quote for ducted heating installation, repair, or servicing in Bayswater from our certified HVAC technicians today!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -162,12 +162,12 @@ export default function BayswaterGasHeaterServices() {
                 className={` lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Gas Heater Services</div>
+                  <div className={`ttsubtitle`}>Ducted Heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
                 <PromoAside
-                  dataTitle="Book A Gas Technician Now!"
+                  dataTitle="Book A Ducted Heating Technician Now!"
                   dataText="Serving Bayswater & Melbourne"
                   dataTelefon="0405133761"
                 />
@@ -195,3 +195,5 @@ export default function BayswaterGasHeaterServices() {
     </>
   );
 }
+
+

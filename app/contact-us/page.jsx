@@ -1,3 +1,4 @@
+"use client";
 //Import Sections
 import PageTitle from "../_components/Common/PageTitle";
 import SectionTitle from "../_components/Common/SectionTitle";
@@ -29,10 +30,10 @@ export default function ContactUs() {
                   customer satisfaction guarantee.
                 </strong>
                 <p className="indent__top">
-                  Request a quote for any of our services, get to know how to
-                  manage your current bookings online, get information about our
-                  franchise opportunities, offer us a business partnership or
-                  give feedback.
+                  Request a quote for ducted heating service, repair,
+                  maintenance, or installation. Manage your current bookings
+                  online, or contact us for more information. We&apos;re here to
+                  help with all your ducted heating needs.
                 </p>
                 <ListEmail />
                 <div className="lg:mt-[35px] lg-max:mt-[25px] sm-max:mt-[20px]">

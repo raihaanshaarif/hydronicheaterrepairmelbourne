@@ -4,8 +4,8 @@ const CopyrightHolder = (now) => (
     <div
       className={`${styles.footerCopyright} flex flex-wrap justify-center content-center items-center`}
     >
-      &copy; {new Date().getFullYear()} Gas Heater Service Melbourne. All Rights
-      Reserved.
+      &copy; {new Date().getFullYear()} Ducted Heating Service Melbourne. All
+      Rights Reserved.
     </div>
   </>
 );

@@ -1,11 +1,11 @@
 export const ReasonsListData = [
   {
     id: 1,
-    text: `Licensed & Experienced Gas Heater Technicians`,
+    text: `Licensed & Experienced Ducted Heating Technicians`,
   },
   {
     id: 2,
-    text: `24/7 Emergency Gas Heater Repairs`,
+    text: `24/7 Emergency Ducted Heating Repairs`,
   },
   {
     id: 3,

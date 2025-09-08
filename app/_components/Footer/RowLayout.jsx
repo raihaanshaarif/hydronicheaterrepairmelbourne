@@ -16,9 +16,9 @@ const LayoutHolder = () => (
         />
       </a>
       <p>
-        Our gas heating specialists deliver prompt, friendly, Our gas heating
-        specialists deliver prompt, friendly, affordable, and reliable
-        residential gas heating services.
+        Our ducted heating specialists deliver prompt, friendly, affordable, and
+        reliable residential and commercial ducted heating services across
+        Melbourne.
       </p>
       {/* <SocialsFooter /> */}
     </div>

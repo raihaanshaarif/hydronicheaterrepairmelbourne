@@ -30,30 +30,109 @@ const FormModal = ({ closeModal }) => {
   };
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (!formData.name || !formData.email) return;
+    if (!formData.name || !formData.email) {
+      toast.error("Please fill in all required fields (Name and Email)");
+      return;
+    }
 
-    // For static sites, use mailto or external form service
-    const subject = encodeURIComponent("Schedule Online Request");
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.serviceList}\nMeeting Time: ${formData.meeting_time}\nMessage: ${formData.message}`
-    );
-    window.location.href = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+    if (!formData.email.includes("@")) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
 
-    setFormData(initialFormData);
-    toast.success(
-      `Thank you! Your schedule request has been prepared for sending.`
-    );
-    closeModal(false);
-    setStartDate(null);
+    try {
+      // For static sites hosted on cPanel, use the PHP file in public folder
+      const response = await fetch("./contact-form.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          address: formData.address,
+          services: formData.services,
+          meeting_time: formData.meeting_time,
+          message: formData.message,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        toast.success(
+          result.message ||
+            "Perfect! Your ducted heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
+        );
+
+        // Reset form
+        setFormData(initialFormData);
+        setStartDate(null);
+
+        // Close modal after a delay
+        setTimeout(() => {
+          closeModal(false);
+        }, 2000);
+      } else {
+        toast.error(
+          result.error || "Failed to send your request. Please try again."
+        );
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+
+      // For static sites, provide enhanced mailto fallback
+      toast.info(
+        "Opening email client for you... Please complete sending your request."
+      );
+
+      // Enhanced mailto fallback with professional formatting
+      const subject = encodeURIComponent(
+        "🔥 Ducted Heating Service Request - Schedule Online"
+      );
+      const body = encodeURIComponent(
+        `Dear Ducted Heating Service Team,
+
+I would like to schedule a service appointment with the following details:
+
+👤 Name: ${formData.name}
+📧 Email: ${formData.email}
+📞 Phone: ${formData.phone || "Not provided"}
+🏠 Address: ${formData.address || "Not provided"}
+🔧 Service Type: ${formData.services || "Not specified"}
+📅 Preferred Time: ${formData.meeting_time || "Flexible"}
+
+💬 Additional Message:
+${formData.message || "No additional message"}
+
+---
+This request was sent from your website contact form
+Time: ${new Date().toLocaleString()}
+
+Please contact me at your earliest convenience to schedule the service.
+
+Thank you!`
+      );
+
+      window.location.href = `mailto:nihaanexpertise@gmail.com?subject=${subject}&body=${body}`;
+
+      // Reset form after mailto
+      setTimeout(() => {
+        setFormData(initialFormData);
+        setStartDate(null);
+        closeModal(false);
+      }, 1000);
+    }
   };
   return (
     <>
       <form onSubmit={handleSubmit} className="form">
         <p className={`${styles.textIndent}`}>
-          Our friendly gas heating specialists work around your busy schedule.
-          We never charge extra for same-day service, evenings, or weekend
-          appointments. Enjoy hassle-free booking and reliable service, whenever
-          you need it!
+          Our friendly ducted heating specialists work around your busy
+          schedule. We never charge extra for same-day service, evenings, or
+          weekend appointments. Enjoy hassle-free booking and reliable service,
+          whenever you need it!
         </p>
         <div className="form__holder">
           <input
@@ -114,9 +193,9 @@ const FormModal = ({ closeModal }) => {
                 aria-label="select services"
                 aria-labelledby="select services"
               >
-                <option value="Service 01">Gas Heater Repair</option>
-                <option value="Service 02">Gas Heater Installment</option>
-                <option value="Service 03">Gas Heater Service </option>
+                <option value="Service 01">Ducted Heating Repair</option>
+                <option value="Service 02">Ducted Heating Installation</option>
+                <option value="Service 03">Ducted Heating Service</option>
               </select>
             </label>
           </div>

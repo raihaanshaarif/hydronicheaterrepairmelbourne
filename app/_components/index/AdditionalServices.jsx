@@ -90,7 +90,7 @@ const AdditionalServices = () => {
               </div>
               <div className={`md:basis-1/2 lg:basis-1/2`}>
                 <p className={`${styles.holder__title_text} relative z-10`}>
-                  For the best gas heater service in Melbourne, trust the
+                  For the best ducted heating service in Melbourne, trust the
                   experts who put your comfort and safety first.
                 </p>
               </div>

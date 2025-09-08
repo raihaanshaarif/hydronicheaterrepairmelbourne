@@ -71,14 +71,14 @@ const ToggleBarLayout = ({ onClickClose, onClickModal }) => {
           className={`${styles.toggleBar__logo_img} inline-block align-top`}
         ></div>
         <div className={`${styles.toggleBar__logo_text}`}>
-          Gas Heater Service
+          Ducted Heating Service
         </div>
       </div>
       <p
         className={`toggleBar__objHidden_mobile relative ${styles.logo_popup_info}`}
       >
-        We install, service and repair gas heaters in homes and businesses in
-        all over Melbourne
+        We install, service and repair ducted heating systems in homes and
+        businesses across all of Melbourne
       </p>
       <Button
         className={`${styles.popup_btn}`}

@@ -19,19 +19,46 @@ import { ComercialListData } from "../../_components/ServicesCommercial/Comercia
 import { dataServicesInclude } from "../../_components/ServicesCommercial/ServicesIncludeData";
 import imageLayout from "../../../public/images/services/services_img02.jpg";
 
+export const metadata = {
+  title:
+    "Commercial Ducted Heating Services Melbourne | Business HVAC Solutions",
+  description:
+    "Professional commercial ducted heating services in Melbourne. Expert installation, maintenance & repair for offices, warehouses, retail spaces. Licensed technicians, 24/7 support.",
+  keywords:
+    "commercial ducted heating Melbourne, business HVAC services, commercial heating installation, office ducted heating, warehouse heating systems",
+  openGraph: {
+    title:
+      "Commercial Ducted Heating Melbourne | Professional Business Solutions",
+    description:
+      "Expert commercial ducted heating services for Melbourne businesses. Installation, repairs & maintenance for all commercial properties. 24/7 emergency support.",
+    type: "website",
+    locale: "en_AU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Commercial Ducted Heating Melbourne | Business HVAC Services",
+    description:
+      "Professional commercial ducted heating services in Melbourne. Expert installation, maintenance & repairs for all business types.",
+  },
+  alternates: {
+    canonical:
+      "https://ductedheaterrepairmelbourne.com.au/services/services__commercial",
+  },
+};
+
 //Page Layout
 export default function ServicesCommercial() {
   return (
     <>
-      <PageTitle dataTitle="Commercial Gas Heating Services" />
+      <PageTitle dataTitle="Commercial Ducted Heating Services" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="commercial gas heating services"
-                  dataTitle="Professional Commercial Gas Heating Services Melbourne"
+                  dataSubtitle="commercial ducted heating services"
+                  dataTitle="Professional Commercial Ducted Heating Services Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -40,39 +67,39 @@ export default function ServicesCommercial() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="commercial gas heating services Melbourne"
+                    alt="commercial ducted heating services Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
                   Keep your business comfortable and productive with our
-                  professional commercial gas heating services in Melbourne. We
-                  specialize in commercial-grade gas heating solutions for
+                  professional commercial ducted heating services in Melbourne.
+                  We specialize in commercial-grade ducted heating solutions for
                   offices, warehouses, retail spaces, restaurants, and
                   industrial facilities. Our business heating experts understand
                   the unique requirements of commercial properties and provide
                   reliable, energy-efficient heating solutions that minimize
                   operational costs while maintaining optimal workplace comfort.
                   From installation to emergency repairs, we deliver
-                  comprehensive commercial gas heating services:
+                  comprehensive commercial ducted heating services:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Office Building Gas Heating</a>
+                        <a href="#">Office Building Ducted Heating</a>
                       </li>
                       <li>
                         <a href="#">Warehouse Heating Systems</a>
                       </li>
                       <li>
-                        <a href="#">Retail Space Gas Heaters</a>
+                        <a href="#">Retail Space Ducted Heating</a>
                       </li>
                       <li>
-                        <a href="#">Restaurant Gas Heating</a>
+                        <a href="#">Restaurant HVAC Heating</a>
                       </li>
                       <li>
-                        <a href="#">Industrial Gas Heating</a>
+                        <a href="#">Industrial Ducted Heating</a>
                       </li>
                       <li>
                         <a href="#">Medical Facility Heating</a>
@@ -103,19 +130,19 @@ export default function ServicesCommercial() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Commercial Gas Heating Services include:
+                  Our Commercial Ducted Heating Services include:
                 </h4>
                 <ListWithTitle
                   dataLayout={dataServicesInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Our Commercial Gas Heating Services?
+                  Why Choose Our Commercial Ducted Heating Services?
                 </h5>
                 <p>
                   Commercial heating systems require specialized expertise and
                   understanding of business operational needs. Our commercial
-                  gas heating specialists have extensive experience with
+                  ducted heating specialists have extensive experience with
                   large-scale heating installations, energy efficiency
                   optimization, and regulatory compliance. We work around your
                   business schedule to minimize disruption and provide 24/7
@@ -130,7 +157,7 @@ export default function ServicesCommercial() {
                   WorkSafe Victoria requirements and building code standards.
                 </p>
                 <PromoLayout
-                  dataText="Get a free commercial gas heating quote and discover how we can improve your business comfort while reducing energy costs!"
+                  dataText="Get a free commercial ducted heating quote and discover how we can improve your business comfort while reducing energy costs!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -140,7 +167,7 @@ export default function ServicesCommercial() {
               >
                 <div>
                   <div className={`ttsubtitle`}>
-                    Commercial Gas Heating Services
+                    Commercial Ducted Heating Services
                   </div>
                   <ServicesListAside dataList={ComercialListData} />
                 </div>
@@ -149,7 +176,7 @@ export default function ServicesCommercial() {
                   <FormAside />
                 </div>
                 <PromoAside
-                  dataTitle="Need Commercial Gas Heating?"
+                  dataTitle="Need Commercial Ducted Heating?"
                   dataText="Get a Free Business Quote Today"
                   dataTelefon="0405 133 761"
                 />

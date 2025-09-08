@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
             <p>
               Our number one priority is providing outstanding customer service
               for each and every heating job, so that you walk away 100%
-              satisfied with your gas heater service every time.
+              satisfied with your ducted heating service every time.
             </p>
             <div
               className={`${styles.layout02__list} list__type1 grid sm:grid-cols-2 sm:gap-x-[30px] lg:max-w-[590px]`}

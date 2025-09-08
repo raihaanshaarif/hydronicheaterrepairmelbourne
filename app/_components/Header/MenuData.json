@@ -16,15 +16,15 @@
         "path": "/services/services__residential",
         "childrens": [
           {
-            "title": "Gas Heater Installation",
+            "title": "Ducted Heating Installation",
             "path": "/services/services__residential/gas-heater-installation"
           },
           {
-            "title": "Gas Heater Repairs",
+            "title": "Ducted Heating Repairs",
             "path": "/services/services__residential/gas-heater-repairs"
           },
           {
-            "title": "Gas Heater Servicing",
+            "title": "Ducted Heating Servicing",
             "path": "/services/services__residential/gas-heater-servicing"
           },
           {
@@ -32,7 +32,7 @@
             "path": "/services/services__residential/carbon-monoxide-testing"
           },
           {
-            "title": "Emergency Gas Heater Repairs",
+            "title": "Emergency Ducted Heating Repairs",
             "path": "/services/services__residential/emergency-gas-heater-repairs"
           }
         ]
@@ -42,15 +42,15 @@
         "path": "/services/services__commercial",
         "childrens": [
           {
-            "title": "Commercial Gas Heater Installation",
+            "title": "Commercial Ducted Heating Installation",
             "path": "/services/services__commercial/gas-heater-installation"
           },
           {
-            "title": "Commercial Gas Heater Repairs",
+            "title": "Commercial Ducted Heating Repairs",
             "path": "/services/services__commercial/gas-heater-repairs"
           },
           {
-            "title": "Commercial Gas Heater Servicing",
+            "title": "Commercial Ducted Heating Servicing",
             "path": "/services/services__commercial/gas-heater-servicing"
           },
           {
@@ -58,7 +58,7 @@
             "path": "/services/services__commercial/carbon-monoxide-testing"
           },
           {
-            "title": "Commercial Emergency Gas Heater Repairs",
+            "title": "Commercial Emergency Ducted Heating Repairs",
             "path": "/services/services__commercial/emergency-gas-heater-repairs"
           }
         ]
@@ -80,11 +80,11 @@
             "path": "/services/services__emergency/carbon-monoxide-alarm-response"
           },
           {
-            "title": "Urgent Gas Heater Repairs",
+            "title": "Urgent Ducted Heating Repairs",
             "path": "/services/services__emergency/urgent-gas-heater-repairs"
           },
           {
-            "title": "Emergency Gas Heater Shutdowns",
+            "title": "Emergency Ducted Heating Shutdowns",
             "path": "/services/services__emergency/emergency-gas-heater-shutdowns"
           }
         ]
@@ -129,7 +129,6 @@
       }
     ]
   },
-
   {
     "title": "Contact Us",
     "path": "/contact-us"

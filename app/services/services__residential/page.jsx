@@ -18,11 +18,39 @@ import { ReasonsListData } from "../../_components/Services/AsideReasonsListData
 import { ServicesListData } from "../../_components/ServicesResidential/ServicesListData";
 import { dataServicesInclude } from "../../_components/ServicesResidential/ServicesIncludeData";
 import imageLayout from "../../../public/images/services/services_img03.jpg";
+
+export const metadata = {
+  title:
+    "Residential Ducted Heating Services Melbourne | Home Installation & Repair",
+  description:
+    "Professional residential ducted heating services in Melbourne. Expert installation, repairs & maintenance for homes. Licensed technicians, free quotes, emergency support.",
+  keywords:
+    "residential ducted heating Melbourne, home ducted heating installation, ducted heating repairs residential, home HVAC services, residential heating system maintenance",
+  openGraph: {
+    title:
+      "Residential Ducted Heating Services Melbourne | Expert Home Solutions",
+    description:
+      "Professional ducted heating services for Melbourne homes. Expert installation, repairs & maintenance by licensed technicians. Free quotes available.",
+    type: "website",
+    locale: "en_AU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Residential Ducted Heating Melbourne | Professional Home Services",
+    description:
+      "Expert residential ducted heating services in Melbourne. Installation, repairs, maintenance for all home types. Licensed technicians.",
+  },
+  alternates: {
+    canonical:
+      "https://ductedheaterrepairmelbourne.com.au/services/services__residential",
+  },
+};
+
 //Page Layout
 export default function ServicesResidential() {
   return (
     <>
-      <PageTitle dataTitle="Residential Gas Heater Services" />
+      <PageTitle dataTitle="Residential Ducted Heating Services" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -30,7 +58,7 @@ export default function ServicesResidential() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="residential services"
-                  dataTitle="Professional Gas Heater Services for Your Home"
+                  dataTitle="Professional Ducted Heating Services for Your Home"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -39,19 +67,19 @@ export default function ServicesResidential() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="residential gas heater services"
+                    alt="residential ducted heating services"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
                   Keep your family warm and comfortable all year round with our
-                  comprehensive residential gas heater services. From new
-                  installations to emergency repairs, our certified gas
+                  comprehensive residential ducted heating services. From new
+                  installations to emergency repairs, our certified HVAC
                   technicians provide safe, reliable, and efficient heating
                   solutions for your home. We understand that a properly
-                  functioning gas heater is essential for your family&apos;s
-                  comfort and safety. You can trust us for all of these
-                  residential gas heating needs:
+                  functioning ducted heating system is essential for your
+                  family&apos;s comfort and safety. You can trust us for all of
+                  these residential ducted heating needs:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
@@ -100,33 +128,34 @@ export default function ServicesResidential() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Residential Gas Heater Services include:
+                  Our Residential Ducted Heating Services include:
                 </h4>
                 <ListWithTitle
                   dataLayout={dataServicesInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Gas Heating for Your Home Renovation Project
+                  Ducted Heating for Your Home Renovation Project
                 </h5>
                 <p>
                   Planning a home renovation or addition? Don&apos;t overlook
                   your heating needs. Our expert technicians can design and
-                  install efficient gas heating solutions that complement your
-                  renovation project. Whether you&apos;re adding a new room,
-                  finishing a basement, or upgrading your entire home, we ensure
-                  your gas heating system meets all safety codes and efficiency
-                  standards.
+                  install efficient ducted heating solutions that complement
+                  your renovation project. Whether you&apos;re adding a new
+                  room, finishing a basement, or upgrading your entire home, we
+                  ensure your ducted heating system meets all safety codes and
+                  efficiency standards.
                 </p>
                 <p className="indent__top">
                   When you choose our family-owned and operated company for your
-                  residential gas heating needs, you can count on us to deliver
-                  exceptional service and quality workmanship. We take pride in
-                  keeping your family comfortable and safe, and we&apos;re not
-                  satisfied unless you are completely happy with our work!
+                  residential ducted heating needs, you can count on us to
+                  deliver exceptional service and quality workmanship. We take
+                  pride in keeping your family comfortable and safe, and
+                  we&apos;re not satisfied unless you are completely happy with
+                  our work!
                 </p>
                 <PromoLayout
-                  dataText="Get a free estimate for your residential gas heater installation or repair from our certified gas technicians today!"
+                  dataText="Get a free estimate for your residential ducted heating installation or repair from our certified HVAC technicians today!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -143,7 +172,7 @@ export default function ServicesResidential() {
                   <FormAside />
                 </div>
                 <PromoAside
-                  dataTitle="Book A Gas Technician Now!"
+                  dataTitle="Book A Ducted Heating Technician Now!"
                   dataText="Get a Free, No-Obligation Quote Today"
                   dataTelefon="123-456-789"
                 />

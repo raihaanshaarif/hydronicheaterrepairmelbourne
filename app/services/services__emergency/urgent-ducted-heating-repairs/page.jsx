@@ -18,17 +18,17 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { EmergencyListData } from "../../../_components/ServicesEmergency/EmergencyListData";
 import imageLayout from "../../../../public/images/services/services_img02.jpg";
 
-// Urgent Gas Heater Repair Service Data
+// Urgent Ducted Heating Repair Service Data
 const urgentRepairServices = [
   {
     id: 1,
     title: "Same-Day Emergency Repairs:",
-    text: "Our emergency technicians carry a comprehensive range of spare parts for all major gas heater brands, enabling us to complete most urgent repairs on the same day.",
+    text: "Our emergency technicians carry a comprehensive range of spare parts for all major ducted heating brands, enabling us to complete most urgent repairs on the same day.",
   },
   {
     id: 2,
     title: "Diagnostic & Troubleshooting:",
-    text: "We use advanced diagnostic equipment to quickly identify faults in gas heaters, from electronic controls to mechanical components, ensuring accurate and efficient repairs.",
+    text: "We use advanced diagnostic equipment to quickly identify faults in ducted heating systems, from electronic controls to mechanical components, ensuring accurate and efficient repairs.",
   },
   {
     id: 3,

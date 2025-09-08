@@ -16,11 +16,25 @@ import ServicesListAside from "../../_components/ServicesSubPages/ServicesListAs
 import { ReasonsListData } from "../../_components/Services/AsideReasonsListData";
 import { EmergencyListData } from "../../_components/ServicesEmergency/EmergencyListData";
 import imageLayout from "../../../public/images/services/services_img02.jpg";
+
+export const metadata = {
+  title:
+    "Emergency Ducted Heating Repair Melbourne | 24/7 Service | Call 0405133761",
+  description:
+    "🚨 Emergency Ducted Heating Repair Melbourne - 24/7 Service Available! System failures, duct leaks, heating emergencies. Same-day emergency response. Call 0405133761 now!",
+  keywords:
+    "emergency ducted heating repair melbourne, 24/7 ducted heating repair, ducted heating emergency melbourne, emergency heating service, urgent ducted heating repairs, no heating emergency melbourne",
+  alternates: {
+    canonical:
+      "https://ductedheaterrepairmelbourne.com.au/services/services__emergency",
+  },
+};
+
 //Page Layout
 export default function ServicesEmergency() {
   return (
     <>
-      <PageTitle dataTitle="Emergency Gas Heater Services" />
+      <PageTitle dataTitle="Emergency Ducted Heating Services" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -28,7 +42,7 @@ export default function ServicesEmergency() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="emergency services"
-                  dataTitle="24/7 Emergency Gas Heater Services Melbourne"
+                  dataTitle="24/7 Emergency Ducted Heating Services Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -38,28 +52,28 @@ export default function ServicesEmergency() {
                     height={511}
                     quality={0}
                     loading={`eager`}
-                    alt="emergency gas heater services"
+                    alt="emergency ducted heating services"
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  When your gas heater breaks down unexpectedly, you need
-                  immediate professional help. Our certified gas technicians are
-                  available 24/7 to handle all types of gas heating emergencies
-                  across Melbourne. From complete heating failures to dangerous
-                  gas leaks, we provide rapid response emergency services to
-                  keep your family safe and warm.
+                  When your ducted heating system breaks down unexpectedly, you
+                  need immediate professional help. Our certified HVAC
+                  technicians are available 24/7 to handle all types of ducted
+                  heating emergencies across Melbourne. From complete heating
+                  failures to electrical faults, we provide rapid response
+                  emergency services to keep your family comfortable and safe.
                 </p>
                 <h4 className="ttsubtitle ttsubtitle__top">
                   No Heating Emergencies
                 </h4>
                 <p>
-                  A broken gas heater in the middle of winter can be more than
-                  just uncomfortable - it can be dangerous for vulnerable family
-                  members. Our emergency technicians respond quickly to restore
-                  heating in your home, diagnosing and repairing faults in
-                  ducted gas systems, wall furnaces, and central heating units.
-                  We carry common replacement parts to get your heating working
-                  the same day.
+                  A broken ducted heating system in the middle of winter can be
+                  more than just uncomfortable - it can be dangerous for
+                  vulnerable family members. Our emergency technicians respond
+                  quickly to restore heating in your home, diagnosing and
+                  repairing faults in ducted gas systems, wall furnaces, and
+                  central heating units. We carry common replacement parts to
+                  get your heating working the same day.
                 </p>
                 <h4 className="ttsubtitle ttsubtitle__top">
                   Gas Leak Detection & Emergency Repairs
@@ -92,21 +106,21 @@ export default function ServicesEmergency() {
                   is safe.
                 </p>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Urgent Gas Heater Repairs
+                  Urgent Ducted Heating Repairs
                 </h4>
                 <p>
-                  When your gas heater stops working, our emergency repair
-                  service gets you warm again fast. We handle pilot light
+                  When your ducted heating system stops working, our emergency
+                  repair service gets you warm again fast. We handle pilot light
                   failures, faulty thermostats, ignition problems, and heating
                   system breakdowns. Our technicians are equipped with
                   diagnostic tools and common spare parts to complete most
                   repairs on the spot.
                 </p>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Emergency Gas Heater Shutdowns
+                  Emergency Ducted Heating Shutdowns
                 </h4>
                 <p>
-                  Sometimes a gas heater needs to be safely shut down
+                  Sometimes a ducted heating system needs to be safely shut down
                   immediately due to safety concerns. Our emergency technicians
                   can safely isolate faulty gas heating equipment, conduct
                   safety assessments, and provide temporary heating solutions

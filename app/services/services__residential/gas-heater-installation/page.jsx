@@ -18,43 +18,69 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Gas Heater Installation specific data
-const gasHeaterInstallationInclude = [
+export const metadata = {
+  title:
+    "Ducted Heating Installation Melbourne | Professional Home Installation",
+  description:
+    "Expert ducted heating installation services in Melbourne. Professional home HVAC installation by licensed technicians. Free quotes, quality workmanship, warranty included.",
+  keywords:
+    "ducted heating installation Melbourne, home ducted heating, HVAC installation residential, ducted heating system installation, professional heating installation",
+  openGraph: {
+    title: "Ducted Heating Installation Melbourne | Expert Home Services",
+    description:
+      "Professional ducted heating installation for Melbourne homes. Licensed technicians, quality workmanship, free quotes available.",
+    type: "website",
+    locale: "en_AU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ducted Heating Installation Melbourne | Professional Service",
+    description:
+      "Expert ducted heating installation services in Melbourne. Professional installation by licensed HVAC technicians.",
+  },
+  alternates: {
+    canonical:
+      "https://ductedheaterrepairmelbourne.com.au/services/services__residential/gas-heater-installation",
+  },
+};
+
+// Ducted Heating Installation specific data
+const ductedHeatingInstallationInclude = [
   {
     id: 1,
-    title: "New Gas Heater Installation:",
-    text: "Professional installation of new gas heating systems for your home. We ensure proper sizing, placement, and connection to gas lines for optimal performance and safety.",
+    title: "New Ducted Heating Installation:",
+    text: "Professional installation of new ducted heating systems for your home. We ensure proper sizing, placement, and connection to electrical supply for optimal performance and efficiency.",
   },
   {
     id: 2,
-    title: "Ducted Gas Heating Installation:",
-    text: "Complete ducted gas heating system installation throughout your home. Our expert technicians handle everything from unit placement to ductwork installation and zoning.",
+    title: "Complete Ducted System Installation:",
+    text: "Complete ducted heating system installation throughout your home. Our expert technicians handle everything from unit placement to ductwork installation and zoning controls.",
   },
   {
     id: 3,
-    title: "Gas Heater Replacement:",
-    text: "Replacement of old, inefficient gas heaters with modern, energy-efficient models. We handle the complete removal and installation process with minimal disruption to your home.",
+    title: "Ducted Heating Replacement:",
+    text: "Replacement of old, inefficient heating systems with modern, energy-efficient ducted heating models. We handle the complete removal and installation process with minimal disruption.",
   },
   {
     id: 4,
     title: "Safety Inspections & Compliance:",
-    text: "All installations include comprehensive safety inspections and compliance checks. We ensure your new gas heater meets all safety standards and building codes for peace of mind.",
+    text: "All installations include comprehensive safety inspections and compliance checks. We ensure your new ducted heating system meets all safety standards and building codes for peace of mind.",
   },
 ];
 
 //Page Layout
-export default function GasHeaterInstallation() {
+export default function DuctedHeatingInstallation() {
   return (
     <>
-      <PageTitle dataTitle="Gas Heater Installation" />
+      <PageTitle dataTitle="Ducted Heating Installation" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="gas heater installation"
-                  dataTitle="Professional Gas Heater Installation Services in Melbourne"
+                  dataSubtitle="ducted heating installation"
+                  dataTitle="Professional Ducted Heating Installation Services in Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,95 +89,96 @@ export default function GasHeaterInstallation() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="gas heater installation"
+                    alt="ducted heating installation"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Looking to install a new gas heater in your Melbourne home?
-                  Our expert technicians provide professional gas heater
-                  installation services for all types of residential properties.
-                  We specialize in installing energy-efficient gas heating
-                  systems that will keep your home warm and comfortable while
-                  reducing your energy bills. Our installation service includes
-                  proper sizing, safety inspections, and compliance with all
-                  local regulations. You can trust us for all of these gas
-                  heater installation needs:
+                  Looking to install a new ducted heating system in your
+                  Melbourne home? Our expert technicians provide professional
+                  ducted heating installation services for all types of
+                  residential properties. We specialize in installing
+                  energy-efficient ducted heating systems that will keep your
+                  home warm and comfortable while reducing your energy bills.
+                  Our installation service includes proper sizing, safety
+                  inspections, and compliance with all local regulations. You
+                  can trust us for all of these ducted heating installation
+                  needs:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Central Gas Heating Systems</a>
+                        <a href="#">Reverse Cycle Ducted Heating</a>
                       </li>
                       <li>
-                        <a href="#">Ducted Gas Heaters</a>
+                        <a href="#">Zoned Ducted Heating Systems</a>
                       </li>
                       <li>
-                        <a href="#">Wall-Mounted Gas Heaters</a>
+                        <a href="#">Energy Efficient Heat Pumps</a>
                       </li>
                       <li>
-                        <a href="#">Floor-Standing Gas Heaters</a>
+                        <a href="#">Inverter Ducted Systems</a>
                       </li>
                       <li>
-                        <a href="#">Convection Gas Heaters</a>
+                        <a href="#">Multi-Zone Climate Control</a>
                       </li>
                       <li>
-                        <a href="#">Radiant Gas Heaters</a>
+                        <a href="#">Ducted Heating with Cooling</a>
                       </li>
                     </ul>
                   </div>
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Gas Log Fires</a>
+                        <a href="#">Ceiling Cassette Systems</a>
                       </li>
                       <li>
-                        <a href="#">Outdoor Gas Heaters</a>
+                        <a href="#">Floor Console Units</a>
                       </li>
                       <li>
-                        <a href="#">Hydronic Gas Heating</a>
+                        <a href="#">Bulkhead Ducted Systems</a>
                       </li>
                       <li>
-                        <a href="#">Gas Heater Upgrades</a>
+                        <a href="#">Ducted Heating Upgrades</a>
                       </li>
                       <li>
-                        <a href="#">Multi-Zone Systems</a>
+                        <a href="#">Smart Control Systems</a>
                       </li>
                       <li>
-                        <a href="#">Smart Thermostat Integration</a>
+                        <a href="#">WiFi Thermostat Integration</a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Gas Heater Installation Services include:
+                  Our Ducted Heating Installation Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={gasHeaterInstallationInclude}
+                  dataLayout={ductedHeatingInstallationInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Professional Gas Heater Installation?
+                  Why Choose Professional Ducted Heating Installation?
                 </h5>
                 <p>
-                  Installing a gas heater requires specialized knowledge of gas
-                  lines, electrical connections, and safety regulations. While
-                  some might consider DIY installation, professional
-                  installation ensures your system operates safely and
-                  efficiently. Our licensed technicians have the expertise to
-                  handle all aspects of the installation process according to
+                  Installing a ducted heating system requires specialized
+                  knowledge of electrical connections, ductwork design, and HVAC
+                  regulations. While some might consider DIY installation,
+                  professional installation ensures your system operates safely
+                  and efficiently. Our licensed technicians have the expertise
+                  to handle all aspects of the installation process according to
                   Australian standards.
                 </p>
                 <p className="indent__top">
-                  When you choose our professional gas heater installation
+                  When you choose our professional ducted heating installation
                   service, you can count on us to provide a complete solution
                   from start to finish. We handle everything from selecting the
                   right system for your home to post-installation support and
                   maintenance advice.
                 </p>
                 <PromoLayout
-                  dataText="Get a free quote for your gas heater installation from our professional, licensed technicians today!"
+                  dataText="Get a free quote for your ducted heating installation from our professional, licensed HVAC technicians today!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -161,7 +188,7 @@ export default function GasHeaterInstallation() {
               >
                 <div>
                   <div className={`ttsubtitle`}>
-                    Residential Gas Heating Services
+                    Residential Ducted Heating Services
                   </div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
@@ -170,7 +197,7 @@ export default function GasHeaterInstallation() {
                   <FormAside />
                 </div> */}
                 <PromoAside
-                  dataTitle="Need Gas Heater Installation?"
+                  dataTitle="Need Ducted Heating Installation?"
                   dataText="Get a Free, No-Obligation Quote Today"
                   dataTelefon="0405 133 761"
                 />

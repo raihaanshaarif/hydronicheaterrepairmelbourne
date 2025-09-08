@@ -6,20 +6,20 @@ export const BoxIcon2Data = [
   {
     id: 1,
     icon: `icon-2891086`,
-    title: `Gas Heating Specialists`,
-    text: `Our team will assess your gas heating needs and recommend the most effective solution, ensuring seamless installation or repair every time.`,
+    title: `Ducted Heating Specialists`,
+    text: `Our team will assess your ducted heating needs and recommend the most effective solution, ensuring seamless installation or repair every time.`,
   },
   {
     id: 2,
     icon: `icon-3731419`,
     title: `Personalized, Friendly Service`,
-    text: `We take time to explain your gas heating options and answer all your questions, so you feel confident and comfortable with your gas heater system.`,
+    text: `We take time to explain your ducted heating options and answer all your questions, so you feel confident and comfortable with your heating system.`,
   },
   {
     id: 3,
     icon: `icon-1365455`,
     title: `Industry Leaders`,
-    text: `We stay ahead in the Melbourne gas heating industry by adopting the latest technology and best practices for efficient, safe, and reliable results.`,
+    text: `We stay ahead in the Melbourne ducted heating industry by adopting the latest technology and best practices for efficient, safe, and reliable results.`,
   },
 ];
 const TabsIndex__item1 = () => {
@@ -33,14 +33,16 @@ const TabsIndex__item1 = () => {
             dataMaxWidth="422px"
           />
           <p>
-            Our approach is straightforward: deliver top-quality gas heater
+            Our approach is straightforward: deliver top-quality ducted heating
             services in Melbourne at competitive prices, with no hidden costs
             and a 100% satisfaction guarantee on all workmanship. Our licensed
-            gas heating technicians are available for fast, reliable gas heater
+            ducted heating technicians are available for fast, reliable heating
             repairs, servicing, and installation for your home or business.
           </p>
           <ul className="list__type1 lg-max:mt-[19px] lg:mt-[33px]">
-            <li>Transparent pricing options for every gas heater service</li>
+            <li>
+              Transparent pricing options for every ducted heating service
+            </li>
             <li>Expert, fully guaranteed workmanship on every job</li>
           </ul>
         </div>

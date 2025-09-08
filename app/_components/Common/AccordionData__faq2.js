@@ -1,23 +1,23 @@
 export const dataAccordion__faq2 = [
 	{
 		id: 1,
-		title: 'If i call in for service on saturday will it cost me more?',
-		content: 'We charge a cost-efficient fee for coming out and quote each job in writing before the work begins. All of our work is backed by a 100% satisfaction guarantee.',		
+		title: 'If I call for ducted heating service on Saturday will it cost more?',
+		content: 'We offer competitive weekend pricing for ducted heating services. Emergency repairs may have a small weekend surcharge, but routine maintenance and installations are priced the same.',		
 	},
 	{
 		id: 2,
-		title: 'Are all new toilets water saving toilet suites?',
-		content: 'One of the biggest ways a seemingly trivial toilet can contribute to the overall sustainable ecosystem of a building is by helping it save water.',
+		title: 'How often should I service my ducted heating system?',
+		content: 'We recommend annual servicing for optimal performance and efficiency. This includes filter replacement, duct cleaning, and system safety checks to prevent breakdowns.',
 		open: 'item-show'
    },
    {
 		id: 3,
-		title: 'What do you do when servicing a tap?',
-		content: 'We charge a cost-efficient fee for coming out and quote each job in writing before the work begins. All of our work is backed by a 100% satisfaction guarantee.',
+		title: 'What do you do when servicing ducted heating?',
+		content: 'Our comprehensive service includes cleaning filters, inspecting ducts, checking thermostats, testing safety systems, and ensuring optimal airflow throughout your home.',
 	},
 	{
 		id: 4,
-		title: 'How Do I Unclog My Main Sewer Line?',
-		content: 'We charge a cost-efficient fee for coming out and quote each job in writing before the work begins. All of our work is backed by a 100% satisfaction guarantee.',
+		title: 'How do I improve my ducted heating efficiency?',
+		content: 'Regular filter changes, duct cleaning, proper zoning, and annual maintenance significantly improve efficiency. We also check for air leaks and optimize system settings.',
 	},
 ];

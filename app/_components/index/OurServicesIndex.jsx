@@ -8,7 +8,7 @@ const OurServicesIndex = () => {
           <div className="md:basis-1/2">
             <SectionTitle
               dataSubtitle="our services"
-              dataTitle="Trusted Gas Heating Specialists"
+              dataTitle="Trusted Ducted Heating Specialists"
               dataTextUnder="Services"
               dataAddClass="blocktitle__nomargin blocktitle__left"
               dataMaxWidth="430px"
@@ -16,8 +16,8 @@ const OurServicesIndex = () => {
           </div>
           <div className="md:basis-1/2 relative">
             <p className="ttnotes no-resize-text">
-              Professional gas heater service and repairs across Melbourne — all
-              brands, all problems, handled by licensed experts.
+              Professional ducted heating service and repairs across Melbourne —
+              all brands, all problems, handled by licensed experts.
             </p>
           </div>
         </div>

@@ -24,7 +24,7 @@ const brandData = [
     tagline: "The leaders in heating and cooling",
     image: "/images/brands/bonaire-logo.png",
     description:
-      "Australia's leading gas heater manufacturer, known for energy-efficient ducted gas heating systems and innovative heating solutions.",
+      "Australia's leading ducted heating manufacturer, known for energy-efficient ducted heating systems and innovative HVAC solutions.",
     features: [
       "Energy Star Rated",
       "Australian Made",
@@ -40,7 +40,7 @@ const brandData = [
     tagline: "by Seeley International",
     image: "/images/brands/braemar-logo.png",
     description:
-      "Premium gas heating systems with advanced technology and superior energy efficiency for Melbourne homes.",
+      "Premium ducted heating systems with advanced technology and superior energy efficiency for Melbourne homes.",
     features: [
       "MyClimate Technology",
       "WiFi Enabled",
@@ -56,10 +56,10 @@ const brandData = [
     tagline: "Heating & Cooling Excellence",
     image: "/images/brands/brivis-logo.png",
     description:
-      "Trusted Australian manufacturer of gas heating systems, delivering reliable warmth and comfort for over 30 years.",
+      "Trusted Australian manufacturer of ducted heating systems, delivering reliable warmth and comfort for over 30 years.",
     features: [
-      "Continuous Pilot",
       "Electronic Ignition",
+      "Heat Pump Technology",
       "Weather Shield",
       "Easy Maintenance",
     ],
@@ -72,7 +72,7 @@ const brandData = [
     tagline: "Smart Heating Solutions",
     image: "/images/brands/kaden-logo.png",
     description:
-      "Modern gas heating technology with smart controls and energy-efficient operation for contemporary Melbourne homes.",
+      "Modern ducted heating technology with smart controls and energy-efficient operation for contemporary Melbourne homes.",
     features: [
       "Smart Thermostat",
       "App Control",
@@ -85,10 +85,10 @@ const brandData = [
     id: 5,
     name: "Rinnai",
     slug: "rinnai",
-    tagline: "Continuous Hot Water & Heating",
+    tagline: "Continuous Heating Solutions",
     image: "/images/brands/rinnai-logo.png",
     description:
-      "Japanese technology meets Australian engineering in Rinnai's comprehensive range of gas heating solutions.",
+      "Japanese technology meets Australian engineering in Rinnai's comprehensive range of ducted heating solutions.",
     features: [
       "Instant Heat",
       "Continuous Operation",
@@ -104,7 +104,7 @@ const brandData = [
     tagline: "Professional Heating Solutions",
     image: "/images/brands/pyrox-logo.png",
     description:
-      "Commercial and residential gas heating specialists offering robust, reliable heating systems for Melbourne's climate.",
+      "Commercial and residential ducted heating specialists offering robust, reliable heating systems for Melbourne's climate.",
     features: [
       "Heavy Duty Construction",
       "Commercial Grade",
@@ -120,7 +120,7 @@ const brandData = [
     tagline: "Industrial Strength Heating",
     image: "/images/brands/vulcan-logo.png",
     description:
-      "Premium Australian heating solutions with industrial-strength construction and proven reliability for demanding applications.",
+      "Premium Australian ducted heating solutions with industrial-strength construction and proven reliability for demanding applications.",
     features: [
       "Australian Engineered",
       "Heavy Duty Construction",
@@ -134,11 +134,11 @@ const brandData = [
 // Metadata
 export const metadata = {
   title:
-    "Gas Heater Brands Melbourne | Bonaire, Braemar, Brivis, Rinnai, Vulcan & More",
+    "Ducted Heating Brands Melbourne | Bonaire, Braemar, Brivis, Rinnai, Vulcan & More",
   description:
-    "Expert installation and service for all major gas heater brands in Melbourne. Bonaire, Braemar, Brivis, Rinnai, Kaden, Pyrox & Vulcan. Licensed technicians, warranties included. Call 0405133761",
+    "Expert installation and service for all major ducted heating brands in Melbourne. Bonaire, Braemar, Brivis, Rinnai, Kaden, Pyrox & Vulcan. Licensed HVAC technicians, warranties included. Call 0405133761",
   keywords:
-    "gas heater brands Melbourne, Bonaire gas heaters, Braemar heating, Brivis gas heaters, Rinnai heaters Melbourne, Vulcan gas heaters, gas heater installation brands, best gas heater brands Australia",
+    "ducted heating brands Melbourne, Bonaire ducted heating, Braemar heating, Brivis ducted systems, Rinnai heaters Melbourne, Vulcan ducted heating, ducted heating installation brands, best ducted heating brands Australia",
 };
 
 //Page Layout
@@ -148,38 +148,39 @@ export default function BrandsPage() {
 
   return (
     <>
-      <PageTitle dataTitle="Gas Heater Brands Melbourne" />
+      <PageTitle dataTitle="Ducted Heating Brands Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="trusted gas heater brands"
-                  dataTitle="Premium Gas Heater Brands We Install & Service in Melbourne"
+                  dataSubtitle="trusted ducted heating brands"
+                  dataTitle="Premium Ducted Heating Brands We Install & Service in Melbourne"
                   dataMaxWidth="630px"
                 />
 
                 <p className={`${styles.indent__top2}`}>
-                  Choose from Melbourne&apos;s most trusted gas heater brands,
-                  all backed by our professional installation, comprehensive
-                  warranties, and expert servicing. As authorized dealers and
-                  certified technicians, we specialize in the top gas heating
-                  brands that deliver superior performance, energy efficiency,
-                  and long-lasting comfort for Melbourne homes.
+                  Choose from Melbourne&apos;s most trusted ducted heating
+                  brands, all backed by our professional installation,
+                  comprehensive warranties, and expert servicing. As authorized
+                  dealers and certified HVAC technicians, we specialize in the
+                  top ducted heating brands that deliver superior performance,
+                  energy efficiency, and long-lasting comfort for Melbourne
+                  homes.
                 </p>
 
                 <p className="indent__top">
-                  Our team is factory-trained on all major gas heater brands,
-                  ensuring your installation meets manufacturer specifications
-                  and warranty requirements. From energy-efficient Bonaire
-                  systems to innovative Braemar technology, we&apos;ll help you
-                  choose the perfect gas heating solution for your home and
-                  budget.
+                  Our team is factory-trained on all major ducted heating
+                  brands, ensuring your installation meets manufacturer
+                  specifications and warranty requirements. From
+                  energy-efficient Bonaire systems to innovative Braemar
+                  technology, we&apos;ll help you choose the perfect ducted
+                  heating solution for your home and budget.
                 </p>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Most Popular Gas Heater Brands in Melbourne
+                  Most Popular Ducted Heating Brands in Melbourne
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[30px] mt-[30px]">
@@ -239,7 +240,7 @@ export default function BrandsPage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Additional Gas Heater Brands We Service
+                  Additional Ducted Heating Brands We Service
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[30px] mt-[30px]">
@@ -299,7 +300,7 @@ export default function BrandsPage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Why Choose the Right Gas Heater Brand?
+                  Why Choose the Right Ducted Heating Brand?
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[20px] mt-[20px]">
@@ -327,7 +328,7 @@ export default function BrandsPage() {
                       Advanced Technology
                     </h4>
                     <p className="text-[14px] text-gray-700 mb-[15px]">
-                      Modern gas heaters feature smart controls, WiFi
+                      Modern ducted heating systems feature smart controls, WiFi
                       connectivity, and zone heating for ultimate comfort and
                       control.
                     </p>
@@ -336,8 +337,8 @@ export default function BrandsPage() {
                       Professional Installation
                     </h4>
                     <p className="text-[14px] text-gray-700">
-                      Our certified technicians are factory-trained on all major
-                      brands, ensuring optimal performance and warranty
+                      Our certified HVAC technicians are factory-trained on all
+                      major brands, ensuring optimal performance and warranty
                       compliance.
                     </p>
                   </div>
@@ -348,9 +349,10 @@ export default function BrandsPage() {
                     Free Brand Consultation & Quote
                   </h3>
                   <p className="text-[14px] text-blue-800 mb-[15px]">
-                    Not sure which gas heater brand is right for your Melbourne
-                    home? Our experts will assess your property, heating needs,
-                    and budget to recommend the perfect brand and model.
+                    Not sure which ducted heating brand is right for your
+                    Melbourne home? Our experts will assess your property,
+                    heating needs, and budget to recommend the perfect brand and
+                    model.
                   </p>
                   <div className="flex flex-wrap gap-[10px]">
                     <span className="text-[13px] bg-blue-600 text-white px-[12px] py-[5px] rounded">
@@ -373,13 +375,13 @@ export default function BrandsPage() {
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Gas Heater Services</div>
+                  <div className={`ttsubtitle`}>Ducted Heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
                 <PromoAside
                   dataTitle="Call For Brand Advice!"
-                  dataText="Expert recommendations for all major gas heater brands"
+                  dataText="Expert recommendations for all major ducted heating brands"
                   dataTelefon="0405133761"
                 />
 
