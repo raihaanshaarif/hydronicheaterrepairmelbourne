@@ -55,19 +55,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Residential Services
     {
-      url: `${baseUrl}/services/services__residential/gas-heater-installation`,
+      url: `${baseUrl}/services/services__residential/ducted-heating-installation`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services/services__residential/gas-heater-repairs`,
+      url: `${baseUrl}/services/services__residential/ducted-heating-repairs`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services/services__residential/gas-heater-servicing`,
+      url: `${baseUrl}/services/services__residential/ducted-heating-servicing`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
@@ -79,26 +79,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__residential/emergency-gas-heater-repairs`,
+      url: `${baseUrl}/services/services__residential/emergency-ducted-heating-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
     },
     // Commercial Services
     {
-      url: `${baseUrl}/services/services__commercial/gas-heater-installation`,
+      url: `${baseUrl}/services/services__commercial/ducted-heating-installation`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__commercial/gas-heater-repairs`,
+      url: `${baseUrl}/services/services__commercial/ducted-heating-repairs`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__commercial/gas-heater-servicing`,
+      url: `${baseUrl}/services/services__commercial/ducted-heating-servicing`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
@@ -110,7 +110,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/services/services__commercial/emergency-gas-heater-repairs`,
+      url: `${baseUrl}/services/services__commercial/emergency-ducted-heating-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.9,
@@ -123,7 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/services/services__emergency/gas-leak-detection-repairs`,
+      url: `${baseUrl}/services/services__emergency/system-leak-detection-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
@@ -135,13 +135,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/services/services__emergency/urgent-gas-heater-repairs`,
+      url: `${baseUrl}/services/services__emergency/urgent-ducted-heating-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
     },
     {
-      url: `${baseUrl}/services/services__emergency/emergency-gas-heater-shutdowns`,
+      url: `${baseUrl}/services/services__emergency/emergency-ducted-heating-shutdowns`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
@@ -188,6 +188,167 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    // Major Coverage Areas - Melbourne CBD and Surrounds
+    {
+      url: `${baseUrl}/coverage/melbourne-cbd`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/coverage/melbourne-east`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/coverage/melbourne-south`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/coverage/north-melbourne`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/coverage/south-melbourne`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    // High-Priority Suburbs
+    {
+      url: `${baseUrl}/coverage/frankston`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/dandenong`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/pakenham`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/berwick`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/ringwood`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/glen-waverley`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/box-hill`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/doncaster`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/clayton`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/coverage/chadstone`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    // Bayside Areas
+    {
+      url: `${baseUrl}/coverage/brighton`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/chelsea`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/mornington`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/seaford`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    // Western Suburbs
+    {
+      url: `${baseUrl}/coverage/werribee`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/point-cook`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/hoppers-crossing`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/melton`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    // Northern Suburbs
+    {
+      url: `${baseUrl}/coverage/epping`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/south-morang`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/coverage/bundoora`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
     },
   ];
 }

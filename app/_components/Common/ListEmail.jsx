@@ -8,7 +8,7 @@ const imgData = [
   {
     id: 2,
     title: "Service Requests via email",
-    text: "nihaanexpertise@gmail.com",
+    text: "servicefirsthampton@gmail.com",
   },
 ];
 const ListEmail = (props) => {
