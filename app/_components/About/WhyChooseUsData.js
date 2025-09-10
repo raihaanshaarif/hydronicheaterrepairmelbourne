@@ -1,7 +1,7 @@
 export const dataList = [
   {
     id: 1,
-    list__item: "Expert Ducted Heating Specialists",
+    list__item: "Expert hydronic heating Specialists",
   },
   {
     id: 2,

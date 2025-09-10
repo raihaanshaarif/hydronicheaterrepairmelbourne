@@ -46,7 +46,7 @@ const emergencyShutdownServices = [
 export default function EmergencyGasHeaterShutdowns() {
   return (
     <>
-      <PageTitle dataTitle="Emergency Gas Heater Shutdowns Melbourne | 24/7 Safety Response" />
+      <PageTitle dataTitle="Emergency hydronic heater Shutdowns Melbourne | 24/7 Safety Response" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -54,7 +54,7 @@ export default function EmergencyGasHeaterShutdowns() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="emergency safety service"
-                  dataTitle="Emergency Gas Heater Shutdowns - Safety First"
+                  dataTitle="Emergency hydronic heater Shutdowns - Safety First"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,12 +63,12 @@ export default function EmergencyGasHeaterShutdowns() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="emergency gas heater shutdown safety service Melbourne"
+                    alt="emergency hydronic heater shutdown safety service Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Sometimes a gas heater needs to be immediately shut down for
+                  Sometimes a hydronic heater needs to be immediately shut down for
                   safety reasons. Whether it&apos;s due to gas leaks, carbon
                   monoxide detection, unusual noises, or visible damage, our
                   emergency technicians are available 24/7 to safely isolate
@@ -111,8 +111,7 @@ export default function EmergencyGasHeaterShutdowns() {
                   Our Emergency Shutdown Services Include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={emergencyShutdownServices}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={emergencyShutdownServices}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Emergency Shutdown Procedure
@@ -147,7 +146,7 @@ export default function EmergencyGasHeaterShutdowns() {
                 <p>
                   If your main heating system needs to be shut down, we&apos;ll
                   advise you on safe temporary heating options. We strongly
-                  advise against using unvented gas heaters, camping equipment,
+                  advise against using unvented hydronic heaters, camping equipment,
                   or car heaters indoors. Portable electric heaters are
                   typically the safest temporary solution.
                 </p>
@@ -172,7 +171,7 @@ export default function EmergencyGasHeaterShutdowns() {
                   decision for your family&apos;s safety and comfort.
                 </p>
                 <PromoLayout
-                  dataText="Gas heater safety concern? Don't take risks with your family's safety. Call our emergency shutdown service now for immediate safety response."
+                  dataText="hydronic heater safety concern? Don't take risks with your family's safety. Call our emergency shutdown service now for immediate safety response."
                   dataScrImg="../../images/services/promo01-img01.png"
                   dataScrImg2="../../images/services/promo01-img01.webp"
                 />
@@ -214,3 +213,4 @@ export default function EmergencyGasHeaterShutdowns() {
     </>
   );
 }
+

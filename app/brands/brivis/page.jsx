@@ -20,26 +20,26 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Brivis Ducted Heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Brivis hydronic heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Professional Brivis ducted heating repair, service & installation in Melbourne. 24/7 emergency repairs, certified HVAC technicians, genuine parts. Reliable heating service. Call 0405133761 now!",
+    "Professional Brivis hydronic heating repair, service & installation in Melbourne. 24/7 emergency repairs, certified HVAC technicians, genuine parts. Reliable heating service. Call 0405133761 now!",
   keywords:
-    "Brivis ducted heating repair Melbourne, Brivis ducted heating service, Brivis installation Melbourne, Brivis maintenance, Brivis emergency repair, ducted heating repair Melbourne, Brivis technician Melbourne",
+    "Brivis hydronic heating repair Melbourne, Brivis hydronic heating service, Brivis installation Melbourne, Brivis maintenance, Brivis emergency repair, hydronic heating repair Melbourne, Brivis technician Melbourne",
 };
 
 //Page Layout
 export default function BrivisPage() {
   return (
     <>
-      <PageTitle dataTitle="Brivis Ducted Heating Repair & Service Melbourne" />
+      <PageTitle dataTitle="Brivis hydronic heating Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="brivis ducted heating repair service melbourne"
-                  dataTitle="Professional Brivis Ducted Heating Repair & Service Melbourne"
+                  dataSubtitle="brivis hydronic heating repair service melbourne"
+                  dataTitle="Professional Brivis hydronic heating Repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -48,23 +48,23 @@ export default function BrivisPage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="brivis ducted heating repair service melbourne"
+                    alt="brivis hydronic heating repair service melbourne"
                     loading={`eager`}
                   />
                 </div>
 
                 <p className={`${styles.indent__top2}`}>
-                  Melbourne&apos;s trusted Brivis ducted heating repair and
+                  Melbourne&apos;s trusted Brivis hydronic heating repair and
                   service specialists. Our certified HVAC technicians provide 24/7
                   emergency repairs, professional installation, comprehensive
-                  maintenance, and expert service for all Brivis ducted heating
+                  maintenance, and expert service for all Brivis hydronic heating
                   models across Melbourne. With over 30 years of Brivis
                   expertise, genuine parts, and reliable service, we keep your
                   heating running smoothly.
                 </p>
 
                 <p className="indent__top">
-                  Brivis ducted heating systems are known for their reliability
+                  Brivis hydronic heating systems are known for their reliability
                   and efficiency, but when they need service, trust the experts.
                   Our emergency repair service operates 24/7 across Melbourne
                   with certified HVAC technicians, genuine Brivis parts, and
@@ -106,7 +106,7 @@ export default function BrivisPage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Our Brivis Ducted Heating Repair Services Melbourne
+                  Our Brivis hydronic heating Repair Services Melbourne
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[20px] mt-[20px]">
@@ -177,7 +177,7 @@ export default function BrivisPage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Common Brivis Ducted Heating Problems We Fix
+                  Common Brivis hydronic heating Problems We Fix
                 </h3>
 
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-[20px] mt-[20px]">
@@ -214,7 +214,7 @@ export default function BrivisPage() {
                 </h3>
 
                 <p className="text-[14px] text-gray-700 mt-[15px]">
-                  Brivis ducted heatings feature both continuous pilot and
+                  Brivis hydronic heatings feature both continuous pilot and
                   electronic Electronic controls. Our technicians are experts in
                   servicing both types, from traditional Control system maintenance
                   to modern electronic ignition troubleshooting and repair
@@ -282,7 +282,7 @@ export default function BrivisPage() {
                 </div>
 
                 <PromoLayout
-                  dataText="Emergency Brivis Ducted Heating Repair Melbourne! Reliable service with 30+ years experience. Available 24/7 with certified HVAC technicians and genuine parts. Call now!"
+                  dataText="Emergency Brivis hydronic heating Repair Melbourne! Reliable service with 30+ years experience. Available 24/7 with certified HVAC technicians and genuine parts. Call now!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -292,7 +292,7 @@ export default function BrivisPage() {
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Brivis Ducted Heating Services</div>
+                  <div className={`ttsubtitle`}>Brivis hydronic heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
@@ -344,7 +344,7 @@ export default function BrivisPage() {
           <div className="container container__fluid-xl no-resize-text">
             <SectionTitle
               dataSubtitle="melbourne brivis specialists"
-              dataTitle="Professional Brivis ducted heating service Team"
+              dataTitle="Professional Brivis hydronic heating service Team"
             />
             <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px] only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
           </div>

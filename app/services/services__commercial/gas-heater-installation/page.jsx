@@ -18,7 +18,7 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Commercial Gas Heater Installation specific data
+// Commercial hydronic heater Installation specific data
 const commercialGasHeaterInstallationInclude = [
   {
     id: 1,
@@ -32,8 +32,8 @@ const commercialGasHeaterInstallationInclude = [
   },
   {
     id: 3,
-    title: "Business Gas Heater Upgrades:",
-    text: "Upgrade your outdated commercial heating system to modern, energy-efficient gas heaters. Our upgrades help reduce operational costs while improving employee comfort and productivity.",
+    title: "Business hydronic heater Upgrades:",
+    text: "Upgrade your outdated commercial heating system to modern, energy-efficient hydronic heaters. Our upgrades help reduce operational costs while improving employee comfort and productivity.",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const commercialGasHeaterInstallationInclude = [
 export default function GasHeaterInstallation() {
   return (
     <>
-      <PageTitle dataTitle="Commercial Gas Heater Installation" />
+      <PageTitle dataTitle="Commercial hydronic heater Installation" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -54,7 +54,7 @@ export default function GasHeaterInstallation() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="commercial gas heating installation"
-                  dataTitle="Professional Commercial Gas Heater Installation Services Melbourne"
+                  dataTitle="Professional Commercial hydronic heater Installation Services Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,12 +63,12 @@ export default function GasHeaterInstallation() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="commercial gas heater installation Melbourne"
+                    alt="commercial hydronic heater installation Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Looking for reliable commercial gas heater installation in
+                  Looking for reliable commercial hydronic heater installation in
                   Melbourne? Our expert technicians provide professional gas
                   heating installation services for businesses, offices,
                   warehouses, retail spaces, and industrial facilities across
@@ -89,7 +89,7 @@ export default function GasHeaterInstallation() {
                         <a href="#">Warehouse Gas Heating Systems</a>
                       </li>
                       <li>
-                        <a href="#">Retail Space Gas Heaters</a>
+                        <a href="#">Retail Space hydronic heaters</a>
                       </li>
                       <li>
                         <a href="#">Industrial Gas Heating</a>
@@ -111,7 +111,7 @@ export default function GasHeaterInstallation() {
                         <a href="#">Hotel & Hospitality Heating</a>
                       </li>
                       <li>
-                        <a href="#">Medical Facility Gas Heaters</a>
+                        <a href="#">Medical Facility hydronic heaters</a>
                       </li>
                       <li>
                         <a href="#">Educational Facility Heating</a>
@@ -126,17 +126,16 @@ export default function GasHeaterInstallation() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Commercial Gas Heater Installation Services include:
+                  Our Commercial hydronic heater Installation Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialGasHeaterInstallationInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialGasHeaterInstallationInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Professional Commercial Gas Heater Installation?
+                  Why Choose Professional Commercial hydronic heater Installation?
                 </h5>
                 <p>
-                  Commercial gas heater installation requires specialized
+                  Commercial hydronic heater installation requires specialized
                   expertise in business heating requirements, energy efficiency
                   optimization, and compliance with commercial building codes.
                   Our licensed technicians understand the unique challenges of
@@ -145,7 +144,7 @@ export default function GasHeaterInstallation() {
                   and operational efficiency.
                 </p>
                 <p className="indent__top">
-                  When you choose our commercial gas heater installation
+                  When you choose our commercial hydronic heater installation
                   service, you get a comprehensive business solution. We handle
                   everything from initial energy assessments and system
                   selection to installation, testing, and staff training. Our
@@ -153,7 +152,7 @@ export default function GasHeaterInstallation() {
                   heating that supports your operational objectives.
                 </p>
                 <PromoLayout
-                  dataText="Get a free commercial gas heater installation quote from our licensed business heating specialists today!"
+                  dataText="Get a free commercial hydronic heater installation quote from our licensed business heating specialists today!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -172,7 +171,7 @@ export default function GasHeaterInstallation() {
                   <FormAside />
                 </div> */}
                 <PromoAside
-                  dataTitle="Need Commercial Gas Heater Installation?"
+                  dataTitle="Need Commercial hydronic heater Installation?"
                   dataText="Get a Free Business Quote Today"
                   dataTelefon="0405 133 761"
                 />
@@ -200,3 +199,4 @@ export default function GasHeaterInstallation() {
     </>
   );
 }
+

@@ -18,17 +18,17 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { EmergencyListData } from "../../../_components/ServicesEmergency/EmergencyListData";
 import imageLayout from "../../../../public/images/services/services_img02.jpg";
 
-// Urgent Ducted Heating Repair Service Data
+// Urgent hydronic heating Repair Service Data
 const urgentRepairServices = [
   {
     id: 1,
     title: "Same-Day Emergency Repairs:",
-    text: "Our emergency technicians carry a comprehensive range of spare parts for all major ducted heating brands, enabling us to complete most urgent repairs on the same day.",
+    text: "Our emergency technicians carry a comprehensive range of spare parts for all major hydronic heating brands, enabling us to complete most urgent repairs on the same day.",
   },
   {
     id: 2,
     title: "Diagnostic & Troubleshooting:",
-    text: "We use advanced diagnostic equipment to quickly identify faults in ducted heating systems, from electronic controls to mechanical components, ensuring accurate and efficient repairs.",
+    text: "We use advanced diagnostic equipment to quickly identify faults in hydronic heating systems, from electronic controls to mechanical components, ensuring accurate and efficient repairs.",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const urgentRepairServices = [
 export default function UrgentGasHeaterRepairs() {
   return (
     <>
-      <PageTitle dataTitle="Urgent Gas Heater Repairs Melbourne | 24/7 Emergency Heating Fixes" />
+      <PageTitle dataTitle="Urgent hydronic heater Repairs Melbourne | 24/7 Emergency Heating Fixes" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -54,7 +54,7 @@ export default function UrgentGasHeaterRepairs() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="urgent heater repairs"
-                  dataTitle="24/7 Urgent Gas Heater Repairs - Fast & Reliable"
+                  dataTitle="24/7 Urgent hydronic heater Repairs - Fast & Reliable"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,27 +63,27 @@ export default function UrgentGasHeaterRepairs() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="urgent gas heater repairs Melbourne emergency service"
+                    alt="urgent hydronic heater repairs Melbourne emergency service"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  When your gas heater breaks down unexpectedly, you need urgent
+                  When your hydronic heater breaks down unexpectedly, you need urgent
                   professional repairs to restore comfort and safety to your
                   home. Our emergency gas technicians are available 24/7 across
-                  Melbourne to provide rapid response for urgent gas heater
+                  Melbourne to provide rapid response for urgent hydronic heater
                   repairs. We understand that heating problems can&apos;t wait,
                   especially during Melbourne&apos;s cold winter months.
                 </p>
                 <p className="indent__top">
                   Our fully equipped service vehicles carry extensive spare
-                  parts inventory for all major gas heater brands including
+                  parts inventory for all major hydronic heater brands including
                   Rinnai, Bonaire, Brivis, and Pyrox. This means we can complete
                   most urgent repairs on the first visit, getting your heating
                   restored quickly and efficiently.
                 </p>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Common Urgent Gas Heater Problems We Fix
+                  Common Urgent hydronic heater Problems We Fix
                 </h4>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
@@ -108,17 +108,16 @@ export default function UrgentGasHeaterRepairs() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Urgent Gas Heater Repair Services Include:
+                  Our Urgent hydronic heater Repair Services Include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={urgentRepairServices}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={urgentRepairServices}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Emergency Repair Process
                 </h5>
                 <p>
-                  When you call for urgent gas heater repairs, we dispatch our
+                  When you call for urgent hydronic heater repairs, we dispatch our
                   nearest available certified gas technician immediately. Our
                   technician arrives with diagnostic equipment and a
                   comprehensive parts inventory. We quickly assess the problem,
@@ -127,7 +126,7 @@ export default function UrgentGasHeaterRepairs() {
                 </p>
                 <p className="indent__top">
                   All emergency repairs include safety testing to ensure your
-                  gas heater operates safely after repair. We test gas
+                  hydronic heater operates safely after repair. We test gas
                   pressures, check for leaks, verify proper combustion, and
                   ensure all safety systems are functioning correctly before
                   considering the job complete.
@@ -147,7 +146,7 @@ export default function UrgentGasHeaterRepairs() {
                 </h5>
                 <p>
                   We carry spare parts and have extensive experience with all
-                  major gas heater brands including Rinnai, Bonaire, Brivis,
+                  major hydronic heater brands including Rinnai, Bonaire, Brivis,
                   Pyrox, Vulcan, Rheem, and many others. Our technicians
                   regularly attend manufacturer training to stay current with
                   the latest models and repair techniques.
@@ -163,7 +162,7 @@ export default function UrgentGasHeaterRepairs() {
                   schedule regular services to keep your heating reliable.
                 </p>
                 <PromoLayout
-                  dataText="Gas heater emergency? Don't suffer in the cold! Call our urgent repair technicians now for rapid response across Melbourne."
+                  dataText="hydronic heater emergency? Don't suffer in the cold! Call our urgent repair technicians now for rapid response across Melbourne."
                   dataScrImg="../../images/services/promo01-img01.png"
                   dataScrImg2="../../images/services/promo01-img01.webp"
                 />
@@ -178,7 +177,7 @@ export default function UrgentGasHeaterRepairs() {
 
                 <PromoAside
                   dataTitle="Urgent Repair Needed!"
-                  dataText="24/7 Emergency Gas Heater Repairs"
+                  dataText="24/7 Emergency hydronic heater Repairs"
                   dataTelefon="0405133761"
                 />
                 <BoxListAside
@@ -205,3 +204,4 @@ export default function UrgentGasHeaterRepairs() {
     </>
   );
 }
+

@@ -29,10 +29,10 @@ export default function ContactUs() {
                   customer satisfaction guarantee.
                 </strong>
                 <p className="indent__top">
-                  Request a quote for ducted heating service, repair,
+                  Request a quote for hydronic heating service, repair,
                   maintenance, or installation. Manage your current bookings
                   online, or contact us for more information. We&apos;re here to
-                  help with all your ducted heating needs.
+                  help with all your hydronic heating needs.
                 </p>
                 <ListEmail />
                 <div className="lg:mt-[35px] lg-max:mt-[25px] sm-max:mt-[20px]">

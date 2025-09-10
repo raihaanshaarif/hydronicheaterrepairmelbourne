@@ -18,17 +18,17 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Gas Heater Repairs specific data
+// hydronic heater Repairs specific data
 const gasHeaterRepairsInclude = [
   {
     id: 1,
-    title: "Gas Heater Not Working:",
-    text: "Comprehensive diagnosis and repair of gas heaters that won't start, ignite, or heat properly. We identify the root cause and provide effective solutions to restore your heating.",
+    title: "hydronic heater Not Working:",
+    text: "Comprehensive diagnosis and repair of hydronic heaters that won't start, ignite, or heat properly. We identify the root cause and provide effective solutions to restore your heating.",
   },
   {
     id: 2,
     title: "Thermostat & Control Repairs:",
-    text: "Repair and replacement of faulty thermostats, control panels, and temperature sensors. We ensure your gas heater responds correctly to temperature settings.",
+    text: "Repair and replacement of faulty thermostats, control panels, and temperature sensors. We ensure your hydronic heater responds correctly to temperature settings.",
   },
   {
     id: 3,
@@ -46,15 +46,15 @@ const gasHeaterRepairsInclude = [
 export default function GasHeaterRepairs() {
   return (
     <>
-      <PageTitle dataTitle="Gas Heater Repairs" />
+      <PageTitle dataTitle="hydronic heater Repairs" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="gas heater repairs"
-                  dataTitle="Fast & Reliable Gas Heater Repair Services in Melbourne"
+                  dataSubtitle="hydronic heater repairs"
+                  dataTitle="Fast & Reliable hydronic heater Repair Services in Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,19 +63,19 @@ export default function GasHeaterRepairs() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="gas heater repairs"
+                    alt="hydronic heater repairs"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Is your gas heater not working properly? Don&apos;t let a
+                  Is your hydronic heater not working properly? Don&apos;t let a
                   broken heater leave you in the cold! Our experienced
-                  technicians provide fast, reliable gas heater repair services
-                  across Melbourne. We diagnose and fix all types of gas heater
+                  technicians provide fast, reliable hydronic heater repair services
+                  across Melbourne. We diagnose and fix all types of hydronic heater
                   problems, from simple pilot light issues to complex component
                   failures. Our priority is getting your heating system back up
                   and running quickly and safely. You can trust us for all of
-                  these gas heater repair needs:
+                  these hydronic heater repair needs:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
@@ -84,13 +84,13 @@ export default function GasHeaterRepairs() {
                         <a href="#">Gas Log Fires</a>
                       </li>
                       <li>
-                        <a href="#">Outdoor Gas Heaters</a>
+                        <a href="#">Outdoor hydronic heaters</a>
                       </li>
                       <li>
                         <a href="#">Hydronic Gas Heating</a>
                       </li>
                       <li>
-                        <a href="#">Gas Heater Upgrades</a>
+                        <a href="#">hydronic heater Upgrades</a>
                       </li>
                       <li>
                         <a href="#">Multi-Zone Systems</a>
@@ -124,17 +124,16 @@ export default function GasHeaterRepairs() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Gas Heater Repair Services include:
+                  Our hydronic heater Repair Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={gasHeaterRepairsInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={gasHeaterRepairsInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Same Day Gas Heater Repair Service
+                  Same Day hydronic heater Repair Service
                 </h5>
                 <p>
-                  When your gas heater breaks down, especially during
+                  When your hydronic heater breaks down, especially during
                   Melbourne&apos;s cold winter months, you need fast service.
                   That&apos;s why we offer same-day repair services for most gas
                   heater problems. Our fully equipped service vehicles carry
@@ -143,12 +142,12 @@ export default function GasHeaterRepairs() {
                 </p>
                 <p className="indent__top">
                   Our licensed technicians have extensive experience with all
-                  major gas heater brands and models. We provide upfront pricing
+                  major hydronic heater brands and models. We provide upfront pricing
                   and detailed explanations of all repair work needed, so you
                   can make informed decisions about your heating system.
                 </p>
                 <PromoLayout
-                  dataText="Need urgent gas heater repairs? Contact our emergency repair service for same-day assistance!"
+                  dataText="Need urgent hydronic heater repairs? Contact our emergency repair service for same-day assistance!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -164,7 +163,7 @@ export default function GasHeaterRepairs() {
                 </div>
 
                 <PromoAside
-                  dataTitle="Emergency Gas Heater Repairs!"
+                  dataTitle="Emergency hydronic heater Repairs!"
                   dataText="24/7 Emergency Service Available"
                   dataTelefon="0405 133 761"
                 />
@@ -192,3 +191,4 @@ export default function GasHeaterRepairs() {
     </>
   );
 }
+

@@ -2,10 +2,10 @@ export const dataServices = [
   {
     id: 1,
     icon: `icon-1889287`,
-    title: `Ducted Heating Installation`,
-    text: `Our specialists provide professional installation of all types of ducted heating systems, ensuring energy-efficient and comfortable operation for your home or business.`,
+    title: `Hydronic Heater Installation`,
+    text: `Our specialists provide professional installation of all types of hydronic heating systems, ensuring energy-efficient and comfortable operation for your home or business.`,
     list: [
-      "Central Ducted Heating Systems",
+      "Central Hydronic Heating Systems",
       "Zone Control Installation",
       "Thermostat & Controls Setup",
     ],
@@ -15,8 +15,8 @@ export const dataServices = [
   {
     id: 2,
     icon: `icon-2424820`,
-    title: `Ducted Heating Servicing`,
-    text: `Regular servicing keeps your ducted heating system running efficiently and reliably. Our team offers thorough maintenance and inspections for all major brands.`,
+    title: `Hydronic Heater Servicing`,
+    text: `Regular servicing keeps your hydronic heating system running efficiently and reliably. Our team offers thorough maintenance and inspections for all major brands.`,
     list: [
       "Annual Maintenance & Tune-Ups",
       "Filter Replacement & Cleaning",
@@ -28,11 +28,11 @@ export const dataServices = [
   {
     id: 3,
     icon: `icon-1677058`,
-    title: `Ducted Heating Repairs`,
-    text: `We provide fast and reliable repair services for faulty or underperforming ducted heating systems, restoring warmth and comfort to your property.`,
+    title: `Hydronic Heater Repairs`,
+    text: `We provide fast and reliable repair services for faulty or underperforming hydronic heating systems, restoring warmth and comfort to your property.`,
     list: [
       "No Heat or Insufficient Heating",
-      "Duct Leaks & Airflow Issues",
+      "System Leaks & Flow Issues",
       "Thermostat & Control Problems",
     ],
     btn__text: "Know more",
@@ -41,11 +41,11 @@ export const dataServices = [
   {
     id: 4,
     icon: `icon-3731419`,
-    title: `Emergency Ducted Heating Repairs`,
-    text: `Our experts are available 24/7 for urgent ducted heating repairs, ensuring your comfort and safety in any heating emergency situation.`,
+    title: `Emergency Hydronic Heater Repairs`,
+    text: `Our experts are available 24/7 for urgent hydronic heater repairs, ensuring your comfort and safety in any heating emergency situation.`,
     list: [
       "System Complete Failure",
-      "Duct Damage or Blockages",
+      "Pump Damage or Blockages",
       "Heating Emergencies",
     ],
     btn__text: "Know more",
@@ -54,8 +54,8 @@ export const dataServices = [
   {
     id: 5,
     icon: `icon-2321403`,
-    title: `Ducted Heating Upgrades & Replacements`,
-    text: `Upgrade to a more energy-efficient ducted heating system or replace outdated systems with our expert advice and installation services.`,
+    title: `Hydronic Heater Upgrades & Replacements`,
+    text: `Upgrade to a more energy-efficient hydronic heating system or replace outdated systems with our expert advice and installation services.`,
     list: [
       "High-Efficiency Heating Options",
       "System Upgrades & Modernization",

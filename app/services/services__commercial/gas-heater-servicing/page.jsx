@@ -18,11 +18,11 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Commercial Gas Heater Servicing specific data
+// Commercial hydronic heater Servicing specific data
 const commercialGasHeaterServicingInclude = [
   {
     id: 1,
-    title: "Commercial Gas Heater Maintenance:",
+    title: "Commercial hydronic heater Maintenance:",
     text: "Comprehensive maintenance service for commercial gas heating systems including cleaning, inspection, and performance optimization. Regular servicing minimizes business downtime and maintains employee comfort.",
   },
   {
@@ -46,15 +46,15 @@ const commercialGasHeaterServicingInclude = [
 export default function GasHeaterServicing() {
   return (
     <>
-      <PageTitle dataTitle="Commercial Gas Heater Servicing" />
+      <PageTitle dataTitle="Commercial hydronic heater Servicing" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="commercial gas heater servicing"
-                  dataTitle="Professional Commercial Gas Heater Servicing Melbourne"
+                  dataSubtitle="commercial hydronic heater servicing"
+                  dataTitle="Professional Commercial hydronic heater Servicing Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,12 +63,12 @@ export default function GasHeaterServicing() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="commercial gas heater servicing Melbourne"
+                    alt="commercial hydronic heater servicing Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Regular commercial gas heater servicing is essential for
+                  Regular commercial hydronic heater servicing is essential for
                   maintaining workplace safety, energy efficiency, and business
                   continuity. Our professional technicians provide comprehensive
                   commercial gas heating maintenance services to keep your
@@ -125,14 +125,13 @@ export default function GasHeaterServicing() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Commercial Gas Heater Servicing includes:
+                  Our Commercial hydronic heater Servicing includes:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialGasHeaterServicingInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialGasHeaterServicingInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Benefits of Commercial Gas Heater Servicing
+                  Benefits of Commercial hydronic heater Servicing
                 </h5>
                 <p>
                   Regular commercial servicing protects your business investment
@@ -152,7 +151,7 @@ export default function GasHeaterServicing() {
                   schedules tailored to your business needs.
                 </p>
                 <PromoLayout
-                  dataText="Schedule your commercial gas heater service today and reduce business heating costs while ensuring workplace safety!"
+                  dataText="Schedule your commercial hydronic heater service today and reduce business heating costs while ensuring workplace safety!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -196,3 +195,4 @@ export default function GasHeaterServicing() {
     </>
   );
 }
+

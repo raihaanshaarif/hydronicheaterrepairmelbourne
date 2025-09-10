@@ -18,17 +18,17 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Ducted Heating Servicing specific data
+// hydronic heating Servicing specific data
 const ductedHeatingServicingInclude = [
   {
     id: 1,
-    title: "Annual Ducted Heating Service:",
-    text: "Comprehensive annual maintenance service including cleaning, inspection, and performance testing. Regular servicing extends the life of your ducted heating system and maintains efficiency.",
+    title: "Annual hydronic heating Service:",
+    text: "Comprehensive annual maintenance service including cleaning, inspection, and performance testing. Regular servicing extends the life of your hydronic heating system and maintains efficiency.",
   },
   {
     id: 2,
     title: "Safety Inspections & Testing:",
-    text: "Thorough safety inspections including electrical checks, temperature monitoring, and air quality testing to ensure your ducted heating system operates safely.",
+    text: "Thorough safety inspections including electrical checks, temperature monitoring, and air quality testing to ensure your hydronic heating system operates safely.",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const ductedHeatingServicingInclude = [
   {
     id: 4,
     title: "Performance Optimization:",
-    text: "Complete system tune-up to optimize performance, improve energy efficiency, and reduce operating costs. We ensure your ducted heating runs at peak performance.",
+    text: "Complete system tune-up to optimize performance, improve energy efficiency, and reduce operating costs. We ensure your hydronic heating runs at peak performance.",
   },
 ];
 
@@ -46,15 +46,15 @@ const ductedHeatingServicingInclude = [
 export default function DuctedHeatingServicing() {
   return (
     <>
-      <PageTitle dataTitle="Ducted Heating Servicing" />
+      <PageTitle dataTitle="hydronic heating Servicing" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="ducted heating servicing"
-                  dataTitle="Professional Ducted Heating Servicing & Maintenance in Melbourne"
+                  dataSubtitle="hydronic heating servicing"
+                  dataTitle="Professional hydronic heating Servicing & Maintenance in Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,20 +63,20 @@ export default function DuctedHeatingServicing() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="ducted heating servicing"
+                    alt="hydronic heating servicing"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Regular ducted heating servicing is essential for maintaining
+                  Regular hydronic heating servicing is essential for maintaining
                   safety, efficiency, and reliability. Our professional
-                  technicians provide comprehensive ducted heating maintenance
+                  technicians provide comprehensive hydronic heating maintenance
                   services to keep your heating system running smoothly
                   year-round. We recommend annual servicing to prevent
                   breakdowns, improve energy efficiency, and ensure your
                   family&apos;s safety. Our detailed servicing includes all
                   necessary checks and maintenance tasks. You can trust us for
-                  all of these ducted heating servicing needs:
+                  all of these hydronic heating servicing needs:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
@@ -125,14 +125,13 @@ export default function DuctedHeatingServicing() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Ducted Heating Servicing includes:
+                  Our hydronic heating Servicing includes:
                 </h4>
                 <ListWithTitle
-                  dataLayout={ductedHeatingServicingInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={ductedHeatingServicingInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Benefits of Regular Ducted Heating Servicing
+                  Benefits of Regular hydronic heating Servicing
                 </h5>
                 <p>
                   Regular servicing is like health check-ups for your ducted
@@ -145,12 +144,12 @@ export default function DuctedHeatingServicing() {
                 <p className="indent__top">
                   When you schedule regular servicing with our qualified
                   technicians, you&apos;ll enjoy peace of mind knowing your
-                  ducted heating system is operating safely and efficiently. We
+                  hydronic heating system is operating safely and efficiently. We
                   provide detailed service reports and recommendations for
                   optimal performance.
                 </p>
                 <PromoLayout
-                  dataText="Schedule your annual ducted heating service today and save on energy bills while ensuring your family's comfort!"
+                  dataText="Schedule your annual hydronic heating service today and save on energy bills while ensuring your family's comfort!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -160,13 +159,13 @@ export default function DuctedHeatingServicing() {
               >
                 <div>
                   <div className={`ttsubtitle`}>
-                    Residential Ducted Heating Services
+                    Residential hydronic heating Services
                   </div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
                 <PromoAside
-                  dataTitle="Book Ducted Heating Service!"
+                  dataTitle="Book hydronic heating Service!"
                   dataText="Annual Maintenance Keeps You Comfortable"
                   dataTelefon="0405 133 761"
                 />
@@ -194,3 +193,4 @@ export default function DuctedHeatingServicing() {
     </>
   );
 }
+

@@ -36,7 +36,7 @@ const Partners = () => (
             Our suppliers include some of the world&apos;s most renowned ducted
             heating brands, ensuring you receive only the highest quality
             products for your home or business. We are committed to providing
-            reliable, efficient, and energy-saving ducted heating solutions
+            reliable, efficient, and energy-saving hydronic heating solutions
             across Melbourne, partnering exclusively with trusted brands to
             guarantee your comfort and satisfaction.
           </div>

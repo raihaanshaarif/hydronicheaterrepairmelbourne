@@ -20,23 +20,23 @@ import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
 export const metadata = {
   title:
-    "Ducted Heating Installation Melbourne | Professional Home Installation",
+    "hydronic heating Installation Melbourne | Professional Home Installation",
   description:
-    "Expert ducted heating installation services in Melbourne. Professional home HVAC installation by licensed technicians. Free quotes, quality workmanship, warranty included.",
+    "Expert hydronic heating installation services in Melbourne. Professional home HVAC installation by licensed technicians. Free quotes, quality workmanship, warranty included.",
   keywords:
-    "ducted heating installation Melbourne, home ducted heating, HVAC installation residential, ducted heating system installation, professional heating installation",
+    "hydronic heating installation Melbourne, home hydronic heating, HVAC installation residential, hydronic heating system installation, professional heating installation",
   openGraph: {
-    title: "Ducted Heating Installation Melbourne | Expert Home Services",
+    title: "hydronic heating Installation Melbourne | Expert Home Services",
     description:
-      "Professional ducted heating installation for Melbourne homes. Licensed technicians, quality workmanship, free quotes available.",
+      "Professional hydronic heating installation for Melbourne homes. Licensed technicians, quality workmanship, free quotes available.",
     type: "website",
     locale: "en_AU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ducted Heating Installation Melbourne | Professional Service",
+    title: "hydronic heating Installation Melbourne | Professional Service",
     description:
-      "Expert ducted heating installation services in Melbourne. Professional installation by licensed HVAC technicians.",
+      "Expert hydronic heating installation services in Melbourne. Professional installation by licensed HVAC technicians.",
   },
   alternates: {
     canonical:
@@ -44,27 +44,27 @@ export const metadata = {
   },
 };
 
-// Ducted Heating Installation specific data
+// hydronic heating Installation specific data
 const ductedHeatingInstallationInclude = [
   {
     id: 1,
-    title: "New Ducted Heating Installation:",
-    text: "Professional installation of new ducted heating systems for your home. We ensure proper sizing, placement, and connection to electrical supply for optimal performance and efficiency.",
+    title: "New hydronic heating Installation:",
+    text: "Professional installation of new hydronic heating systems for your home. We ensure proper sizing, placement, and connection to electrical supply for optimal performance and efficiency.",
   },
   {
     id: 2,
     title: "Complete Ducted System Installation:",
-    text: "Complete ducted heating system installation throughout your home. Our expert technicians handle everything from unit placement to ductwork installation and zoning controls.",
+    text: "Complete hydronic heating system installation throughout your home. Our expert technicians handle everything from unit placement to ductwork installation and zoning controls.",
   },
   {
     id: 3,
-    title: "Ducted Heating Replacement:",
-    text: "Replacement of old, inefficient heating systems with modern, energy-efficient ducted heating models. We handle the complete removal and installation process with minimal disruption.",
+    title: "hydronic heating Replacement:",
+    text: "Replacement of old, inefficient heating systems with modern, energy-efficient hydronic heating models. We handle the complete removal and installation process with minimal disruption.",
   },
   {
     id: 4,
     title: "Safety Inspections & Compliance:",
-    text: "All installations include comprehensive safety inspections and compliance checks. We ensure your new ducted heating system meets all safety standards and building codes for peace of mind.",
+    text: "All installations include comprehensive safety inspections and compliance checks. We ensure your new hydronic heating system meets all safety standards and building codes for peace of mind.",
   },
 ];
 
@@ -72,15 +72,15 @@ const ductedHeatingInstallationInclude = [
 export default function DuctedHeatingInstallation() {
   return (
     <>
-      <PageTitle dataTitle="Ducted Heating Installation" />
+      <PageTitle dataTitle="hydronic heating Installation" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="ducted heating installation"
-                  dataTitle="Professional Ducted Heating Installation Services in Melbourne"
+                  dataSubtitle="hydronic heating installation"
+                  dataTitle="Professional hydronic heating Installation Services in Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -89,30 +89,30 @@ export default function DuctedHeatingInstallation() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="ducted heating installation"
+                    alt="hydronic heating installation"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  Looking to install a new ducted heating system in your
+                  Looking to install a new hydronic heating system in your
                   Melbourne home? Our expert technicians provide professional
-                  ducted heating installation services for all types of
+                  hydronic heating installation services for all types of
                   residential properties. We specialize in installing
-                  energy-efficient ducted heating systems that will keep your
+                  energy-efficient hydronic heating systems that will keep your
                   home warm and comfortable while reducing your energy bills.
                   Our installation service includes proper sizing, safety
                   inspections, and compliance with all local regulations. You
-                  can trust us for all of these ducted heating installation
+                  can trust us for all of these hydronic heating installation
                   needs:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Reverse Cycle Ducted Heating</a>
+                        <a href="#">Reverse Cycle hydronic heating</a>
                       </li>
                       <li>
-                        <a href="#">Zoned Ducted Heating Systems</a>
+                        <a href="#">Zoned hydronic heating Systems</a>
                       </li>
                       <li>
                         <a href="#">Energy Efficient Heat Pumps</a>
@@ -124,7 +124,7 @@ export default function DuctedHeatingInstallation() {
                         <a href="#">Multi-Zone Climate Control</a>
                       </li>
                       <li>
-                        <a href="#">Ducted Heating with Cooling</a>
+                        <a href="#">hydronic heating with Cooling</a>
                       </li>
                     </ul>
                   </div>
@@ -140,7 +140,7 @@ export default function DuctedHeatingInstallation() {
                         <a href="#">Bulkhead Ducted Systems</a>
                       </li>
                       <li>
-                        <a href="#">Ducted Heating Upgrades</a>
+                        <a href="#">hydronic heating Upgrades</a>
                       </li>
                       <li>
                         <a href="#">Smart Control Systems</a>
@@ -152,17 +152,16 @@ export default function DuctedHeatingInstallation() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Ducted Heating Installation Services include:
+                  Our hydronic heating Installation Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={ductedHeatingInstallationInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={ductedHeatingInstallationInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Professional Ducted Heating Installation?
+                  Why Choose Professional hydronic heating Installation?
                 </h5>
                 <p>
-                  Installing a ducted heating system requires specialized
+                  Installing a hydronic heating system requires specialized
                   knowledge of electrical connections, ductwork design, and HVAC
                   regulations. While some might consider DIY installation,
                   professional installation ensures your system operates safely
@@ -171,14 +170,14 @@ export default function DuctedHeatingInstallation() {
                   Australian standards.
                 </p>
                 <p className="indent__top">
-                  When you choose our professional ducted heating installation
+                  When you choose our professional hydronic heating installation
                   service, you can count on us to provide a complete solution
                   from start to finish. We handle everything from selecting the
                   right system for your home to post-installation support and
                   maintenance advice.
                 </p>
                 <PromoLayout
-                  dataText="Get a free quote for your ducted heating installation from our professional, licensed HVAC technicians today!"
+                  dataText="Get a free quote for your hydronic heating installation from our professional, licensed HVAC technicians today!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -188,7 +187,7 @@ export default function DuctedHeatingInstallation() {
               >
                 <div>
                   <div className={`ttsubtitle`}>
-                    Residential Ducted Heating Services
+                    Residential hydronic heating Services
                   </div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
@@ -197,7 +196,7 @@ export default function DuctedHeatingInstallation() {
                   <FormAside />
                 </div> */}
                 <PromoAside
-                  dataTitle="Need Ducted Heating Installation?"
+                  dataTitle="Need hydronic heating Installation?"
                   dataText="Get a Free, No-Obligation Quote Today"
                   dataTelefon="0405 133 761"
                 />
@@ -225,3 +224,4 @@ export default function DuctedHeatingInstallation() {
     </>
   );
 }
+

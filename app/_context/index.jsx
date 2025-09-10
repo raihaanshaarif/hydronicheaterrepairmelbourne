@@ -4,7 +4,7 @@ import { createContext, useState } from "react";
 export const Context = createContext(null);
 
 function GlobalState({ children }) {
-  // Simplified context for ducted heating services
+  // Simplified context for hydronic heating services
   const [siteData, setSiteData] = useState({});
 
   return (

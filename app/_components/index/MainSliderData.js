@@ -13,8 +13,8 @@ export const MainSliderData = [
     srcimg_lg_webp: "/images/main-slider/slide01__lg.webp",
     srcimg_md_png: "/images/main-slider/slide01__md.png",
     srcimg_md_webp: "/images/main-slider/slide01__md.webp",
-    title: `Need Help with Ducted Heating Emergency?`,
-    text: `From emergency breakdowns to annual servicing, our Melbourne team is ready to help. Reliable, safe, and same-day ducted heating service available.`,
+    title: `Need Help with Hydronic Heater Emergency?`,
+    text: `From emergency breakdowns to annual servicing, our Melbourne team is ready to help. Reliable, safe, and same-day hydronic heater service available.`,
   },
   //   {
   //     id: 2,

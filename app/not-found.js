@@ -12,7 +12,7 @@ const NotFoundPage = () => {
       />
       <p style={{ marginBottom: "30px", fontSize: "18px", color: "#666" }}>
         The page you&apos;re looking for doesn&apos;t exist, but we&apos;re here
-        to help with all your gas heater needs in Melbourne!
+        to help with all your hydronic heater needs in Melbourne!
       </p>
       <div style={{ marginBottom: "40px" }}>
         <Link href="/" className="btn" style={{ marginRight: "15px" }}>
@@ -34,7 +34,7 @@ const NotFoundPage = () => {
         }}
       >
         <h3 style={{ color: "#ff6b35", marginBottom: "15px" }}>
-          Need Gas Heater Service?
+          Need hydronic heater Service?
         </h3>
         <p style={{ marginBottom: "15px" }}>
           Emergency repairs, installation, and maintenance available 24/7

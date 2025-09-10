@@ -99,7 +99,7 @@ const FormModalEmailJS = ({ closeModal }) => {
       if (result.success) {
         toast.success(
           result.message ||
-            "Perfect! Your ducted heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
+            "Perfect! Your hydronic heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
         );
 
         // Reset form
@@ -148,10 +148,10 @@ const FormModalEmailJS = ({ closeModal }) => {
         );
 
         const subject = encodeURIComponent(
-          "🔥 Ducted Heating Service Request - Schedule Online"
+          "🔥 hydronic heating Service Request - Schedule Online"
         );
         const body = encodeURIComponent(
-          `Dear Ducted Heating Service Team,
+          `Dear hydronic heating Service Team,
 
 I would like to schedule a service appointment with the following details:
 
@@ -190,7 +190,7 @@ Thank you!`
     <>
       <form onSubmit={handleSubmit} className="form">
         <p className={`${styles.textIndent}`}>
-          Our friendly ducted heating specialists work around your busy
+          Our friendly hydronic heating specialists work around your busy
           schedule. We never charge extra for same-day service, evenings, or
           weekend appointments. Enjoy hassle-free booking and reliable service,
           whenever you need it!
@@ -217,7 +217,7 @@ Thank you!`
             className="btn btn--primary w-full"
             disabled={!formData.name || !formData.email}
           >
-            🔥 Schedule Ducted Heating Service
+            🔥 Schedule hydronic heating Service
           </button>
         </div>
       </form>

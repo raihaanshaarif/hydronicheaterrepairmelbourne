@@ -1,11 +1,11 @@
 export const ReasonsListData = [
   {
     id: 1,
-    text: `Licensed & Experienced Ducted Heating Technicians`,
+    text: `Licensed & Experienced hydronic heating Technicians`,
   },
   {
     id: 2,
-    text: `24/7 Emergency Ducted Heating Repairs`,
+    text: `24/7 Emergency hydronic heating Repairs`,
   },
   {
     id: 3,

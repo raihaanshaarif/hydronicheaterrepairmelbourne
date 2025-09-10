@@ -20,18 +20,18 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Vulcan Ducted Heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Vulcan hydronic heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Professional Vulcan ducted heating repair, service & installation in Melbourne. 24/7 emergency repairs, commercial heating specialists, certified HVAC technicians, genuine parts. Call 0405133761 now!",
+    "Professional Vulcan hydronic heating repair, service & installation in Melbourne. 24/7 emergency repairs, commercial heating specialists, certified HVAC technicians, genuine parts. Call 0405133761 now!",
   keywords:
-    "Vulcan repair Melbourne, Vulcan ducted heating service, Vulcan installation Melbourne, Vulcan maintenance, Vulcan commercial repair, industrial heater repair Melbourne, Vulcan technician Melbourne",
+    "Vulcan repair Melbourne, Vulcan hydronic heating service, Vulcan installation Melbourne, Vulcan maintenance, Vulcan commercial repair, industrial heater repair Melbourne, Vulcan technician Melbourne",
 };
 
 //Page Layout
 export default function VulcanPage() {
   return (
     <>
-      <PageTitle dataTitle="Vulcan Ducted Heating Repair & Service Melbourne" />
+      <PageTitle dataTitle="Vulcan hydronic heating Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -39,7 +39,7 @@ export default function VulcanPage() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="vulcan repair service melbourne"
-                  dataTitle="Professional Vulcan ducted heating repair & Service Melbourne"
+                  dataTitle="Professional Vulcan hydronic heating repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -48,14 +48,14 @@ export default function VulcanPage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="vulcan ducted heating repair service melbourne"
+                    alt="vulcan hydronic heating repair service melbourne"
                     loading={`eager`}
                   />
                 </div>
 
                 <p className={`${styles.indent__top2}`}>
                   Melbourne&apos;s commercial and industrial heating specialists
-                  for Vulcan ducted heating repair and service. Our certified
+                  for Vulcan hydronic heating repair and service. Our certified
                   technicians provide 24/7 emergency repairs, professional
                   installation, comprehensive maintenance, and expert service
                   for all Vulcan heavy-duty heating systems across Melbourne.

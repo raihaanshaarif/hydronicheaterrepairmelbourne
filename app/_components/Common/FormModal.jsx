@@ -63,7 +63,7 @@ const FormModal = ({ closeModal }) => {
       if (result.success) {
         toast.success(
           result.message ||
-            "Perfect! Your ducted heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
+            "Perfect! Your hydronic heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
         );
 
         // Reset form
@@ -89,10 +89,10 @@ const FormModal = ({ closeModal }) => {
 
       // Enhanced mailto fallback with professional formatting
       const subject = encodeURIComponent(
-        "🔥 Ducted Heating Service Request - Schedule Online"
+        "🔥 hydronic heating Service Request - Schedule Online"
       );
       const body = encodeURIComponent(
-        `Dear Ducted Heating Service Team,
+        `Dear hydronic heating Service Team,
 
 I would like to schedule a service appointment with the following details:
 
@@ -129,7 +129,7 @@ Thank you!`
     <>
       <form onSubmit={handleSubmit} className="form">
         <p className={`${styles.textIndent}`}>
-          Our friendly ducted heating specialists work around your busy
+          Our friendly hydronic heating specialists work around your busy
           schedule. We never charge extra for same-day service, evenings, or
           weekend appointments. Enjoy hassle-free booking and reliable service,
           whenever you need it!
@@ -193,9 +193,9 @@ Thank you!`
                 aria-label="select services"
                 aria-labelledby="select services"
               >
-                <option value="Service 01">Ducted Heating Repair</option>
-                <option value="Service 02">Ducted Heating Installation</option>
-                <option value="Service 03">Ducted Heating Service</option>
+                <option value="Service 01">hydronic heating Repair</option>
+                <option value="Service 02">hydronic heating Installation</option>
+                <option value="Service 03">hydronic heating Service</option>
               </select>
             </label>
           </div>

@@ -6,8 +6,8 @@ const colData = [
   {
     id: 1,
     icon: "icon-780840",
-    title: "Experienced Ducted Heating Team",
-    text: "Our technicians have years of hands-on knowledge with all types of ducted heating systems.",
+    title: "Experienced hydronic heating Team",
+    text: "Our technicians have years of hands-on knowledge with all types of hydronic heating systems.",
   },
   {
     id: 2,
@@ -40,14 +40,14 @@ const TabsIndex__item2 = () => {
           dataMaxWidth="422px"
         />
         <p>
-          Experience the difference with our dedicated ducted heating service in
-          Melbourne. We deliver reliable, high-quality ducted heating repairs,
+          Experience the difference with our dedicated hydronic heating service in
+          Melbourne. We deliver reliable, high-quality hydronic heating repairs,
           servicing, and installation at honest prices, always backed by a
           satisfaction guarantee. Our fully licensed technicians are ready to
-          respond promptly to your home or business ducted heating needs.
+          respond promptly to your home or business hydronic heating needs.
         </p>
         <ul className="list__type1 lg-max:mt-[19px] lg:mt-[33px]">
-          <li>Clear, upfront pricing for every ducted heating job</li>
+          <li>Clear, upfront pricing for every hydronic heating job</li>
           <li>Guaranteed workmanship and customer satisfaction</li>
         </ul>
         <div className={styles.signature__indent}>

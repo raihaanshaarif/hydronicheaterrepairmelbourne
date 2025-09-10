@@ -54,23 +54,23 @@ const AboutIndex = () => {
             <SectionTitle
               dataSubtitle="about company"
               dataTitle={
-                "Melbourne's Ducted Heating Specialists \n Service You Can Trust"
+                "Melbourne's hydronic heating Specialists \n Service You Can Trust"
               }
               dataMaxWidth="468px"
             />
             <p>
-              When it comes to ducted heating service in Melbourne, our team
+              When it comes to hydronic heating service in Melbourne, our team
               stands out for reliability, expertise, and customer satisfaction.
-              We offer comprehensive ducted heating solutions, including
+              We offer comprehensive hydronic heating solutions, including
               installation, repairs, routine maintenance, and emergency
               services, all delivered by licensed technicians.
             </p>
             <ul className="list__type1 lg:mt-[33px] lg-max:mt-[19px]">
               <li>
-                Professional Ducted Heating Installation & Repairs Melbourne
+                Professional hydronic heating Installation & Repairs Melbourne
               </li>
-              <li>Affordable Ducted Heating Maintenance & System Cleaning</li>
-              <li>24/7 Emergency Ducted Heating Service Melbourne</li>
+              <li>Affordable hydronic heating Maintenance & System Cleaning</li>
+              <li>24/7 Emergency hydronic heating Service Melbourne</li>
             </ul>
             <div
               className={`${styles.boxicon__wrapper} relative mt-[19px] grid grid-cols-2 lg:gap-[30px] lg-max:gap-[20px] lg:mr-[0px]`}

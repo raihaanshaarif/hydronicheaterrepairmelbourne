@@ -13,20 +13,20 @@ import Partners from "./_components/index/Partners";
 
 export const metadata = {
   title:
-    "Ducted Heating Repair Melbourne | Emergency Service & Installation | #1 Experts",
+    "Hydronic Heater Repair Melbourne | Emergency Service & Installation | #1 Experts",
   description:
-    "★★★★★ Melbourne's #1 Ducted Heating Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
+    "★★★★★ Melbourne's #1 Hydronic Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
   keywords:
-    "ducted heating repair melbourne, emergency ducted heating repair, ducted heating installation melbourne, ducted heating service melbourne, ducted heating maintenance melbourne, same day ducted heating repair, 24/7 emergency ducted heating, melbourne ducted heating specialists, ducted heating system repair, ducted heating cleaning melbourne",
+    "hydronic heater repair melbourne, emergency hydronic heater repair, hydronic heater installation melbourne, hydronic heater service melbourne, hydronic heater maintenance melbourne, same day hydronic heater repair, 24/7 emergency hydronic heater, melbourne hydronic heater specialists, hydronic heating system repair, hydronic heater cleaning melbourne",
   alternates: {
-    canonical: "https://ductedheaterrepairmelbourne.com.au",
+    canonical: "https://hydronicheaterrepairmelbourne.com.au",
   },
   openGraph: {
     title:
-      "Ducted Heating Repair Melbourne | Emergency Service & Installation | #1 Experts",
+      "Hydronic Heater Repair Melbourne | Emergency Service & Installation | #1 Experts",
     description:
-      "★★★★★ Melbourne's #1 Ducted Heating Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
-    url: "https://ductedheaterrepairmelbourne.com.au",
+      "★★★★★ Melbourne's #1 Hydronic Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
+    url: "https://hydronicheaterrepairmelbourne.com.au",
     type: "website",
   },
 };
@@ -41,11 +41,11 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": "https://ductedheaterrepairmelbourne.com.au/#business",
-            name: "Ducted Heating Repair Melbourne",
+            "@id": "https://hydronicheaterrepairmelbourne.com.au/#business",
+            name: "Hydronic Heater Repair Melbourne",
             description:
-              "Melbourne's #1 Ducted Heating Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians.",
-            url: "https://ductedheaterrepairmelbourne.com.au",
+              "Melbourne's #1 Hydronic Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians.",
+            url: "https://hydronicheaterrepairmelbourne.com.au",
             telephone: "0405133761",
             email: "nihaanexpertise@gmail.com",
             address: {
@@ -70,46 +70,46 @@ export default function Home() {
               },
             ],
             serviceType: [
-              "Ducted Heating Repair",
-              "Ducted Heating Installation",
-              "Ducted Heating Maintenance",
-              "Emergency Ducted Heating Service",
-              "Ducted Heating Cleaning",
-              "Ducted Heating System Service",
+              "Hydronic Heater Repair",
+              "Hydronic Heater Installation",
+              "Hydronic Heater Maintenance",
+              "Emergency Hydronic Heater Service",
+              "Hydronic Heater Cleaning",
+              "Hydronic Heating System Service",
             ],
             priceRange: "$$",
             openingHours: ["Mo-Su 00:00-23:59"],
             image:
-              "https://ductedheaterrepairmelbourne.com.au/images/ducted-heating-service-melbourne.jpg",
+              "https://hydronicheaterrepairmelbourne.com.au/images/hydronic-heater-service-melbourne.jpg",
             hasOfferCatalog: {
               "@type": "OfferCatalog",
-              name: "Ducted Heating Services",
+              name: "Hydronic Heater Services",
               itemListElement: [
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Emergency Ducted Heating Repair Melbourne",
+                    name: "Emergency Hydronic Heater Repair Melbourne",
                     description:
-                      "24/7 emergency ducted heating repair service in Melbourne. Same-day service available.",
+                      "24/7 emergency hydronic heater repair service in Melbourne. Same-day service available.",
                   },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Ducted Heating Installation Melbourne",
+                    name: "Hydronic Heater Installation Melbourne",
                     description:
-                      "Professional ducted heating installation service for residential and commercial properties.",
+                      "Professional hydronic heater installation service for residential and commercial properties.",
                   },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Ducted Heating Service & Maintenance Melbourne",
+                    name: "Hydronic Heater Service & Maintenance Melbourne",
                     description:
-                      "Regular ducted heating servicing and maintenance to keep your heating system running efficiently.",
+                      "Regular hydronic heater servicing and maintenance to keep your heating system running efficiently.",
                   },
                 },
               ],
@@ -122,8 +122,8 @@ export default function Home() {
               worstRating: "1",
             },
             sameAs: [
-              "https://www.facebook.com/ductedheatingrepairmelbourne",
-              "https://www.instagram.com/ductedheatingrepairmelb",
+              "https://www.facebook.com/hydronicheaterrepairmelbourne",
+              "https://www.instagram.com/hydronicheaterrepairmelb",
             ],
           }),
         }}
@@ -132,7 +132,7 @@ export default function Home() {
       <main id="tt-pageContent" className="overflow-hidden">
         {/* H1 hidden for SEO - visible in MainSlider */}
         <h1 style={{ position: "absolute", left: "-9999px", fontSize: "1px" }}>
-          Ducted Heating Repair Melbourne | Emergency Service & Installation
+          Hydronic Heater Repair Melbourne | Emergency Service & Installation
         </h1>
 
         <MainSlider />
@@ -150,12 +150,12 @@ export default function Home() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "EmergencyService",
-              name: "Emergency Ducted Heating Repair Melbourne",
+              name: "Emergency Hydronic Heater Repair Melbourne",
               description:
-                "24/7 emergency ducted heating repair service available throughout Melbourne. Same-day service and immediate response for heating emergencies.",
+                "24/7 emergency hydronic heater repair service available throughout Melbourne. Same-day service and immediate response for heating emergencies.",
               provider: {
                 "@type": "LocalBusiness",
-                name: "Ducted Heating Repair Melbourne",
+                name: "Hydronic Heater Repair Melbourne",
                 telephone: "0405133761",
                 email: "nihaanexpertise@gmail.com",
               },
@@ -180,12 +180,12 @@ export default function Home() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Service",
-              name: "Ducted Heating Repair Melbourne",
+              name: "Hydronic Heater Repair Melbourne",
               description:
-                "Professional ducted heating repair, installation and maintenance services in Melbourne. Emergency repairs available 24/7.",
+                "Professional hydronic heater repair, installation and maintenance services in Melbourne. Emergency repairs available 24/7.",
               provider: {
                 "@type": "LocalBusiness",
-                name: "Ducted Heating Repair Melbourne",
+                name: "Hydronic Heater Repair Melbourne",
                 telephone: "0405133761",
                 email: "nihaanexpertise@gmail.com",
                 address: {
@@ -196,7 +196,7 @@ export default function Home() {
                 },
               },
               areaServed: "Melbourne",
-              serviceType: "Ducted Heating Repair",
+              serviceType: "Hydronic Heater Repair",
               category: "Home Services",
             }),
           }}

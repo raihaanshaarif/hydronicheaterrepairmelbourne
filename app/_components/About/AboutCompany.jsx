@@ -40,25 +40,25 @@ const AboutCompany = () => {
           >
             <SectionTitle
               dataSubtitle="about company"
-              dataTitle="Melbourne's Trusted Heating Specialists - Ducted Heating Repair Melbourne"
+              dataTitle="Melbourne's Trusted Heating Specialists - hydronic heating Repair Melbourne"
               dataAddClass="blocktitle__topNone"
             />
             <div className={`${styles.custom__width}`}>
               <strong className="base__color">
-                At Ducted Heating Repair Melbourne, we deliver expert ducted
+                At hydronic heating Repair Melbourne, we deliver expert ducted
                 heating solutions for homes and businesses across Melbourne.
               </strong>
               <p>
                 Our experienced team ensures every installation, repair, and
                 maintenance job is completed with precision, efficiency, and a
-                commitment to your comfort. Specializing in ducted heating
+                commitment to your comfort. Specializing in hydronic heating
                 systems, we tailor our services to suit your needs and budget.
                 With over 35,000+ services completed, we take pride in solving
                 any heating problem you may have in a quick, professional and
                 friendly manner.
               </p>
               <p>
-                Our quality ducted heating service and our personal customer
+                Our quality hydronic heating service and our personal customer
                 service touch, sets us apart from other heating companies.
                 Because we are family-owned and operated we are able to provide
                 a Higher Standard of Heating Service at a competitive price.

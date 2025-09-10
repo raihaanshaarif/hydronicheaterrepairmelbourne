@@ -20,18 +20,18 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Kaden Ducted Heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Kaden hydronic heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Professional Kaden ducted heating repair, service & installation in Melbourne. 24/7 emergency repairs, smart heating specialists, certified HVAC technicians, genuine parts. Call 0405133761 now!",
+    "Professional Kaden hydronic heating repair, service & installation in Melbourne. 24/7 emergency repairs, smart heating specialists, certified HVAC technicians, genuine parts. Call 0405133761 now!",
   keywords:
-    "Kaden repair Melbourne, Kaden ducted heating service, Kaden installation Melbourne, Kaden maintenance, Kaden smart heating repair, ducted heating repair Melbourne, Kaden technician Melbourne",
+    "Kaden repair Melbourne, Kaden hydronic heating service, Kaden installation Melbourne, Kaden maintenance, Kaden smart heating repair, hydronic heating repair Melbourne, Kaden technician Melbourne",
 };
 
 //Page Layout
 export default function KadenPage() {
   return (
     <>
-      <PageTitle dataTitle="Kaden Ducted Heating Repair & Service Melbourne" />
+      <PageTitle dataTitle="Kaden hydronic heating Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -39,7 +39,7 @@ export default function KadenPage() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="kaden repair service melbourne"
-                  dataTitle="Professional Kaden ducted heating repair & Service Melbourne"
+                  dataTitle="Professional Kaden hydronic heating repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -48,7 +48,7 @@ export default function KadenPage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="kaden ducted heating melbourne installation service"
+                    alt="kaden hydronic heating melbourne installation service"
                     loading={`eager`}
                   />
                 </div>
@@ -206,7 +206,7 @@ export default function KadenPage() {
                 </div>
 
                 <PromoLayout
-                  dataText="Get a free Kaden ducted heating quote with professional installation and comprehensive warranty coverage!"
+                  dataText="Get a free Kaden hydronic heating quote with professional installation and comprehensive warranty coverage!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />

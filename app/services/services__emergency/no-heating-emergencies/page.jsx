@@ -23,7 +23,7 @@ const noHeatingServices = [
   {
     id: 1,
     title: "Complete Heating System Failure:",
-    text: "When your gas heater stops working completely, our emergency technicians diagnose the problem quickly and restore heating to your home. We handle pilot light failures, gas supply issues, and electrical component problems.",
+    text: "When your hydronic heater stops working completely, our emergency technicians diagnose the problem quickly and restore heating to your home. We handle pilot light failures, gas supply issues, and electrical component problems.",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const noHeatingServices = [
 export default function NoHeatingEmergencies() {
   return (
     <>
-      <PageTitle dataTitle="No Heating Emergencies Melbourne | 24/7 Gas Heater Repairs" />
+      <PageTitle dataTitle="No Heating Emergencies Melbourne | 24/7 hydronic heater Repairs" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -68,7 +68,7 @@ export default function NoHeatingEmergencies() {
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  When your gas heater breaks down and leaves you without
+                  When your hydronic heater breaks down and leaves you without
                   heating, it&apos;s more than just uncomfortable - it can be
                   dangerous, especially for young children, elderly family
                   members, and those with health conditions. Our emergency gas
@@ -112,8 +112,7 @@ export default function NoHeatingEmergencies() {
                   Our Emergency No Heating Services Include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={noHeatingServices}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={noHeatingServices}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Why Choose Our Emergency Heating Service?
@@ -188,3 +187,4 @@ export default function NoHeatingEmergencies() {
     </>
   );
 }
+

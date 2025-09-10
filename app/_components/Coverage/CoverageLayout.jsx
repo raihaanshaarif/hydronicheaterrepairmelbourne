@@ -33,10 +33,10 @@ function CoverageLayout(props) {
                   – Same Day Service.
                 </strong>
                 <p className="indent__top">
-                  Working with a trusted company for your ducted heating needs
+                  Working with a trusted company for your hydronic heating needs
                   means you can feel confident in the safety, reliability, and
                   comfort of your home or business. Our experienced team proudly
-                  provides expert ducted heating installation, repairs,
+                  provides expert hydronic heating installation, repairs,
                   servicing, and maintenance across Melbourne and surrounding
                   communities. Enjoy peace of mind knowing your property is in
                   good hands—wherever you are! We are proud to offer our

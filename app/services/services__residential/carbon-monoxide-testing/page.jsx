@@ -81,7 +81,7 @@ export default function CarbonMonoxideTesting() {
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Gas Heater CO Testing</a>
+                        <a href="#">hydronic heater CO Testing</a>
                       </li>
                       <li>
                         <a href="#">Hot Water System Testing</a>
@@ -127,8 +127,7 @@ export default function CarbonMonoxideTesting() {
                   Our Carbon Monoxide Testing Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={carbonMonoxideTestingInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={carbonMonoxideTestingInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Why Carbon Monoxide Testing is Critical
@@ -192,3 +191,4 @@ export default function CarbonMonoxideTesting() {
     </>
   );
 }
+

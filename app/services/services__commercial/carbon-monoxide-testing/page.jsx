@@ -82,7 +82,7 @@ export default function CarbonMonoxideTesting() {
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Commercial Gas Heater Testing</a>
+                        <a href="#">Commercial hydronic heater Testing</a>
                       </li>
                       <li>
                         <a href="#">Industrial Kitchen CO Testing</a>
@@ -128,8 +128,7 @@ export default function CarbonMonoxideTesting() {
                   Our Commercial Carbon Monoxide Testing Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialCarbonMonoxideTestingInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialCarbonMonoxideTestingInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Why Commercial Carbon Monoxide Testing is Essential
@@ -196,3 +195,4 @@ export default function CarbonMonoxideTesting() {
     </>
   );
 }
+

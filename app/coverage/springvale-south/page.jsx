@@ -1,4 +1,4 @@
-﻿//Style
+//Style
 import styles from "../../_components/ServicesSubPages/ServicesSubPages.module.css";
 //Import Sections
 import PageTitle from "../../_components/Common/PageTitle";
@@ -21,26 +21,26 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Ducted Heating Services Springvale South Melbourne | Installation, Repairs & Servicing",
+    "hydronic heating Services Springvale South Melbourne | Installation, Repairs & Servicing",
   description:
-    "Professional ducted heating services in Springvale South, Melbourne. Expert installation, repairs, and maintenance for all ducted heating systems. Certified HVAC technicians serving Springvale South and surrounding suburbs.",
+    "Professional hydronic heating services in Springvale South, Melbourne. Expert installation, repairs, and maintenance for all hydronic heating systems. Certified HVAC technicians serving Springvale South and surrounding suburbs.",
   keywords:
-    "ducted heating services springvale south, ducted heating installation springvale south, ducted heating repairs Melbourne, springvale south HVAC heating, ducted heating systems springvale south",
+    "hydronic heating services springvale south, hydronic heating installation springvale south, hydronic heating repairs Melbourne, springvale south HVAC heating, hydronic heating systems springvale south",
 };
 
 //Page Layout
 export default function SpringvaleSouthDuctedHeatingServices() {
   return (
     <>
-      <PageTitle dataTitle="Ducted Heating Services Springvale South Melbourne" />
+      <PageTitle dataTitle="hydronic heating Services Springvale South Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="springvale south ducted heating services"
-                  dataTitle="Professional Ducted Heating Services in Springvale South, Melbourne"
+                  dataSubtitle="springvale south hydronic heating services"
+                  dataTitle="Professional hydronic heating Services in Springvale South, Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -49,19 +49,19 @@ export default function SpringvaleSouthDuctedHeatingServices() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="Ducted Heating Services Springvale South Melbourne"
+                    alt="hydronic heating Services Springvale South Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={``}>
                   Stay warm and comfortable throughout Melbourne&apos;s colder
-                  months with our comprehensive ducted heating services in Springvale South.
+                  months with our comprehensive hydronic heating services in Springvale South.
                   As a trusted local HVAC heating specialist, we provide
                   professional installation, repair, and maintenance services
-                  for all types of ducted heating systems across Springvale South and surrounding
+                  for all types of hydronic heating systems across Springvale South and surrounding
                   Melbourne suburbs. Our certified HVAC technicians understand
                   the unique heating needs of Springvale South homes and deliver
-                  reliable, efficient, and safe ducted heating solutions tailored
+                  reliable, efficient, and safe hydronic heating solutions tailored
                   to your property.
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
@@ -90,7 +90,7 @@ export default function SpringvaleSouthDuctedHeatingServices() {
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Reverse Cycle Ducted Heating</a>
+                        <a href="#">Reverse Cycle hydronic heating</a>
                       </li>
                       <li>
                         <a href="#">Zoned Ducted Systems</a>
@@ -99,7 +99,7 @@ export default function SpringvaleSouthDuctedHeatingServices() {
                         <a href="#">Energy Efficient Heat Pumps</a>
                       </li>
                       <li>
-                        <a href="#">Inverter Ducted Heating</a>
+                        <a href="#">Inverter hydronic heating</a>
                       </li>
                       <li>
                         <a href="#">Emergency Repairs</a>
@@ -111,21 +111,21 @@ export default function SpringvaleSouthDuctedHeatingServices() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Ducted Heating Services We Provide in Springvale South:
+                  hydronic heating Services We Provide in Springvale South:
                 </h4>
                 <ListWithTitle
                   dataLayout={dataServicesInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Our Ducted Heating Services in 
+                  Why Choose Our hydronic heating Services in 
                 </h5>
                 <p>
                   Springvale South&apos;s mix of heritage homes and modern properties
-                  requires specialized knowledge when it comes to ducted heating
+                  requires specialized knowledge when it comes to hydronic heating
                   solutions. Our team understands the unique characteristics of
                   Springvale South properties, from charming period homes to
-                  contemporary developments. We provide customized ducted heating
+                  contemporary developments. We provide customized hydronic heating
                   solutions that respect the architectural integrity of your
                   home while delivering optimal comfort and energy efficiency.
                 </p>
@@ -135,25 +135,25 @@ export default function SpringvaleSouthDuctedHeatingServices() {
                   specific heating challenges faced by residents. Whether
                   you&apos;re dealing with an older heating system that needs
                   replacement, require urgent repairs during winter, or want to
-                  upgrade to a more efficient ducted heating system, our certified technicians
+                  upgrade to a more efficient hydronic heating system, our certified technicians
                   provide prompt, professional service with upfront pricing and
                   guaranteed workmanship.
                 </p>
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Local Springvale South Ducted Heating Experts
+                  Local Springvale South hydronic heating Experts
                 </h5>
                 <p>
                   Living in Springvale South means you appreciate quality, reliability,
                   and attention to detail &ndash; values that drive everything
-                  we do. Our ducted heating services are designed to keep your home
+                  we do. Our hydronic heating services are designed to keep your home
                   comfortable year-round while ensuring the safety and
                   well-being of your family. From routine maintenance that
                   prevents costly breakdowns to emergency repairs when you need
-                  them most, we&apos;re your trusted local ducted heating
+                  them most, we&apos;re your trusted local hydronic heating
                   specialists in Springvale South, Melbourne.
                 </p>
                 <PromoLayout
-                  dataText="Get a free quote for ducted heating installation, repair, or servicing in Springvale South from our certified HVAC technicians today!"
+                  dataText="Get a free quote for hydronic heating installation, repair, or servicing in Springvale South from our certified HVAC technicians today!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -162,12 +162,12 @@ export default function SpringvaleSouthDuctedHeatingServices() {
                 className={` lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Ducted Heating Services</div>
+                  <div className={`ttsubtitle`}>hydronic heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
                 <PromoAside
-                  dataTitle="Book A Ducted Heating Technician Now!"
+                  dataTitle="Book A hydronic heating Technician Now!"
                   dataText="Serving Springvale South & Melbourne"
                   dataTelefon="0405133761"
                 />

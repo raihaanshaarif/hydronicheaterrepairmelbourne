@@ -111,8 +111,7 @@ export default function GasLeakDetectionRepairs() {
                   Our Emergency Gas Leak Services Include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={gasLeakServices}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={gasLeakServices}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   What to Do If You Suspect a Gas Leak
@@ -197,3 +196,4 @@ export default function GasLeakDetectionRepairs() {
     </>
   );
 }
+

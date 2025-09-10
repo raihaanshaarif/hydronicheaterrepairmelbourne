@@ -8,7 +8,7 @@ const OurServicesIndex = () => {
           <div className="md:basis-1/2">
             <SectionTitle
               dataSubtitle="our services"
-              dataTitle="Trusted Ducted Heating Specialists"
+              dataTitle="Trusted hydronic heating Specialists"
               dataTextUnder="Services"
               dataAddClass="blocktitle__nomargin blocktitle__left"
               dataMaxWidth="430px"
@@ -16,7 +16,7 @@ const OurServicesIndex = () => {
           </div>
           <div className="md:basis-1/2 relative">
             <p className="ttnotes no-resize-text">
-              Professional ducted heating service and repairs across Melbourne —
+              Professional hydronic heating service and repairs across Melbourne —
               all brands, all problems, handled by licensed experts.
             </p>
           </div>

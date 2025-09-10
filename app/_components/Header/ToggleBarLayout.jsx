@@ -71,13 +71,13 @@ const ToggleBarLayout = ({ onClickClose, onClickModal }) => {
           className={`${styles.toggleBar__logo_img} inline-block align-top`}
         ></div>
         <div className={`${styles.toggleBar__logo_text}`}>
-          Ducted Heating Service
+          hydronic heating Service
         </div>
       </div>
       <p
         className={`toggleBar__objHidden_mobile relative ${styles.logo_popup_info}`}
       >
-        We install, service and repair ducted heating systems in homes and
+        We install, service and repair hydronic heating systems in homes and
         businesses across all of Melbourne
       </p>
       <Button

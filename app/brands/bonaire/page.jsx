@@ -20,18 +20,18 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Bonaire Ducted Heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Bonaire Hydronic Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Professional Bonaire ducted heating repair, service & installation in Melbourne. 24/7 emergency repairs, certified HVAC technicians, genuine parts. Same-day service available. Call 0405133761 now!",
+    "Professional Bonaire hydronic heater repair, service & installation in Melbourne. 24/7 emergency repairs, certified HVAC technicians, genuine parts. Same-day service available. Call 0405133761 now!",
   keywords:
-    "Bonaire repair Melbourne, Bonaire ducted heating service, Bonaire installation Melbourne, Bonaire maintenance, Bonaire emergency repair, ducted heating repair Melbourne, Bonaire technician Melbourne",
+    "Bonaire repair Melbourne, Bonaire hydronic heater service, Bonaire installation Melbourne, Bonaire maintenance, Bonaire emergency repair, hydronic heater repair Melbourne, Bonaire technician Melbourne",
 };
 
 //Page Layout
 export default function BonairePage() {
   return (
     <>
-      <PageTitle dataTitle="Bonaire Ducted Heating Repair & Service Melbourne" />
+      <PageTitle dataTitle="Bonaire Hydronic Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -39,7 +39,7 @@ export default function BonairePage() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="bonaire repair service melbourne"
-                  dataTitle="Professional Bonaire Ducted Heating Repair & Service Melbourne"
+                  dataTitle="Professional Bonaire Hydronic Heater Repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -48,23 +48,23 @@ export default function BonairePage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="bonaire ducted heating repair service melbourne"
+                    alt="bonaire hydronic heater repair service melbourne"
                     loading={`eager`}
                   />
                 </div>
 
                 <p className={`${styles.indent__top2}`}>
-                  Melbourne&apos;s leading Bonaire ducted heating repair and
+                  Melbourne&apos;s leading Bonaire hydronic heating repair and
                   service specialists. Our certified HVAC technicians provide
                   24/7 emergency repairs, professional installation,
                   comprehensive maintenance, and expert service for all Bonaire
-                  ducted heating models across Melbourne. With genuine parts,
+                  hydronic heating models across Melbourne. With genuine parts,
                   upfront pricing, and same-day service available, we&apos;re
                   your trusted Bonaire repair experts.
                 </p>
 
                 <p className="indent__top">
-                  Don&apos;t let a broken Bonaire ducted heating system leave
+                  Don&apos;t let a broken Bonaire hydronic heating system leave
                   you cold. Our emergency repair service operates 24/7 across
                   all Melbourne suburbs with certified HVAC technicians, genuine
                   Bonaire parts, and guaranteed repairs. From urgent breakdowns
@@ -106,7 +106,7 @@ export default function BonairePage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Our Bonaire Ducted Heating Repair Services Melbourne
+                  Our Bonaire hydronic heating Repair Services Melbourne
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[20px] mt-[20px]">
@@ -177,7 +177,7 @@ export default function BonairePage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Common Bonaire Ducted Heating Problems We Fix
+                  Common Bonaire hydronic heating Problems We Fix
                 </h3>
 
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-[20px] mt-[20px]">
@@ -250,7 +250,7 @@ export default function BonairePage() {
                 </div>
 
                 <PromoLayout
-                  dataText="Emergency Bonaire ducted heating repair Melbourne! Available 24/7 with certified HVAC technicians, genuine parts, and same-day service. Don't freeze - call now!"
+                  dataText="Emergency Bonaire hydronic heating repair Melbourne! Available 24/7 with certified HVAC technicians, genuine parts, and same-day service. Don't freeze - call now!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -261,7 +261,7 @@ export default function BonairePage() {
               >
                 <div>
                   <div className={`ttsubtitle`}>
-                    Bonaire Ducted Heating Services
+                    Bonaire hydronic heating Services
                   </div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
@@ -314,7 +314,7 @@ export default function BonairePage() {
           <div className="container container__fluid-xl no-resize-text">
             <SectionTitle
               dataSubtitle="melbourne bonaire specialists"
-              dataTitle="Professional Bonaire Ducted Heating Service Team"
+              dataTitle="Professional Bonaire hydronic heating Service Team"
             />
             <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px] only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
           </div>

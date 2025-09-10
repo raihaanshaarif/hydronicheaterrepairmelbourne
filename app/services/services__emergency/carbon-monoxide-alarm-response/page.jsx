@@ -33,7 +33,7 @@ const carbonMonoxideServices = [
   {
     id: 3,
     title: "Heating System Safety Inspection:",
-    text: "We thoroughly inspect your gas heater, flue system, ventilation, and heat exchanger to identify cracks, blockages, or faults that could cause CO production.",
+    text: "We thoroughly inspect your hydronic heater, flue system, ventilation, and heat exchanger to identify cracks, blockages, or faults that could cause CO production.",
   },
   {
     id: 4,
@@ -142,11 +142,10 @@ export default function CarbonMonoxideAlarmResponse() {
                   Our Carbon Monoxide Emergency Services Include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={carbonMonoxideServices}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={carbonMonoxideServices}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Common Causes of Carbon Monoxide from Gas Heaters
+                  Common Causes of Carbon Monoxide from hydronic heaters
                 </h5>
                 <p>
                   Carbon monoxide typically results from incomplete combustion
@@ -237,3 +236,4 @@ export default function CarbonMonoxideAlarmResponse() {
     </>
   );
 }
+

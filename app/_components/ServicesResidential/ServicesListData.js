@@ -1,42 +1,42 @@
 export const ServicesListData = [
   {
     id: 1,
-    text: `Ducted Heating Installation`,
-    link: `/services/services__residential/gas-heater-installation`,
+    text: `Hydronic Heater Installation`,
+    link: `/services/services__residential/hydronic-heater-installation`,
   },
   {
     id: 2,
-    text: `Ducted Heating Repairs`,
-    link: `/services/services__residential/gas-heater-repairs`,
+    text: `Hydronic Heater Repairs`,
+    link: `/services/services__residential/hydronic-heater-repairs`,
   },
   {
     id: 3,
-    text: `Ducted Heating Servicing`,
-    link: `/services/services__residential/gas-heater-servicing`,
+    text: `Hydronic Heater Servicing`,
+    link: `/services/services__residential/hydronic-heater-servicing`,
   },
   {
     id: 4,
-    text: `Ducted Heating System Upgrades`,
+    text: `Hydronic Heating System Upgrades`,
     link: `/services/services__residential`,
   },
   {
     id: 5,
-    text: `Carbon Monoxide Testing`,
-    link: `/services/services__residential/carbon-monoxide-testing`,
+    text: `System Leak Detection`,
+    link: `/services/services__residential/system-leak-detection`,
   },
   {
     id: 6,
-    text: `Zoned Ducted Heating Services`,
+    text: `Zoned Hydronic Heating Services`,
     link: `/services/services__residential`,
   },
   {
     id: 7,
-    text: `Reverse Cycle Heating Services`,
+    text: `Heat Pump Integration`,
     link: `/services/services__residential`,
   },
   {
     id: 8,
-    text: `Emergency Ducted Heating Repairs`,
-    link: `/services/services__residential/emergency-gas-heater-repairs`,
+    text: `Emergency Hydronic Heater Repairs`,
+    link: `/services/services__residential/emergency-hydronic-heater-repairs`,
   },
 ];

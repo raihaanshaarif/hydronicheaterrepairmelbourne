@@ -10,18 +10,18 @@ import AreasWeCover from "../_components/About/AreasWeCover";
 
 export const metadata = {
   title:
-    "About Ducted Heating Repair Melbourne | Expert Technicians | Licensed & Insured",
+    "About hydronic heating Repair Melbourne | Expert Technicians | Licensed & Insured",
   description:
-    "Learn about Melbourne's #1 ducted heating specialists. Expert technicians, 10+ years experience, transparent pricing, 100% satisfaction guarantee. Trusted ducted heating services.",
+    "Learn about Melbourne's #1 hydronic heating specialists. Expert technicians, 10+ years experience, transparent pricing, 100% satisfaction guarantee. Trusted hydronic heating services.",
   keywords:
-    "about ducted heating melbourne, ducted heating specialists, melbourne heating experts, licensed heating technicians, ducted heating company melbourne, heating service experience",
+    "about hydronic heating melbourne, hydronic heating specialists, melbourne heating experts, licensed heating technicians, hydronic heating company melbourne, heating service experience",
   alternates: {
     canonical: "https://ductedheaterrepairmelbourne.com.au/about",
   },
   openGraph: {
-    title: "About Ducted Heating Repair Melbourne | Expert Technicians",
+    title: "About hydronic heating Repair Melbourne | Expert Technicians",
     description:
-      "Melbourne's #1 ducted heating specialists with 10+ years experience. Expert technicians, transparent pricing, 100% satisfaction guarantee.",
+      "Melbourne's #1 hydronic heating specialists with 10+ years experience. Expert technicians, transparent pricing, 100% satisfaction guarantee.",
     url: "https://ductedheaterrepairmelbourne.com.au/about",
     type: "website",
   },

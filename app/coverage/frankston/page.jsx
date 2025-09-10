@@ -21,24 +21,24 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Ducted Heating Services Frankston Melbourne | Installation, Repairs & Servicing",
+    "hydronic heating Services Frankston Melbourne | Installation, Repairs & Servicing",
   description:
-    "Professional ducted heating services in Frankston, Melbourne. Expert installation, repairs, and maintenance for all ducted heating systems. Certified HVAC technicians serving Frankston and surrounding suburbs.",
+    "Professional hydronic heating services in Frankston, Melbourne. Expert installation, repairs, and maintenance for all hydronic heating systems. Certified HVAC technicians serving Frankston and surrounding suburbs.",
   keywords:
-    "ducted heating services Frankston, ducted heating installation Frankston, ducted heating repairs Melbourne, Frankston HVAC heating, ducted heating systems Frankston",
+    "hydronic heating services Frankston, hydronic heating installation Frankston, hydronic heating repairs Melbourne, Frankston HVAC heating, hydronic heating systems Frankston",
   openGraph: {
     title:
-      "Ducted Heating Services Frankston Melbourne | Expert Installation & Repair",
+      "hydronic heating Services Frankston Melbourne | Expert Installation & Repair",
     description:
-      "Professional ducted heating services in Frankston. Licensed technicians, quality installations, emergency repairs available.",
+      "Professional hydronic heating services in Frankston. Licensed technicians, quality installations, emergency repairs available.",
     type: "website",
     locale: "en_AU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ducted Heating Frankston | Professional HVAC Services",
+    title: "hydronic heating Frankston | Professional HVAC Services",
     description:
-      "Expert ducted heating services in Frankston Melbourne. Installation, repairs & maintenance by licensed technicians.",
+      "Expert hydronic heating services in Frankston Melbourne. Installation, repairs & maintenance by licensed technicians.",
   },
   alternates: {
     canonical: "https://ductedheaterrepairmelbourne.com.au/coverage/frankston",
@@ -55,15 +55,15 @@ export const metadata = {
 export default function FrankstonDuctedHeatingServices() {
   return (
     <>
-      <PageTitle dataTitle="Ducted Heating Services Frankston Melbourne" />
+      <PageTitle dataTitle="hydronic heating Services Frankston Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="frankston ducted heating services"
-                  dataTitle="Professional Ducted Heating Services in Frankston, Melbourne"
+                  dataSubtitle="frankston hydronic heating services"
+                  dataTitle="Professional hydronic heating Services in Frankston, Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -72,20 +72,20 @@ export default function FrankstonDuctedHeatingServices() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="ducted heating services frankston melbourne"
+                    alt="hydronic heating services frankston melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={``}>
                   Stay warm and comfortable throughout Melbourne&apos;s colder
-                  months with our comprehensive ducted heating services in
+                  months with our comprehensive hydronic heating services in
                   Frankston. As a trusted local HVAC heating specialist, we
                   provide professional installation, repair, and maintenance
-                  services for all types of ducted heating systems across
+                  services for all types of hydronic heating systems across
                   Frankston and surrounding Melbourne suburbs. Our certified
                   HVAC technicians understand the unique heating needs of
                   Frankston homes and deliver reliable, efficient, and safe
-                  ducted heating solutions tailored to your property.
+                  hydronic heating solutions tailored to your property.
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
                   <div className="sm:basis-1/2">
@@ -113,7 +113,7 @@ export default function FrankstonDuctedHeatingServices() {
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Reverse Cycle Ducted Heating</a>
+                        <a href="#">Reverse Cycle hydronic heating</a>
                       </li>
                       <li>
                         <a href="#">Zoned Ducted Systems</a>
@@ -122,7 +122,7 @@ export default function FrankstonDuctedHeatingServices() {
                         <a href="#">Energy Efficient Heat Pumps</a>
                       </li>
                       <li>
-                        <a href="#">Inverter Ducted Heating</a>
+                        <a href="#">Inverter hydronic heating</a>
                       </li>
                       <li>
                         <a href="#">Emergency Repairs</a>
@@ -134,18 +134,18 @@ export default function FrankstonDuctedHeatingServices() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Ducted Heating Services We Provide in Frankston:
+                  hydronic heating Services We Provide in Frankston:
                 </h4>
                 <ListWithTitle
                   dataLayout={dataServicesInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Our Ducted Heating Services in Frankston?
+                  Why Choose Our hydronic heating Services in Frankston?
                 </h5>
                 <p>
                   Frankston&apos;s mix of heritage homes and modern properties
-                  requires specialized knowledge when it comes to ducted heating
+                  requires specialized knowledge when it comes to hydronic heating
                   solutions. Our team understands the unique characteristics of
                   Frankston properties, from charming period homes to
                   contemporary developments. We provide customized ducted
@@ -159,25 +159,25 @@ export default function FrankstonDuctedHeatingServices() {
                   specific heating challenges faced by residents. Whether
                   you&apos;re dealing with an older heating system that needs
                   replacement, require urgent repairs during winter, or want to
-                  upgrade to a more efficient ducted heating system, our
+                  upgrade to a more efficient hydronic heating system, our
                   certified technicians provide prompt, professional service
                   with upfront pricing and guaranteed workmanship.
                 </p>
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Local Frankston Ducted Heating Experts
+                  Local Frankston hydronic heating Experts
                 </h5>
                 <p>
                   Living in Frankston means you appreciate quality, reliability,
                   and attention to detail &ndash; values that drive everything
-                  we do. Our ducted heating services are designed to keep your
+                  we do. Our hydronic heating services are designed to keep your
                   home comfortable year-round while ensuring the safety and
                   well-being of your family. From routine maintenance that
                   prevents costly breakdowns to emergency repairs when you need
-                  them most, we&apos;re your trusted local ducted heating
+                  them most, we&apos;re your trusted local hydronic heating
                   specialists in Frankston, Melbourne.
                 </p>
                 <PromoLayout
-                  dataText="Get a free quote for ducted heating installation, repair, or servicing in Frankston from our certified HVAC technicians today!"
+                  dataText="Get a free quote for hydronic heating installation, repair, or servicing in Frankston from our certified HVAC technicians today!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -186,12 +186,12 @@ export default function FrankstonDuctedHeatingServices() {
                 className={` lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Ducted Heating Services</div>
+                  <div className={`ttsubtitle`}>hydronic heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
                 <PromoAside
-                  dataTitle="Book A Ducted Heating Technician Now!"
+                  dataTitle="Book A hydronic heating Technician Now!"
                   dataText="Serving Frankston & Melbourne"
                   dataTelefon="0405133761"
                 />

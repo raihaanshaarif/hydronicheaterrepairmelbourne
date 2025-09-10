@@ -16,7 +16,7 @@ const OurTeam = () => {
         <div className="container container__fluid-lg">
           <SectionTitle
             dataSubtitle="our team"
-            dataTitle="Your Professional Ducted Heating Technicians"
+            dataTitle="Your Professional hydronic heating Technicians"
             dataTextUnder="Our Team"
             dataText="Our company is dedicated to providing exceptional customer service backed by years of experience, professionalism and knowledge."
             dataAddClass="text-center"

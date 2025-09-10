@@ -16,8 +16,8 @@ const LayoutHolder = () => (
         />
       </a>
       <p>
-        Our ducted heating specialists deliver prompt, friendly, affordable, and
-        reliable residential and commercial ducted heating services across
+        Our hydronic heating specialists deliver prompt, friendly, affordable, and
+        reliable residential and commercial hydronic heating services across
         Melbourne.
       </p>
       {/* <SocialsFooter /> */}

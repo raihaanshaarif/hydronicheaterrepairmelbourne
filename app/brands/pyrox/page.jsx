@@ -20,18 +20,18 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Pyrox Ducted Heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Pyrox hydronic heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Professional Pyrox ducted heating repair, service & installation in Melbourne. 24/7 emergency repairs, heavy-duty heating specialists, certified HVAC technicians, genuine parts. Call 0405133761 now!",
+    "Professional Pyrox hydronic heating repair, service & installation in Melbourne. 24/7 emergency repairs, heavy-duty heating specialists, certified HVAC technicians, genuine parts. Call 0405133761 now!",
   keywords:
-    "Pyrox repair Melbourne, Pyrox ducted heating service, Pyrox installation Melbourne, Pyrox maintenance, Pyrox heavy duty repair, ducted heating repair Melbourne, Pyrox technician Melbourne",
+    "Pyrox repair Melbourne, Pyrox hydronic heating service, Pyrox installation Melbourne, Pyrox maintenance, Pyrox heavy duty repair, hydronic heating repair Melbourne, Pyrox technician Melbourne",
 };
 
 //Page Layout
 export default function PyroxPage() {
   return (
     <>
-      <PageTitle dataTitle="Pyrox Ducted Heating Repair & Service Melbourne" />
+      <PageTitle dataTitle="Pyrox hydronic heating Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -39,7 +39,7 @@ export default function PyroxPage() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="pyrox repair service melbourne"
-                  dataTitle="Professional Pyrox ducted heating repair & Service Melbourne"
+                  dataTitle="Professional Pyrox hydronic heating repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -48,7 +48,7 @@ export default function PyroxPage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="pyrox ducted heating melbourne installation service"
+                    alt="pyrox hydronic heating melbourne installation service"
                     loading={`eager`}
                   />
                 </div>
@@ -73,7 +73,7 @@ export default function PyroxPage() {
                 </p>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Our Pyrox Ducted Heating Repair Services Melbourne
+                  Our Pyrox hydronic heating Repair Services Melbourne
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[20px] mt-[20px]">
@@ -143,7 +143,7 @@ export default function PyroxPage() {
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Common Pyrox Ducted Heating Problems We Fix
+                  Common Pyrox hydronic heating Problems We Fix
                 </h3>
 
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-[20px] mt-[20px]">
@@ -209,7 +209,7 @@ export default function PyroxPage() {
                 </div>
 
                 <PromoLayout
-                  dataText="Get a free Pyrox ducted heating quote with professional installation and comprehensive warranty coverage!"
+                  dataText="Get a free Pyrox hydronic heating quote with professional installation and comprehensive warranty coverage!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -219,7 +219,7 @@ export default function PyroxPage() {
                 className={` lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Pyrox Ducted Heating Services</div>
+                  <div className={`ttsubtitle`}>Pyrox hydronic heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 

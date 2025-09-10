@@ -76,9 +76,9 @@ const CaruselCoupon = () => {
               </ul>
             </div>
             <p className={`${styles.location__text} no-resize-text`}>
-              Working with a trusted ducted heating company to provide you with
+              Working with a trusted hydronic heating company to provide you with
               professional heating services can go a long way towards helping
-              you feel confident in the quality of your ducted heating
+              you feel confident in the quality of your hydronic heating
               installation, repairs, and maintenance in your home or business
               across Melbourne.
             </p>

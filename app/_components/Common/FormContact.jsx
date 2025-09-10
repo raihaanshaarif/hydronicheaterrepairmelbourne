@@ -67,7 +67,7 @@ export default function FormContact({ wrapperClass }) {
       if (result.success) {
         toast.success(
           result.message ||
-            "Perfect! Your ducted heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
+            "Perfect! Your hydronic heating service request has been sent. We'll contact you within 2-4 hours! 🔥"
         );
 
         // Reset form
@@ -88,12 +88,12 @@ export default function FormContact({ wrapperClass }) {
 
       // Enhanced mailto fallback with professional formatting
       const subject = encodeURIComponent(
-        "🔥 Ducted Heating Service Request - Contact Form"
+        "🔥 hydronic heating Service Request - Contact Form"
       );
       const body = encodeURIComponent(
-        `Dear Ducted Heating Service Team,
+        `Dear hydronic heating Service Team,
 
-I would like to request ducted heating service with the following details:
+I would like to request hydronic heating service with the following details:
 
 👤 Name: ${formData.name}
 📧 Email: ${formData.email}
@@ -129,9 +129,9 @@ Thank you!`
         onSubmit={handleSubmit}
         className={wrapperClass ? `${wrapperClass} form` : "form"}
       >
-        <h6 className="ttsubtitle">🔥 Schedule Ducted Heating Service</h6>
+        <h6 className="ttsubtitle">🔥 Schedule hydronic heating Service</h6>
         <p style={{ fontSize: "14px", color: "#666", marginBottom: "20px" }}>
-          Our friendly ducted heating specialists work around your busy
+          Our friendly hydronic heating specialists work around your busy
           schedule. We never charge extra for same-day service, evenings, or
           weekend appointments. Enjoy hassle-free booking and reliable service,
           whenever you need it!
@@ -213,20 +213,20 @@ Thank you!`
                 }}
               >
                 <option value="">Select Service Type</option>
-                <option value="Ducted Heating Repair">
-                  🔧 Ducted Heating Repair
+                <option value="hydronic heating Repair">
+                  🔧 hydronic heating Repair
                 </option>
-                <option value="Ducted Heating Installation">
-                  ⚙️ Ducted Heating Installation
+                <option value="hydronic heating Installation">
+                  ⚙️ hydronic heating Installation
                 </option>
-                <option value="Ducted Heating Service">
-                  🛠️ Ducted Heating Service & Maintenance
+                <option value="hydronic heating Service">
+                  🛠️ hydronic heating Service & Maintenance
                 </option>
                 <option value="Emergency Repair">
-                  🚨 Emergency Ducted Heating Repair
+                  🚨 Emergency hydronic heating Repair
                 </option>
-                <option value="Ducted Heating Replacement">
-                  🔄 Ducted Heating Replacement
+                <option value="hydronic heating Replacement">
+                  🔄 hydronic heating Replacement
                 </option>
               </select>
             </label>

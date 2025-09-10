@@ -16,24 +16,24 @@
         "path": "/services/services__residential",
         "childrens": [
           {
-            "title": "Ducted Heating Installation",
-            "path": "/services/services__residential/gas-heater-installation"
+            "title": "Hydronic Heater Installation",
+            "path": "/services/services__residential/hydronic-heater-installation"
           },
           {
-            "title": "Ducted Heating Repairs",
-            "path": "/services/services__residential/gas-heater-repairs"
+            "title": "Hydronic Heater Repairs",
+            "path": "/services/services__residential/hydronic-heater-repairs"
           },
           {
-            "title": "Ducted Heating Servicing",
-            "path": "/services/services__residential/gas-heater-servicing"
+            "title": "Hydronic Heater Servicing",
+            "path": "/services/services__residential/hydronic-heater-servicing"
           },
           {
-            "title": "Carbon Monoxide Testing",
-            "path": "/services/services__residential/carbon-monoxide-testing"
+            "title": "System Leak Detection",
+            "path": "/services/services__residential/system-leak-detection"
           },
           {
-            "title": "Emergency Ducted Heating Repairs",
-            "path": "/services/services__residential/emergency-gas-heater-repairs"
+            "title": "Emergency Hydronic Heater Repairs",
+            "path": "/services/services__residential/emergency-hydronic-heater-repairs"
           }
         ]
       },
@@ -42,24 +42,24 @@
         "path": "/services/services__commercial",
         "childrens": [
           {
-            "title": "Commercial Ducted Heating Installation",
-            "path": "/services/services__commercial/gas-heater-installation"
+            "title": "Commercial Hydronic Heater Installation",
+            "path": "/services/services__commercial/hydronic-heater-installation"
           },
           {
-            "title": "Commercial Ducted Heating Repairs",
-            "path": "/services/services__commercial/gas-heater-repairs"
+            "title": "Commercial Hydronic Heater Repairs",
+            "path": "/services/services__commercial/hydronic-heater-repairs"
           },
           {
-            "title": "Commercial Ducted Heating Servicing",
-            "path": "/services/services__commercial/gas-heater-servicing"
+            "title": "Commercial Hydronic Heater Servicing",
+            "path": "/services/services__commercial/hydronic-heater-servicing"
           },
           {
-            "title": "Commercial Carbon Monoxide Testing",
-            "path": "/services/services__commercial/carbon-monoxide-testing"
+            "title": "Commercial System Testing",
+            "path": "/services/services__commercial/system-testing"
           },
           {
-            "title": "Commercial Emergency Ducted Heating Repairs",
-            "path": "/services/services__commercial/emergency-gas-heater-repairs"
+            "title": "Commercial Emergency Hydronic Heater Repairs",
+            "path": "/services/services__commercial/emergency-hydronic-heater-repairs"
           }
         ]
       },
@@ -72,20 +72,20 @@
             "path": "/services/services__emergency/no-heating-emergencies"
           },
           {
-            "title": "Gas Leak Detection & Repairs",
-            "path": "/services/services__emergency/gas-leak-detection-repairs"
+            "title": "System Leak Detection & Repairs",
+            "path": "/services/services__emergency/system-leak-detection-repairs"
           },
           {
-            "title": "Carbon Monoxide Alarm Response",
-            "path": "/services/services__emergency/carbon-monoxide-alarm-response"
+            "title": "Emergency System Response",
+            "path": "/services/services__emergency/emergency-system-response"
           },
           {
-            "title": "Urgent Ducted Heating Repairs",
-            "path": "/services/services__emergency/urgent-gas-heater-repairs"
+            "title": "Urgent Hydronic Heater Repairs",
+            "path": "/services/services__emergency/urgent-hydronic-heater-repairs"
           },
           {
-            "title": "Emergency Ducted Heating Shutdowns",
-            "path": "/services/services__emergency/emergency-gas-heater-shutdowns"
+            "title": "Emergency Hydronic Heater Shutdowns",
+            "path": "/services/services__emergency/emergency-hydronic-heater-shutdowns"
           }
         ]
       }
@@ -100,32 +100,32 @@
     "path": "/brands",
     "childrens": [
       {
+        "title": "Rinnai",
+        "path": "/brands/rinnai"
+      },
+      {
+        "title": "Bosch",
+        "path": "/brands/bosch"
+      },
+      {
+        "title": "Viessmann",
+        "path": "/brands/viessmann"
+      },
+      {
+        "title": "Worcester",
+        "path": "/brands/worcester"
+      },
+      {
+        "title": "Vaillant",
+        "path": "/brands/vaillant"
+      },
+      {
         "title": "Bonaire",
         "path": "/brands/bonaire"
       },
       {
         "title": "Braemar",
         "path": "/brands/braemar"
-      },
-      {
-        "title": "Brivis",
-        "path": "/brands/brivis"
-      },
-      {
-        "title": "Rinnai",
-        "path": "/brands/rinnai"
-      },
-      {
-        "title": "Kaden",
-        "path": "/brands/kaden"
-      },
-      {
-        "title": "Pyrox",
-        "path": "/brands/pyrox"
-      },
-      {
-        "title": "Vulcan",
-        "path": "/brands/vulcan"
       }
     ]
   },

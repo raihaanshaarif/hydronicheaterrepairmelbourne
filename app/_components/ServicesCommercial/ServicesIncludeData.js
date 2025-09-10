@@ -1,13 +1,13 @@
 export const dataServicesInclude = [
   {
     id: 1,
-    title: "Large-Scale Ducted Heating Systems:",
-    text: "Professional installation of commercial-grade ducted heating systems designed for large spaces, office buildings, and industrial facilities.",
+    title: "Large-Scale hydronic heating Systems:",
+    text: "Professional installation of commercial-grade hydronic heating systems designed for large spaces, office buildings, and industrial facilities.",
   },
   {
     id: 2,
     title: "Ducted Commercial Heating:",
-    text: "Complete ducted heating solutions for multi-zone commercial properties with advanced climate control systems.",
+    text: "Complete hydronic heating solutions for multi-zone commercial properties with advanced climate control systems.",
   },
   {
     id: 3,

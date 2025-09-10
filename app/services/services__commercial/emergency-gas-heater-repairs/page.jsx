@@ -18,12 +18,12 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Commercial Emergency Gas Heater Repairs specific data
+// Commercial Emergency hydronic heater Repairs specific data
 const commercialEmergencyGasHeaterRepairsInclude = [
   {
     id: 1,
     title: "24/7 Commercial Emergency Response:",
-    text: "Round-the-clock emergency commercial gas heater repair service available 365 days a year. We prioritize business heating emergencies to minimize operational disruption and maintain workplace comfort.",
+    text: "Round-the-clock emergency commercial hydronic heater repair service available 365 days a year. We prioritize business heating emergencies to minimize operational disruption and maintain workplace comfort.",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ const commercialEmergencyGasHeaterRepairsInclude = [
   {
     id: 4,
     title: "After-Hours Business Service:",
-    text: "Emergency commercial gas heater repairs available outside business hours, weekends, and holidays. We work around your business schedule to minimize disruption to operations and revenue.",
+    text: "Emergency commercial hydronic heater repairs available outside business hours, weekends, and holidays. We work around your business schedule to minimize disruption to operations and revenue.",
   },
 ];
 
@@ -46,15 +46,15 @@ const commercialEmergencyGasHeaterRepairsInclude = [
 export default function EmergencyGasHeaterRepairs() {
   return (
     <>
-      <PageTitle dataTitle="Commercial Emergency Gas Heater Repairs" />
+      <PageTitle dataTitle="Commercial Emergency hydronic heater Repairs" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="commercial emergency gas heater repairs"
-                  dataTitle="24/7 Commercial Emergency Gas Heater Repairs Melbourne"
+                  dataSubtitle="commercial emergency hydronic heater repairs"
+                  dataTitle="24/7 Commercial Emergency hydronic heater Repairs Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,7 +63,7 @@ export default function EmergencyGasHeaterRepairs() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="commercial emergency gas heater repairs Melbourne"
+                    alt="commercial emergency hydronic heater repairs Melbourne"
                     loading={`eager`}
                   />
                 </div>
@@ -126,14 +126,13 @@ export default function EmergencyGasHeaterRepairs() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Commercial Emergency Gas Heater Repair Services include:
+                  Our Commercial Emergency hydronic heater Repair Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialEmergencyGasHeaterRepairsInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialEmergencyGasHeaterRepairsInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  When to Call for Commercial Emergency Gas Heater Repairs
+                  When to Call for Commercial Emergency hydronic heater Repairs
                 </h5>
                 <p>
                   Call our commercial emergency service immediately if you
@@ -197,3 +196,4 @@ export default function EmergencyGasHeaterRepairs() {
     </>
   );
 }
+

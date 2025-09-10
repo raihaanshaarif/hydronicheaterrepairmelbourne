@@ -21,26 +21,26 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Ducted Heating Services Armadale Melbourne | Installation, Repairs & Servicing",
+    "hydronic heating Services Armadale Melbourne | Installation, Repairs & Servicing",
   description:
-    "Professional ducted heating services in Armadale, Melbourne. Expert installation, repairs, and maintenance for all ducted heating systems. Certified HVAC technicians serving Armadale and surrounding suburbs.",
+    "Professional hydronic heating services in Armadale, Melbourne. Expert installation, repairs, and maintenance for all hydronic heating systems. Certified hydronic technicians serving Armadale and surrounding suburbs.",
   keywords:
-    "ducted heating services armadale, ducted heating installation armadale, ducted heating repairs Melbourne, armadale HVAC heating, ducted heating systems armadale",
+    "hydronic heating services armadale, hydronic heating installation armadale, hydronic heating repairs Melbourne, armadale hydronic heating, hydronic heating systems armadale",
 };
 
 //Page Layout
 export default function ArmadaleDuctedHeatingServices() {
   return (
     <>
-      <PageTitle dataTitle="Ducted Heating Services Armadale Melbourne" />
+      <PageTitle dataTitle="hydronic heating Services Armadale Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="armadale ducted heating services"
-                  dataTitle="Professional Ducted Heating Services in Armadale, Melbourne"
+                  dataSubtitle="armadale hydronic heating services"
+                  dataTitle="Professional hydronic heating Services in Armadale, Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -49,19 +49,19 @@ export default function ArmadaleDuctedHeatingServices() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="Ducted Heating Services Armadale Melbourne"
+                    alt="hydronic heating Services Armadale Melbourne"
                     loading={`eager`}
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
                   Stay warm and comfortable throughout Melbourne&apos;s colder
-                  months with our comprehensive ducted heating services in Armadale.
-                  As a trusted local HVAC heating specialist, we provide
+                  months with our comprehensive hydronic heating services in Armadale.
+                  As a trusted local hydronic heating specialist, we provide
                   professional installation, repair, and maintenance services
-                  for all types of ducted heating systems across Armadale and surrounding
-                  Melbourne suburbs. Our certified HVAC technicians understand
+                  for all types of hydronic heating systems across Armadale and surrounding
+                  Melbourne suburbs. Our certified hydronic technicians understand
                   the unique heating needs of Armadale homes and deliver
-                  reliable, efficient, and safe ducted heating solutions tailored
+                  reliable, efficient, and safe hydronic heating solutions tailored
                   to your property.
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
@@ -90,7 +90,7 @@ export default function ArmadaleDuctedHeatingServices() {
                   <div className="sm:basis-1/2">
                     <ul className="list__type1">
                       <li>
-                        <a href="#">Reverse Cycle Ducted Heating</a>
+                        <a href="#">Reverse Cycle hydronic heating</a>
                       </li>
                       <li>
                         <a href="#">Zoned Ducted Systems</a>
@@ -99,7 +99,7 @@ export default function ArmadaleDuctedHeatingServices() {
                         <a href="#">Energy Efficient Heat Pumps</a>
                       </li>
                       <li>
-                        <a href="#">Inverter Ducted Heating</a>
+                        <a href="#">Inverter hydronic heating</a>
                       </li>
                       <li>
                         <a href="#">Emergency Repairs</a>
@@ -111,49 +111,49 @@ export default function ArmadaleDuctedHeatingServices() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Ducted Heating Services We Provide in Armadale:
+                  hydronic heating Services We Provide in Armadale:
                 </h4>
                 <ListWithTitle
                   dataLayout={dataServicesInclude}
                   dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Our Ducted Heating Services in Armadale?
+                  Why Choose Our hydronic heating Services in Armadale?
                 </h5>
                 <p>
                   Armadale&apos;s mix of heritage homes and modern properties
-                  requires specialized knowledge when it comes to ducted heating
+                  requires specialized knowledge when it comes to hydronic heating
                   solutions. Our team understands the unique characteristics of
                   Armadale properties, from charming period homes to
-                  contemporary developments. We provide customized ducted heating
+                  contemporary developments. We provide customized hydronic heating
                   solutions that respect the architectural integrity of your
                   home while delivering optimal comfort and energy efficiency.
                 </p>
                 <p className="indent__top">
-                  As local Melbourne HVAC heating specialists, we&apos;re
+                  As local Melbourne hydronic heating specialists, we&apos;re
                   familiar with Armadale&apos;s climate patterns and the
                   specific heating challenges faced by residents. Whether
                   you&apos;re dealing with an older heating system that needs
                   replacement, require urgent repairs during winter, or want to
-                  upgrade to a more efficient ducted heating system, our certified technicians
+                  upgrade to a more efficient hydronic heating system, our certified technicians
                   provide prompt, professional service with upfront pricing and
                   guaranteed workmanship.
                 </p>
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Local Armadale Ducted Heating Experts
+                  Local Armadale hydronic heating Experts
                 </h5>
                 <p>
                   Living in Armadale means you appreciate quality, reliability,
                   and attention to detail &ndash; values that drive everything
-                  we do. Our ducted heating services are designed to keep your home
+                  we do. Our hydronic heating services are designed to keep your home
                   comfortable year-round while ensuring the safety and
                   well-being of your family. From routine maintenance that
                   prevents costly breakdowns to emergency repairs when you need
-                  them most, we&apos;re your trusted local ducted heating
+                  them most, we&apos;re your trusted local hydronic heating
                   specialists in Armadale, Melbourne.
                 </p>
                 <PromoLayout
-                  dataText="Get a free quote for ducted heating installation, repair, or servicing in Armadale from our certified HVAC technicians today!"
+                  dataText="Get a free quote for hydronic heating installation, repair, or servicing in Armadale from our certified hydronic technicians today!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -162,12 +162,12 @@ export default function ArmadaleDuctedHeatingServices() {
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Ducted Heating Services</div>
+                  <div className={`ttsubtitle`}>hydronic heating Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
                 <PromoAside
-                  dataTitle="Book A Ducted Heating Technician Now!"
+                  dataTitle="Book A hydronic heating Technician Now!"
                   dataText="Serving Armadale & Melbourne"
                   dataTelefon="0405133761"
                 />
@@ -195,5 +195,6 @@ export default function ArmadaleDuctedHeatingServices() {
     </>
   );
 }
+
 
 

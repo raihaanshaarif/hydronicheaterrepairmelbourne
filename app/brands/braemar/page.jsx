@@ -20,18 +20,18 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Braemar Ducted Heating Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Braemar Hydronic Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Professional Braemar ducted heating repair, service & installation in Melbourne. 24/7 emergency repairs, WiFi MyClimate support, certified HVAC technicians, genuine parts. Call 0405133761 now!",
+    "Professional Braemar hydronic heater repair, service & installation in Melbourne. 24/7 emergency repairs, WiFi MyClimate support, certified HVAC technicians, genuine parts. Call 0405133761 now!",
   keywords:
-    "Braemar repair Melbourne, Braemar ducted heating service, Braemar installation Melbourne, Braemar maintenance, Braemar MyClimate repair, WiFi heater repair Melbourne, Braemar technician Melbourne",
+    "Braemar repair Melbourne, Braemar hydronic heater service, Braemar installation Melbourne, Braemar maintenance, Braemar MyClimate repair, WiFi heater repair Melbourne, Braemar technician Melbourne",
 };
 
 //Page Layout
 export default function BraemarPage() {
   return (
     <>
-      <PageTitle dataTitle="Braemar Ducted Heating Repair & Service Melbourne" />
+      <PageTitle dataTitle="Braemar Hydronic Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
@@ -39,7 +39,7 @@ export default function BraemarPage() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
                   dataSubtitle="braemar repair service melbourne"
-                  dataTitle="Professional Braemar ducted heating repair & Service Melbourne"
+                  dataTitle="Professional Braemar Hydronic Heater Repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -48,19 +48,19 @@ export default function BraemarPage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="braemar ducted heating repair service melbourne"
+                    alt="braemar hydronic heater repair service melbourne"
                     loading={`eager`}
                   />
                 </div>
 
                 <p className={`${styles.indent__top2}`}>
                   Melbourne&apos;s smart heating specialists for Braemar gas
-                  heater repair and service. Our certified HVAC technicians provide
-                  24/7 emergency repairs, WiFi MyClimate troubleshooting,
-                  professional installation, and comprehensive maintenance for
-                  all Braemar smart heating systems across Melbourne. Expert
-                  service for WiFi-enabled heating with genuine parts and
-                  same-day repairs available.
+                  heater repair and service. Our certified HVAC technicians
+                  provide 24/7 emergency repairs, WiFi MyClimate
+                  troubleshooting, professional installation, and comprehensive
+                  maintenance for all Braemar smart heating systems across
+                  Melbourne. Expert service for WiFi-enabled heating with
+                  genuine parts and same-day repairs available.
                 </p>
 
                 <p className="indent__top">
@@ -351,6 +351,3 @@ export default function BraemarPage() {
     </>
   );
 }
-
-
-

@@ -18,7 +18,7 @@ import { ReasonsListData } from "../../../_components/Services/AsideReasonsListD
 import { ServicesListData } from "../../../_components/ServicesResidential/ServicesListData";
 import imageLayout from "../../../../public/images/services/services_img03.jpg";
 
-// Commercial Gas Heater Repairs specific data
+// Commercial hydronic heater Repairs specific data
 const commercialGasHeaterRepairsInclude = [
   {
     id: 1,
@@ -46,15 +46,15 @@ const commercialGasHeaterRepairsInclude = [
 export default function GasHeaterRepairs() {
   return (
     <>
-      <PageTitle dataTitle="Commercial Gas Heater Repairs" />
+      <PageTitle dataTitle="Commercial hydronic heater Repairs" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="commercial gas heater repairs"
-                  dataTitle="Fast Commercial Gas Heater Repair Services Melbourne"
+                  dataSubtitle="commercial hydronic heater repairs"
+                  dataTitle="Fast Commercial hydronic heater Repair Services Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -63,7 +63,7 @@ export default function GasHeaterRepairs() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="commercial gas heater repairs Melbourne"
+                    alt="commercial hydronic heater repairs Melbourne"
                     loading={`eager`}
                   />
                 </div>
@@ -71,7 +71,7 @@ export default function GasHeaterRepairs() {
                   Is your commercial gas heating system not working properly?
                   Don&apos;t let heating problems disrupt your business
                   operations! Our experienced technicians provide fast, reliable
-                  commercial gas heater repair services across Melbourne. We
+                  commercial hydronic heater repair services across Melbourne. We
                   understand that heating issues can impact employee
                   productivity and customer comfort, so we prioritize urgent
                   commercial repairs to get your business heating back up and
@@ -88,7 +88,7 @@ export default function GasHeaterRepairs() {
                         <a href="#">Warehouse Heating Repairs</a>
                       </li>
                       <li>
-                        <a href="#">Retail Space Gas Heaters</a>
+                        <a href="#">Retail Space hydronic heaters</a>
                       </li>
                       <li>
                         <a href="#">Restaurant Gas Heating</a>
@@ -125,14 +125,13 @@ export default function GasHeaterRepairs() {
                   </div>
                 </div>
                 <h4 className="ttsubtitle ttsubtitle__top">
-                  Our Commercial Gas Heater Repair Services include:
+                  Our Commercial hydronic heater Repair Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialGasHeaterRepairsInclude}
-                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialGasHeaterRepairsInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
-                  Priority Commercial Gas Heater Repair Service
+                  Priority Commercial hydronic heater Repair Service
                 </h5>
                 <p>
                   When your commercial gas heating system breaks down, your
@@ -151,7 +150,7 @@ export default function GasHeaterRepairs() {
                   certification and warranty coverage.
                 </p>
                 <PromoLayout
-                  dataText="Need urgent commercial gas heater repairs? Contact our priority business repair service for same-day assistance!"
+                  dataText="Need urgent commercial hydronic heater repairs? Contact our priority business repair service for same-day assistance!"
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
@@ -167,7 +166,7 @@ export default function GasHeaterRepairs() {
                 </div>
 
                 <PromoAside
-                  dataTitle="Emergency Commercial Gas Heater Repairs!"
+                  dataTitle="Emergency Commercial hydronic heater Repairs!"
                   dataText="24/7 Priority Business Service"
                   dataTelefon="0405 133 761"
                 />
@@ -195,3 +194,4 @@ export default function GasHeaterRepairs() {
     </>
   );
 }
+
