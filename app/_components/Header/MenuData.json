@@ -126,6 +126,22 @@
       {
         "title": "Braemar",
         "path": "/brands/braemar"
+      },
+      {
+        "title": "Brivis",
+        "path": "/brands/brivis"
+      },
+      {
+        "title": "Kaden",
+        "path": "/brands/kaden"
+      },
+      {
+        "title": "Pyrox",
+        "path": "/brands/pyrox"
+      },
+      {
+        "title": "Vulcan",
+        "path": "/brands/vulcan"
       }
     ]
   },

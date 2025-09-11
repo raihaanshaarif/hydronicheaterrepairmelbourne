@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://ductedheaterrepairmelbourne.com.au";
+  const baseUrl = "https://hydronicheaterrepairmelbourne.com.au";
 
   return [
     {
@@ -55,62 +55,62 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Residential Services
     {
-      url: `${baseUrl}/services/services__residential/ducted-heating-installation`,
+      url: `${baseUrl}/services/services__residential/hydronic-heater-installation`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services/services__residential/ducted-heating-repairs`,
+      url: `${baseUrl}/services/services__residential/hydronic-heater-repairs`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services/services__residential/ducted-heating-servicing`,
+      url: `${baseUrl}/services/services__residential/hydronic-heater-servicing`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services/services__residential/carbon-monoxide-testing`,
+      url: `${baseUrl}/services/services__residential/system-leak-detection`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__residential/emergency-ducted-heating-repairs`,
+      url: `${baseUrl}/services/services__residential/emergency-hydronic-heater-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
     },
     // Commercial Services
     {
-      url: `${baseUrl}/services/services__commercial/ducted-heating-installation`,
+      url: `${baseUrl}/services/services__commercial/hydronic-heater-installation`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__commercial/ducted-heating-repairs`,
+      url: `${baseUrl}/services/services__commercial/hydronic-heater-repairs`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__commercial/ducted-heating-servicing`,
+      url: `${baseUrl}/services/services__commercial/hydronic-heater-servicing`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/services__commercial/carbon-monoxide-testing`,
+      url: `${baseUrl}/services/services__commercial/system-testing`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/services/services__commercial/emergency-ducted-heating-repairs`,
+      url: `${baseUrl}/services/services__commercial/emergency-hydronic-heater-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.9,
@@ -135,13 +135,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/services/services__emergency/urgent-ducted-heating-repairs`,
+      url: `${baseUrl}/services/services__emergency/urgent-hydronic-heater-repairs`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
     },
     {
-      url: `${baseUrl}/services/services__emergency/emergency-ducted-heating-shutdowns`,
+      url: `${baseUrl}/services/services__emergency/emergency-hydronic-heater-shutdowns`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
@@ -185,6 +185,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/brands/vulcan`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/brands/worcester`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/brands/vaillant`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/brands/viessmann`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,

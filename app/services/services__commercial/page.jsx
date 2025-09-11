@@ -73,14 +73,14 @@ export default function ServicesCommercial() {
                 </div>
                 <p className={`${styles.indent__top2}`}>
                   Keep your business comfortable and productive with our
-                  professional commercial hydronic heating services in Melbourne.
-                  We specialize in commercial-grade hydronic heating solutions for
-                  offices, warehouses, retail spaces, restaurants, and
-                  industrial facilities. Our business heating experts understand
-                  the unique requirements of commercial properties and provide
-                  reliable, energy-efficient heating solutions that minimize
-                  operational costs while maintaining optimal workplace comfort.
-                  From installation to emergency repairs, we deliver
+                  professional commercial hydronic heating services in
+                  Melbourne. We specialize in commercial-grade hydronic heating
+                  solutions for offices, warehouses, retail spaces, restaurants,
+                  and industrial facilities. Our business heating experts
+                  understand the unique requirements of commercial properties
+                  and provide reliable, energy-efficient heating solutions that
+                  minimize operational costs while maintaining optimal workplace
+                  comfort. From installation to emergency repairs, we deliver
                   comprehensive commercial hydronic heating services:
                 </p>
                 <div className="sm:flex sm:gap-[30px] mt-[20px]">
@@ -133,7 +133,8 @@ export default function ServicesCommercial() {
                   Our Commercial hydronic heating Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={dataServicesInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={dataServicesInclude}
+                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Why Choose Our Commercial hydronic heating Services?
@@ -170,10 +171,7 @@ export default function ServicesCommercial() {
                   </div>
                   <ServicesListAside dataList={ComercialListData} />
                 </div>
-                <div>
-                  <div className={`ttsubtitle`}>Get Free Commercial Quote</div>
-                  <FormAside />
-                </div>
+
                 <PromoAside
                   dataTitle="Need Commercial hydronic heating?"
                   dataText="Get a Free Business Quote Today"
@@ -203,4 +201,3 @@ export default function ServicesCommercial() {
     </>
   );
 }
-

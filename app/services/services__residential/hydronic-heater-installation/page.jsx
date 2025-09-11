@@ -127,7 +127,8 @@ export default function HydronicHeaterInstallation() {
                   Our Hydronic Heater Installation Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={hydronicHeaterInstallationInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={hydronicHeaterInstallationInclude}
+                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Energy-Efficient Hydronic Heating Solutions
@@ -168,7 +169,7 @@ export default function HydronicHeaterInstallation() {
               <div className="lg:basis-1/3 md:basis-5/12">
                 <PromoAside />
                 <BoxListAside dataList={ReasonsListData} />
-                <FormAside />
+
                 <ServicesListAside dataList={ServicesListData} />
               </div>
             </div>
@@ -178,4 +179,3 @@ export default function HydronicHeaterInstallation() {
     </>
   );
 }
-

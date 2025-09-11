@@ -10,14 +10,14 @@ export default function robots(): MetadataRoute.Robots {
           "/api/",
           "/admin/",
           "/_next/",
-          "/success/",
-          "/testimonials/",
           "/_components/",
           "/_context/",
           "/_dataGeneralSite/",
+          "/private/",
+          "/temp/",
         ],
       },
     ],
-    sitemap: "https://ductedheaterrepairmelbourne.com.au/sitemap.xml",
+    sitemap: "https://hydronicheaterrepairmelbourne.com.au/sitemap.xml",
   };
 }

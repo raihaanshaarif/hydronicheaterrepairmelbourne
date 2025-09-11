@@ -128,7 +128,8 @@ export default function CommercialHydronicHeaterRepairs() {
                   Our Commercial Hydronic Heater Repair Services include:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialHydronicHeaterRepairsInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialHydronicHeaterRepairsInclude}
+                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Priority Business Service
@@ -164,7 +165,7 @@ export default function CommercialHydronicHeaterRepairs() {
               <div className="lg:basis-1/3 md:basis-5/12">
                 <PromoAside />
                 <BoxListAside dataList={ReasonsListData} />
-                <FormAside />
+
                 <ServicesListAside dataList={ComercialListData} />
               </div>
             </div>
@@ -174,4 +175,3 @@ export default function CommercialHydronicHeaterRepairs() {
     </>
   );
 }
-

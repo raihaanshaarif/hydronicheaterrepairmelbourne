@@ -1,5 +1,5 @@
 <?php
-// Gas Heater Service - Contact Form Handler for Static Site + cPanel
+// Hydronic Heater Service - Contact Form Handler for Static Site + cPanel
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');

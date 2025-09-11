@@ -56,8 +56,8 @@ export default function ServicesEmergency() {
                   />
                 </div>
                 <p className={`${styles.indent__top2}`}>
-                  When your hydronic heating system breaks down unexpectedly, you
-                  need immediate professional help. Our certified HVAC
+                  When your hydronic heating system breaks down unexpectedly,
+                  you need immediate professional help. Our certified HVAC
                   technicians are available 24/7 to handle all types of ducted
                   heating emergencies across Melbourne. From complete heating
                   failures to electrical faults, we provide rapid response
@@ -67,8 +67,8 @@ export default function ServicesEmergency() {
                   No Heating Emergencies
                 </h4>
                 <p>
-                  A broken hydronic heating system in the middle of winter can be
-                  more than just uncomfortable - it can be dangerous for
+                  A broken hydronic heating system in the middle of winter can
+                  be more than just uncomfortable - it can be dangerous for
                   vulnerable family members. Our emergency technicians respond
                   quickly to restore heating in your home, diagnosing and
                   repairing faults in ducted gas systems, wall furnaces, and
@@ -120,11 +120,11 @@ export default function ServicesEmergency() {
                   Emergency hydronic heating Shutdowns
                 </h4>
                 <p>
-                  Sometimes a hydronic heating system needs to be safely shut down
-                  immediately due to safety concerns. Our emergency technicians
-                  can safely isolate faulty gas heating equipment, conduct
-                  safety assessments, and provide temporary heating solutions
-                  while permanent repairs are arranged.
+                  Sometimes a hydronic heating system needs to be safely shut
+                  down immediately due to safety concerns. Our emergency
+                  technicians can safely isolate faulty gas heating equipment,
+                  conduct safety assessments, and provide temporary heating
+                  solutions while permanent repairs are arranged.
                 </p>
                 <PromoLayout
                   dataText="Don't risk your family's safety with gas heating emergencies. Call our 24/7 emergency gas technicians now for immediate assistance!"
@@ -141,12 +141,7 @@ export default function ServicesEmergency() {
                     <ServicesListAside dataList={EmergencyListData} />
                   </div>
                 </div>
-                <div>
-                  <div className={`ttsubtitle`}>Ask Question</div>
-                  <div className={`${styles.aside__content}`}>
-                    <FormAside />
-                  </div>
-                </div>
+
                 <PromoAside
                   dataTitle="Emergency Gas Technician!"
                   dataText="24/7 Emergency Response Available"
@@ -176,4 +171,3 @@ export default function ServicesEmergency() {
     </>
   );
 }
-

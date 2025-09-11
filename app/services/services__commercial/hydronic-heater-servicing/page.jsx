@@ -127,7 +127,8 @@ export default function CommercialHydronicHeaterServicing() {
                   Our Commercial Hydronic Heater Servicing includes:
                 </h4>
                 <ListWithTitle
-                  dataLayout={commercialHydronicHeaterServicingInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={commercialHydronicHeaterServicingInclude}
+                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Flexible Service Contracts
@@ -165,7 +166,7 @@ export default function CommercialHydronicHeaterServicing() {
               <div className="lg:basis-1/3 md:basis-5/12">
                 <PromoAside />
                 <BoxListAside dataList={ReasonsListData} />
-                <FormAside />
+
                 <ServicesListAside dataList={ComercialListData} />
               </div>
             </div>
@@ -175,4 +176,3 @@ export default function CommercialHydronicHeaterServicing() {
     </>
   );
 }
-

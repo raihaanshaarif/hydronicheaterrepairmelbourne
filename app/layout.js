@@ -75,7 +75,7 @@ export const metadata = {
       "★★★★★ Melbourne's #1 Hydronic Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
     images: [
       {
-        url: "https://hydronicheaterrepairmelbourne.com.au/images/hydronic-heater-service-melbourne-og.jpg",
+        url: "https://hydronicheaterrepairmelbourne.com.au/images/gas-heater-service-melbourne-og.jpg",
         width: 1200,
         height: 630,
         alt: "Hydronic Heater Repair Melbourne - Emergency Repairs & Installation",
@@ -89,7 +89,7 @@ export const metadata = {
     description:
       "★★★★★ Melbourne's #1 Hydronic Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Call 0405133761!",
     images: [
-      "https://hydronicheaterrepairmelbourne.com.au/images/hydronic-heater-service-melbourne-og.jpg",
+      "https://hydronicheaterrepairmelbourne.com.au/images/gas-heater-service-melbourne-og.jpg",
     ],
   },
   alternates: {

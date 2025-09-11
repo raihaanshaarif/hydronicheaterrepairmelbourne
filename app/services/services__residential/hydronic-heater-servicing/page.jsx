@@ -126,7 +126,8 @@ export default function HydronicHeaterServicing() {
                   Our Hydronic Heater Servicing includes:
                 </h4>
                 <ListWithTitle
-                  dataLayout={hydronicHeaterServicingInclude}                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
+                  dataLayout={hydronicHeaterServicingInclude}
+                  dataAddClass="grid md-max:gap-[16px] md:gap-[16px]"
                 />
                 <h5 className="ttsubtitle ttsubtitle__top">
                   Why Regular Servicing is Important
@@ -166,7 +167,7 @@ export default function HydronicHeaterServicing() {
               <div className="lg:basis-1/3 md:basis-5/12">
                 <PromoAside />
                 <BoxListAside dataList={ReasonsListData} />
-                <FormAside />
+
                 <ServicesListAside dataList={ServicesListData} />
               </div>
             </div>
@@ -176,4 +177,3 @@ export default function HydronicHeaterServicing() {
     </>
   );
 }
-

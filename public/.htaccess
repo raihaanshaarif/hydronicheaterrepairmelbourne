@@ -1,4 +1,4 @@
-# Ducted Heating Repair Melbourne - .htaccess for cPanel Hosting
+# Hydronic Heater Repair Melbourne - .htaccess for cPanel Hosting
 
 # Enable compression
 
@@ -115,18 +115,25 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-# SEO-friendly redirects from old gas heater URLs to ducted heating URLs
+# SEO-friendly redirects from old gas heater URLs to hydronic heating URLs
 
 RedirectMatch 301 ^/gas-heater-repair/?$ /services/services**emergency/
-RedirectMatch 301 ^/gas-heater-installation/?$ /services/services**residential/ducted-heating-installation/
-RedirectMatch 301 ^/gas-heater-service/?$ /services/services**residential/ducted-heating-servicing/
-RedirectMatch 301 ^/gas-heater-servicing/?$ /services/services**residential/ducted-heating-servicing/
+RedirectMatch 301 ^/gas-heater-installation/?$ /services/services**residential/hydronic-heater-installation/
+RedirectMatch 301 ^/gas-heater-service/?$ /services/services**residential/hydronic-heater-servicing/
+RedirectMatch 301 ^/gas-heater-servicing/?$ /services/services**residential/hydronic-heater-servicing/
 RedirectMatch 301 ^/emergency-gas-repair/?$ /services/services**emergency/
 RedirectMatch 301 ^/commercial-gas-heater/?$ /services/services**commercial/
 RedirectMatch 301 ^/residential-gas-heater/?$ /services/services**residential/
 RedirectMatch 301 ^/emergency-repair/?$ /services/services**emergency/
-RedirectMatch 301 ^/installation/?$ /services/services**residential/ducted-heating-installation/
-RedirectMatch 301 ^/service/?$ /services/services**residential/ducted-heating-servicing/
+RedirectMatch 301 ^/installation/?$ /services/services**residential/hydronic-heater-installation/
+RedirectMatch 301 ^/service/?$ /services/services**residential/hydronic-heater-servicing/
+
+# Ducted heating to hydronic heating redirects
+
+RedirectMatch 301 ^/ducted-heating-repair/?$ /services/services**residential/hydronic-heater-repairs/
+RedirectMatch 301 ^/ducted-heating-installation/?$ /services/services**residential/hydronic-heater-installation/
+RedirectMatch 301 ^/ducted-heating-service/?$ /services/services**residential/hydronic-heater-servicing/
+RedirectMatch 301 ^/ducted-heating-servicing/?$ /services/services**residential/hydronic-heater-servicing/
 
 # Brand redirects (common misspellings)
 
@@ -141,6 +148,10 @@ RedirectMatch 301 ^/melbourne-ducted-heating/?$ /coverage/
 RedirectMatch 301 ^/ducted-heating-melbourne/?$ /
 RedirectMatch 301 ^/heating-repair-melbourne/?$ /services/services**residential/
 RedirectMatch 301 ^/emergency-heating-melbourne/?$ /services/services**emergency/
+RedirectMatch 301 ^/melbourne-hydronic-heating/?$ /coverage/
+RedirectMatch 301 ^/hydronic-heating-melbourne/?$ /
+RedirectMatch 301 ^/hydronic-repair-melbourne/?$ /services/services**residential/
+RedirectMatch 301 ^/emergency-hydronic-melbourne/?$ /services/services**emergency/
 
 # Performance optimizations
 
@@ -158,7 +169,7 @@ ServerSignature Off
 
 Header always append X-Frame-Options SAMEORIGIN
 
-# Content Security Policy (updated for ducted heating business and Google Maps)
+# Content Security Policy (updated for hydronic heating business and Google Maps)
 
 Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src 'self' https://www.google.com https://\*.google.com;"
 
